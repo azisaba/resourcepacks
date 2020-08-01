@@ -9,19 +9,21 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: ファイル作成
+      - name: zipファイル作成
         run: |
           parallel -v zip -r {/}.zip '*' ::: packs/*
+          parallel -v jq '. + [ { "filename": "{}" } ]' packs.json '|' sponge packs.json ::: *.zip
 
       - name: コミット
         run: |
           git config --local user.email "user@example.com"
-          git config --local user.name "GitHub Action"
-          git rm -r packs
+          git config --local user.name "GitHub Actions"
+          git rm -rq packs
           git add -A
           git commit -m "デプロイ"
 
-      - uses: ad-m/github-push-action@master
+      - name: デプロイ
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: deploy
