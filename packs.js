@@ -15,7 +15,7 @@ $(function () {
     }
 
     function createPackCard(fileName, description, sha1, packFormat, version) {
-        return $('<div class="container py-2"><div class="row"><div class="card w-100"><div class="card-header">' + fileName + '</div><div class="card-body"><p class="card-text">' + description + '</p><ul class="list-group list-group-flush"><li class="list-group-item">SHA1: ' + sha1 + '</li><li class="list-group-item">対応バージョン: ' + version + ' (' + packFormat + ')</li></ul><a href="' + fileName + '" class="btn btn-primary float-right">ダウンロード</a></div></div></div></div>')
+        return $('<div class="container py-2"><div class="row"><div class="card w-100"><h5 class="card-title">' + fileName + '</h5><div class="card-body"><p class="card-text">' + description + '</p><ul class="list-group list-group-flush"><li class="list-group-item">SHA1: ' + sha1 + '</li><li class="list-group-item">対応バージョン: ' + version + ' (' + packFormat + ')</li></ul><a href="' + fileName + '" class="btn btn-primary float-right">ダウンロード</a></div></div></div></div>')
     }
 
     $.getJSON("packs.json", function (json) {
