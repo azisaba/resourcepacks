@@ -17,7 +17,7 @@ jobs:
       - name: zipファイル作成
         run: |
           parallel -v zip -r {/}.zip {} ::: packs/*
-          parallel -v jq '. + [ { "filename": "{}" } ]' packs.json '|' sponge packs.json ::: *.zip
+          parallel -v jq \'. + [ { "filename": "{}" } ]\' packs.json '|' sponge packs.json ::: *.zip
 
       - name: コミット
         run: |
