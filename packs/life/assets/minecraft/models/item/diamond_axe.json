@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_axe"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/obsidian_axe"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/netherstar_axe"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/candy"}
+    ]
+}

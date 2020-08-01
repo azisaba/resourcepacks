@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/pumpkin_pie"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/wagashi"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/mitarashi_dango"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/dango_3_colors"}
+    ]
+}

@@ -29,12 +29,4 @@ $(function () {
             createPackCard(fileName, description, sha1, packFormat, version).appendTo('#packs');
         }
     });
-
-    // let fileName = "lgw.zip";
-    // let description = "lgwのリソースパックです。";
-    // let sha1 = "aaaaaaaaaabbbbbbbbbbccccccccccdddddddddd";
-    // let packFormat = 3;
-    // let version = getPackVersion(packFormat)
-
-    // createPackCard(fileName, description, sha1, packFormat, version).appendTo('#packs');
 });

@@ -1,0 +1,23 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/0363"
+    },
+	"display": {
+		"thirdperson_righthand": {
+            "rotation": [0, 0, 0],
+            "translation": [ 0, 0, 2 ],
+			"scale": [ 1, 0.7, 1.5 ]
+		},
+		"thirdperson_lefthand": {
+            "rotation": [0, 0, 0],
+            "translation": [ 0, 0, 2 ],
+			"scale": [ 1, 0.7, 1.5 ]
+		},
+		"head": {
+            "rotation": [0, 0, 0],
+            "translation": [ 0, 14.25, 0 ],
+			"scale": [ 1, 0.7, 1.8 ]
+		}
+	}
+}
