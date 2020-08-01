@@ -7,22 +7,22 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@master
+      - uses: actions/checkout@master
 
-    - name: ファイル作成
-      run: |
-        parallel -v zip -r {/}.zip '*' ::: packs/*
+      - name: ファイル作成
+        run: |
+          parallel -v zip -r {/}.zip '*' ::: packs/*
 
-    - name: コミット
-      run: |
-        git config --local user.email "user@example.com"
-        git config --local user.name "GitHub Action"
-        git rm -r packs
-        git add -A
-        git commit -m "デプロイ"
+      - name: コミット
+        run: |
+          git config --local user.email "user@example.com"
+          git config --local user.name "GitHub Action"
+          git rm -r packs
+          git add -A
+          git commit -m "デプロイ"
 
-    - uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: deploy
-        force: true
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: deploy
+          force: true
