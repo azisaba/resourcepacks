@@ -17,7 +17,7 @@ jobs:
       - name: zipファイル作成
         run: |
           parallel -v $'cd {} && zip -r '"$PWD"$'/{/}.zip .' ::: packs/*
-          parallel -j 1 -v $'jq \'. + [ { "filename": "{/}.zip", "sha1": "\'"$(sha1sum {/}.zip | cut -d \' \' -f 1)"\'", "description": "\'"$(jq -r \'.pack.description\' {}/pack.mcmeta)"\'", "format": "\'"$(jq -r \'.pack.pack_format\' {}/pack.mcmeta)"\'" } ]\' packs.json | sponge packs.json' ::: packs/*
+          parallel -j 1 -v $'jq \'. + [ { "filename": "{/}.zip", "sha1": "\'"$(sha1sum {/}.zip | cut -d \' \' -f 1)"\'", "description": "\'"$(jq -r \'.pack.description\' {}/pack.mcmeta)"\'", "format": \'"$(jq -r \'.pack.pack_format\' {}/pack.mcmeta)"\' } ]\' packs.json | sponge packs.json' ::: packs/*
 
       - name: コミット
         run: |
