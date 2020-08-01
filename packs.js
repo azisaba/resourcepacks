@@ -21,8 +21,8 @@ $(function () {
     $.getJSON("packs.json", function (json) {
         for (var i = 0; i < json.length; i++) {
             let fileName = json[i].filename
-            let description = json[i].description
             let sha1 = json[i].sha1
+            let description = json[i].description
             let packFormat = json[i].format
             let version = getPackVersion(packFormat)
 
