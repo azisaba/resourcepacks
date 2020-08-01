@@ -8,6 +8,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,18 +23,26 @@
   <div id="packs"></div>
 
   <script id="pack-card" type="text/templete">
-    <div class="container py-2">
-      <div class="row">
+    <div class="container">
+      <div class="row m-4">
         <div class="card w-100">
           <div class="card-body">
-            <h4 class="card-title py-3">@fileName</h4>
-            <a href="@fileName" class="btn btn-primary mx-2">ダウンロード</a>
-            <button type="button" data-toggle="collapse" class="btn btn-light mx-2" data-target="#open-@index">詳細を表示</button>
+
+            <h4 class="card-title p-3">@fileName</h4>
+
+            <a href="@fileName" class="btn btn-primary mx-2">
+              <i class="fa fa-download pr-2"></i>ダウンロード
+            </a>
+            <button type="button" data-toggle="collapse" class="btn btn-light mx-2" data-target="#open-@index">
+              <i class="fa fa-search pr-2"></i>詳細を表示
+            </button>
+
             <ul class="list-group list-group-flush collapse" id="open-@index">
               <li class="list-group-item">@description</li>
               <li class="list-group-item">SHA1: <samp>@sha1</samp></li>
               <li class="list-group-item">対応バージョン: @version (@packFormat)</li>
             </ul>
+
           </div>
         </div>
       </div>
