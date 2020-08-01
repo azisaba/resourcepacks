@@ -26,7 +26,7 @@ $(function () {
         return card
     }
 
-    $.getJSON("assets/api.json?" + Math.random(), function (json) {
+    $.getJSON("assets/api.json", function (json) {
         for (var i = 0; i < json.length; i++) {
             let fileName = json[i].filename
             let sha1 = json[i].sha1
