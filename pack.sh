@@ -6,7 +6,7 @@ set -eu
 
 for src in packs/*; do
   name=$(basename "$src")
-  pack="docs/assets/$name.zip"
+  pack="docs/$name.zip"
 
   if [ -f "$pack" ]; then
     tmp=$(mktemp -d)
@@ -28,11 +28,6 @@ for src in packs/*; do
   sha256sum "$pack"
 done
 
-# COMPAT
-
-rm -fv docs/*.zip
-parallel --wd docs ln -sv assets/{/}.zip {/}.zip ::: packs/*
-
 # JSON API
 
 api=docs/assets/api.json
@@ -41,7 +36,7 @@ echo '[]' > $api
 
 for src in packs/*; do
   name=$(basename "$src")
-  pack="docs/assets/$name.zip"
+  pack="docs/$name.zip"
 
   filename="$name.zip"
   sha1=$(sha1sum "$pack" | cut -d ' ' -f 1)
