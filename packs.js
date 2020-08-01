@@ -18,8 +18,8 @@ $(function () {
         let templete = $('#pack-card').html();
         let card = $(templete
             .replace(/@fileName/g, fileName)
-            .replace(/@description/g, description)
             .replace(/@sha1/g, sha1)
+            .replace(/@description/g, description)
             .replace(/@packFormat/g, packFormat)
             .replace(/@version/g, version)).clone()
         return card
