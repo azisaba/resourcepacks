@@ -14,9 +14,10 @@ $(function () {
         }
     }
 
-    function createPackCard(fileName, description, sha1, packFormat, version) {
+    function createPackCard(index, fileName, description, sha1, packFormat, version) {
         let templete = $('#pack-card').html();
         let card = $(templete
+            .replace(/@index/g, index)
             .replace(/@fileName/g, fileName)
             .replace(/@sha1/g, sha1)
             .replace(/@description/g, description)
@@ -33,7 +34,7 @@ $(function () {
             let packFormat = json[i].format
             let version = getPackVersion(packFormat)
 
-            createPackCard(fileName, description, sha1, packFormat, version).appendTo('#packs');
+            createPackCard(i, fileName, description, sha1, packFormat, version).appendTo('#packs');
         }
     });
 });

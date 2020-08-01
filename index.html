@@ -26,13 +26,14 @@
       <div class="row">
         <div class="card w-100">
           <div class="card-body">
-            <h5 class="card-title py-3">@fileName</h5>
-            <p class="card-text">@description</p>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">SHA1: @sha1</li>
+            <h4 class="card-title py-3">@fileName</h4>
+            <a href="@fileName" class="btn btn-primary mx-2">ダウンロード</a>
+            <button type="button" data-toggle="collapse" class="btn btn-light mx-2" data-target="#open-@index">詳細を表示</button>
+            <ul class="list-group list-group-flush collapse" id="open-@index">
+              <li class="list-group-item">@description</li>
+              <li class="list-group-item">SHA1: <samp>@sha1</samp></li>
               <li class="list-group-item">対応バージョン: @version (@packFormat)</li>
             </ul>
-            <a href="@fileName" class="btn btn-primary float-right">ダウンロード</a>
           </div>
         </div>
       </div>
