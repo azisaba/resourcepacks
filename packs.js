@@ -15,7 +15,14 @@ $(function () {
     }
 
     function createPackCard(fileName, description, sha1, packFormat, version) {
-        return $('<div class="container py-2"><div class="row"><div class="card w-100"><div class="card-body"><h5 class="card-title">' + fileName + '</h5><p class="card-text">' + description + '</p><ul class="list-group list-group-flush"><li class="list-group-item">SHA1: ' + sha1 + '</li><li class="list-group-item">対応バージョン: ' + version + ' (' + packFormat + ')</li></ul><a href="' + fileName + '" class="btn btn-primary float-right">ダウンロード</a></div></div></div></div>')
+        let templete = $('#pack-card').html();
+        let card = $(templete
+            .replace(/@fileName/g, fileName)
+            .replace(/@description/g, description)
+            .replace(/@sha1/g, sha1)
+            .replace(/@packFormat/g, packFormat)
+            .replace(/@version/g, version)).clone()
+        return card
     }
 
     $.getJSON("packs.json", function (json) {
