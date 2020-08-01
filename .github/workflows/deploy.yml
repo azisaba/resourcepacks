@@ -9,9 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - name: インストール
+        run: |
+          apt-get -y update
+          apt-get -y install moreutils
+
       - name: zipファイル作成
         run: |
-          parallel -v zip -r {/}.zip '*' ::: packs/*
+          parallel -v zip -r {/}.zip {} ::: packs/*
           parallel -v jq '. + [ { "filename": "{}" } ]' packs.json '|' sponge packs.json ::: *.zip
 
       - name: コミット
