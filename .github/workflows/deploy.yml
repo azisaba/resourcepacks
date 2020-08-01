@@ -11,8 +11,8 @@ jobs:
 
       - name: インストール
         run: |
-          apt-get -y update
-          apt-get -y install moreutils
+          sudo apt-get -y update
+          sudo apt-get -y install moreutils
 
       - name: zipファイル作成
         run: |
