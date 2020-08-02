@@ -43,7 +43,7 @@ for src in packs/*; do
   description=$(jq -r '.pack.description' "$src/pack.mcmeta")
   format=$(jq -r '.pack.pack_format' "$src/pack.mcmeta")
 
-  obj=$(echo "{ \"filename\": \"$filename\", \"sha1\": \"$sha1\", \"description\": \"$description\", \"format\": $format }")
+  obj="{ \"filename\": \"$filename\", \"sha1\": \"$sha1\", \"description\": \"$description\", \"format\": $format }"
 
-  cat <<< $(jq ". + [$obj]" $api) > $api
+  cat <<< "$(jq ". + [$obj]" $api)" > $api
 done
