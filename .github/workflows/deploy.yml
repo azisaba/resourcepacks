@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: bash pack.sh
-      - run: git config --local user.email "user@example.com"
-      - run: git config --local user.name "GitHub Actions"
+      - run: git config --local user.name "github-actions[bot]"
+      - run: git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - run: git add -A
-      - run: git commit -m "デプロイ" || true
+      - run: git commit -m "Deploy" || true
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
