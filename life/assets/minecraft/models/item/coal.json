@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/coal"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/jetpackfuel"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/reinforcedjetpackfuel"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/infinityfuel"}
+        ]
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_axe"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/obsidian_axe"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/netherstar_axe"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/candy"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/flame_axe"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/flame_axe_kai"}
+    ]
+}
