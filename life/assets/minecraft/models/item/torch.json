@@ -1,9 +1,9 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/torch"
+        "layer0": "block/torch"
     },
-	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/lamp"}
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/lamp"}
     ]
 }
