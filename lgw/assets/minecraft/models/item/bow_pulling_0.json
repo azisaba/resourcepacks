@@ -1,0 +1,10 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "items/bow_pulling_0"
+	},
+	    "overrides": [
+    		{ "predicate": { "damage": 0.0006402048655569782}, "model": "item/b0001"},
+    		{ "predicate": { "damage": 0.0012804097311139564}, "model": "item/b0002"}
+	    ]
+}
