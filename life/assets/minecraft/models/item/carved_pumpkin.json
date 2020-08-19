@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "block/carved_pumpkin"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/texhead"}
+    ]
+}
