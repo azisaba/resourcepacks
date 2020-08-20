@@ -10,11 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: wget -O - https://github.com/AzisabaNetwork/tools/raw/master/pack.sh | bash -s binary
+      - run: bash stash.sh
+      - run: bash fetch.sh binary
+      - run: bash build.sh
+      - run: bash build-api.sh
+      - run: bash commit.sh binary
       - uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: binary
+          force: true
   dispatch:
     name: Dispatch
     needs: build
