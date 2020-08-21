@@ -9,6 +9,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get -y update
+      - run: sudo apt-get -y install webp
       - uses: actions/checkout@v2
       - run: bash fetch.sh binary
       - run: bash build.sh

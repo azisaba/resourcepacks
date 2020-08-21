@@ -27,9 +27,9 @@ while IFS= read -r -d '' pack_dir; do
   version=${format_versions[$(( -1 + $(jq -r .pack.pack_format "$pack_dir"/pack.mcmeta) ))]}
 
   if [[ -f $pack_dir/pack.png ]]; then
-    icon=icon_$name.png
+    icon=icon_$name.webp
 
-    cp -v "$pack_dir"/pack.png "$icon"
+    cwebp -o "$icon" -- "$pack_dir"/pack.png
   fi
 
   jq \
