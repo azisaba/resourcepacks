@@ -28,4 +28,4 @@ jobs:
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: AzisabaNetwork/packs.azisaba.net
-          event-type: updated
+          event-type: ${{ github.event.pusher.name }} が ${{ github.event.repository.full_name }} を変更
