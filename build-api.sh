@@ -42,4 +42,4 @@ while IFS= read -r -d '' pack_dir; do
     '. + [ { "name": $a, "href": $b, "sha1": $c, "desc": $d, "version": $e, "icon": $f } ]' \
     "$json" > "$json_temp"
   cat "$json_temp" > "$json"
-done < <(find . -mindepth 2 -maxdepth 2 -type f -ipath '*/pack.mcmeta' -print0 | xargs -0 dirname -z)
+done < <(find . -mindepth 2 -maxdepth 2 -type f -iname pack.mcmeta -print0 | xargs -0 dirname -z)
