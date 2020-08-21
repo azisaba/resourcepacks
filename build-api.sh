@@ -29,7 +29,7 @@ while IFS= read -r -d '' pack_dir; do
   if [[ -f $pack_dir/pack.png ]]; then
     icon=icon_$name.webp
 
-    cwebp -lossless -o "$icon" -- "$pack_dir"/pack.png
+    cwebp -q 85 -o "$icon" -- "$pack_dir"/pack.png
   fi
 
   jq \
