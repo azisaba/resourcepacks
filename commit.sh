@@ -9,5 +9,6 @@ git config --local user.email '41898282+github-actions[bot]@users.noreply.github
 
 git branch -D "$branch" || :
 git switch --orphan "$branch"
+git reset --soft origin/"$branch" -- || :
 git add -A
 git commit -m '💡 このコミットは自動生成されました。' || :

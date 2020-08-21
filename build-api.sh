@@ -10,27 +10,28 @@ format_versions=(
   1.15-1.16.1
   1.16.2
 )
+json=api.json
+json_temp=$(mktemp)
 
-echo [] > api.json
+echo [] > "$json"
 
 while IFS= read -r -d '' pack_dir; do
-  if [[ ! -f $pack_dir/pack.mcmeta ]]; then
-    echo "$pack_dir" は pack.mcmeta を含んでいません！ スキップしています...
-    continue
-  fi
-
   pack=$(basename "$pack_dir").zip
+
+  name='' href='' sha1='' description='' version='' icon=''
 
   name=$(basename "$pack_dir")
   href=$(realpath --relative-to . "$pack")
   sha1=$(sha1sum "$pack" | cut -d ' ' -f 1)
   description=$(jq -r .pack.description "$pack_dir"/pack.mcmeta)
   version=${format_versions[$(( -1 + $(jq -r .pack.pack_format "$pack_dir"/pack.mcmeta) ))]}
-  icon=icon_$name.png
 
-  cp -fv "$pack_dir"/pack.png "$icon" || :
+  if [[ -f $pack_dir/pack.png ]]; then
+    icon=icon_$name.png
 
-  temp=$(mktemp)
+    cp -v "$pack_dir"/pack.png "$icon"
+  fi
+
   jq \
     --arg a "$name" \
     --arg b "$href" \
@@ -39,6 +40,6 @@ while IFS= read -r -d '' pack_dir; do
     --arg e "$version" \
     --arg f "$icon" \
     '. + [ { "name": $a, "href": $b, "sha1": $c, "desc": $d, "version": $e, "icon": $f } ]' \
-    api.json > "$temp"
-  cat "$temp" > api.json
-done < <(find . -mindepth 1 -maxdepth 1 -type d -print0)
+    "$json" > "$json_temp"
+  cat "$json_temp" > "$json"
+done < <(find . -mindepth 2 -maxdepth 2 -type f -ipath '*/pack.mcmeta' -print0 | xargs -0 dirname -z)

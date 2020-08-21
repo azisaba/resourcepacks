@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: bash stash.sh
       - run: bash fetch.sh binary
       - run: bash build.sh
       - run: bash build-api.sh
@@ -19,7 +18,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: binary
-          force: true
   dispatch:
     name: Dispatch
     needs: build

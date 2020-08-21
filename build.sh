@@ -3,11 +3,6 @@
 set -eu
 
 while IFS= read -r -d '' pack_dir; do
-  if [[ ! -f $pack_dir/pack.mcmeta ]]; then
-    echo "$pack_dir" は pack.mcmeta を含んでいません！ スキップしています...
-    continue
-  fi
-
   pack=$(basename "$pack_dir").zip
 
   if [[ -f $pack ]]; then
@@ -23,4 +18,4 @@ while IFS= read -r -d '' pack_dir; do
   rm -fv "$pack"
   root_dir=$PWD
   ( cd "$pack_dir" && zip -r "$root_dir"/"$pack" . )
-done < <(find . -mindepth 1 -maxdepth 1 -type d -print0)
+done < <(find . -mindepth 2 -maxdepth 2 -type f -ipath '*/pack.mcmeta' -print0 | xargs -0 dirname -z)
