@@ -21,7 +21,7 @@
 </p>
 
 ## 変更方法
-1. ファイルを追加したいフォルダまで行き、右上で `Add file` から `Upload files` を選択します。※クローンでもOK
+1. 任意のフォルダまで行き、右上で `Add file` から `Upload files` を選択します。※クローンでもOK
 2. ファイルを追加してコミットします。
 3. https://github.com/AzisabaNetwork/resourcepacks/actions が✅になるまで待ちます。
 4. https://github.com/AzisabaNetwork/packs.azisaba.net/actions が✅になるまで待ちます。
