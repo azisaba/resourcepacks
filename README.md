@@ -25,7 +25,7 @@
 2. ファイルを追加してコミットします。
 3. https://github.com/azisaba/resourcepacks/actions が✅になるまで待ちます。
 4. https://github.com/azisaba/packs.azisaba.net/actions が✅になるまで待ちます。
-5. https://packs.azisaba.net に反映されます。※サイトに行きShift+F5で自分のブラウザにも反映
+5. https://packs.azisaba.net に反映されます。※サイトに行きリロードして自分のブラウザにも反映
 6. 完了！^w^
 
 ## 自分でビルド
