@@ -3,14 +3,14 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/AzisabaNetwork/resourcepacks/actions">
-    <img src="https://badgen.net/github/checks/AzisabaNetwork/resourcepacks?label=build&icon=github" />
+  <a href="https://github.com/azisaba/resourcepacks/actions">
+    <img src="https://badgen.net/github/checks/azisaba/resourcepacks?label=build&icon=github" />
   </a>
-  <a href="https://github.com/AzisabaNetwork/packs.azisaba.net/actions">
-    <img src="https://badgen.net/github/checks/AzisabaNetwork/packs.azisaba.net?label=downstream%20build&icon=github" />
+  <a href="https://github.com/azisaba/packs.azisaba.net/actions">
+    <img src="https://badgen.net/github/checks/azisaba/packs.azisaba.net?label=downstream%20build&icon=github" />
   </a>
-  <a href="https://github.com/AzisabaNetwork/resourcepacks/tree/binary">
-    <img src="https://badgen.net/github/last-commit/AzisabaNetwork/resourcepacks/binary?label=binary%20updated&icon=git" />
+  <a href="https://github.com/azisaba/resourcepacks/tree/binary">
+    <img src="https://badgen.net/github/last-commit/azisaba/resourcepacks/binary?label=binary%20updated&icon=git" />
   </a>
   <a href="https://twitter.com/AzisabaNetwork">
     <img src="https://badgen.net/twitter/follow/AzisabaNetwork?icon=twitter" />
@@ -23,8 +23,8 @@
 ## 変更方法
 1. 任意のフォルダまで行き、右上で `Add file` から `Upload files` を選択します。※クローンでもOK
 2. ファイルを追加してコミットします。
-3. https://github.com/AzisabaNetwork/resourcepacks/actions が✅になるまで待ちます。
-4. https://github.com/AzisabaNetwork/packs.azisaba.net/actions が✅になるまで待ちます。
+3. https://github.com/azisaba/resourcepacks/actions が✅になるまで待ちます。
+4. https://github.com/azisaba/packs.azisaba.net/actions が✅になるまで待ちます。
 5. https://packs.azisaba.net に反映されます。※サイトに行きShift+F5で自分のブラウザにも反映
 6. 完了！^w^
 
