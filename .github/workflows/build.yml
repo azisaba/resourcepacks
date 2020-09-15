@@ -2,32 +2,27 @@ name: Build
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt-get -y update
-      - run: sudo apt-get -y install webp
       - uses: actions/checkout@v2
-      - run: bash fetch.sh binary
-      - run: bash build.sh
-      - run: bash build-api.sh
-      - run: bash commit.sh binary
-      - uses: ad-m/github-push-action@master
+      - run: find . -mindepth 2 -maxdepth 2 -type f -iname pack.mcmeta -print0 | xargs -0 dirname -z | parallel -0 cd {} '&&' zip -r "$PWD"/{/}.zip .
+      - uses: softprops/action-gh-release@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: binary
-  dispatch:
-    name: Dispatch
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: peter-evans/repository-dispatch@v1
+          tag_name: v${{ github.run_number }}
+          name: アジ鯖リソースパック v${{ github.run_number }}
+          body: |-
+            リソースパック(テクスチャ)を今すぐダウンロードできます。
+            ダウンロードしたいリソースパックを選択してください。
+          files: '*.zip'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: dev-drprasad/delete-older-releases@v0.1.0
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: azisaba/packs.azisaba.net
-          event-type: ${{ github.event.pusher.name }} が ${{ github.event.repository.full_name }} を変更
+          keep_latest: 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
