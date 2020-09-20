@@ -4,6 +4,11 @@
         "layer0": "item/diamond"
     },
     "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/obsidian_diamond"}    
+        { "predicate": {"custom_model_data": 1}, "model": "item/obsidian_diamond"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/Xbox"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/Ybox"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/unknownbox"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/openunknownbox"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/mysterybox"}  
     ]
 }
