@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/bread"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/buns"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/mcdonalds"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/mcdonalds_big"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/mcdonalds_cheese"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/mcdonalds_doublecheese"},
+		{ "predicate": {"custom_model_data": 6}, "model": "item/mcdonalds_tamago"}
+    ]
+}
