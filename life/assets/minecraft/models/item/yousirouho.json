@@ -1,0 +1,35 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/yousirouho"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 35],
+			"translation": [0, 12.5, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -35],
+			"translation": [0, 12.5, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -95, 54],
+			"translation": [0.25, 8.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 95, -54],
+			"translation": [0.25, 8.25, 0]
+		},
+		"ground": {
+			"translation": [0, 8.5, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"head": {
+			"rotation": [0, 0, 95],
+			"translation": [12.25, 12.75, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}
