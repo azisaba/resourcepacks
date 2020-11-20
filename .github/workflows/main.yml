@@ -5,8 +5,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-    name: ビルド
+  build_and_release:
+    name: ビルド & リリース
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,27 +17,8 @@ jobs:
       - name: 見つけたディレクトリからリソースパックの作成
         run: parallel -a pack.txt --wd {} zip -r "$PWD"/{/}.zip .
 
-      - uses: actions/upload-artifact@v2
-        with:
-          name: binary
-          path: '*.zip'
-
-  release:
-    name: リリース
-    needs: [ build ]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/download-artifact@v2
-        with:
-          name: binary
-
       - uses: softprops/action-gh-release@v1
         with:
-          tag_name: v${{ github.run_number }}
-          name: アジ鯖リソースパック v${{ github.run_number }}
-          body: |-
-            リソースパック(テクスチャ)を今すぐダウンロードできます。
-            ダウンロードしたいリソースパックを選択してください。
           files: '*.zip'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
