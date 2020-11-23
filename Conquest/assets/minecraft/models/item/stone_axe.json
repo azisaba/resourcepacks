@@ -1,0 +1,23 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stone_axe"
+	},
+	"overrides": [
+		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/stone_axe"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 1 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.007575757575757576}, "model": "item/nubx/weapons/nothing"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 2 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.015151515151515152}, "model": "item/nubx/weapons/ak-47_blue_reload"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 3 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.022727272727272728}, "model": "item/nubx/weapons/bazooka_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 4 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.030303030303030304}, "model": "item/nubx/weapons/carbine_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 5 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.03787878787878788}, "model": "item/nubx/weapons/desert_eagle_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 6 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.045454545454545456}, "model": "item/nubx/weapons/gauss_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 7 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.05303030303030303}, "model": "item/nubx/weapons/olympia_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 8 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.06060606060606061}, "model": "item/nubx/weapons/python_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 9 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.06818181818181818}, "model": "item/nubx/weapons/type95_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 10 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.07575757575757576}, "model": "item/nubx/weapons/hunting_blue"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 11 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.08333333333333334}, "model": "item/nubx/weapons/hunting_blue_scope"},
+		{ "_cmd_": "give @p minecraft:stone_axe 1 12 {Unbreakable:1}","predicate": {"damaged": 0, "damage": 0.09090909090909091}, "model": "item/nubx/weapons/tactical_knife_blue"},
+
+		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/stone_axe"}
+	]
+}
