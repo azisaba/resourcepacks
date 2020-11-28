@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/kelp"
+    },
+    "overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/nubx/gadget/ammo" }
+	]
+}

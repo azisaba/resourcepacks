@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "items/medic"
+	},
+	"elements": [
+		{
+			"from": [7, 3.5, 7.25],
+			"to": [9, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.1, 8, 8]},
+			"faces": {
+				"north": {"uv": [11.734, 1.6, 12.667, 3.734], "texture": "#2"},
+				"east": {"uv": [2.134, 1.067, 12.04, 14.518], "texture": "#2"},
+				"south": {"uv": [10.134, 1.067, 12.134, 2.667], "texture": "#2"},
+				"west": {"uv": [2.667, 1.6, 5.534, 5.334], "texture": "#2"},
+				"up": {"uv": [11.2, 1.6, 12.667, 4.467], "texture": "#2"},
+				"down": {"uv": [11.2, 1.6, 12.134, 3.934], "texture": "#2"}
+			}
+		}
+	],
+	
+	"components": {
+		"minecraft:food":{
+			"can_always_eat":true,
+			"saturation_modifier":"supernatural",
+			"effects":[
+			  {
+				"name": "instant_health",
+				"chance": 1.0,
+				"duration": 1,
+				"amplifier": 100
+			  }
+			]
+		}
+	},
+	
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-131, 5, -180],
+			"translation": [0, 3, 3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-131, -180, -180],
+			"translation": [0, 4.75, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 1, -180],
+			"translation": [6.75, -1.75, -7.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -180, -180],
+			"translation": [1.75, 1.75, -5]
+		},
+		"ground": {
+			"translation": [0, 1, 0]
+		},
+		"gui": {
+			"rotation": [-19, -113, -9],
+			"translation": [2, 3.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 0, 1.5]
+		},
+		"fixed": {
+			"rotation": [-180, 88, -180],
+			"translation": [-1, 1.25, -1]
+		}
+	}
+}
