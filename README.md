@@ -5,7 +5,7 @@
 [![GitHub Actions](https://badgen.net/github/checks/azisaba/resourcepacks/main?label=build&icon=github)](https://github.com/azisaba/resourcepacks/actions)
 [![GitHub Releases](https://badgen.net/github/release/azisaba/resourcepacks?icon=github)](https://github.com/azisaba/resourcepacks/releases/latest)
 [![Twitter](https://badgen.net/twitter/follow/AzisabaNetwork?icon=twitter)](https://twitter.com/AzisabaNetwork)
-[![Discord](https://discord.com/api/guilds/357134045328572418/widget.png)](https://discord.gg/seheC2W)
+[![Discord](https://discord.com/api/guilds/357134045328572418/widget.png)](https://discord.gg/azisaba)
 
 ## 変更方法
 
