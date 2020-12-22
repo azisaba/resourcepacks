@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/rabbit_stew"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/yakiisistew"}
+	]
+}
