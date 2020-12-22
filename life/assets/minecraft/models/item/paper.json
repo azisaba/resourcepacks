@@ -1,0 +1,22 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/paper"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/vegas1"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/vegas2"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/vegas3"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/vegas4"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/vegas5"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/vegas6"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/vegas7"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/vegas8"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/vegas9"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/vegas10"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/vegas11"},
+        { "predicate": {"custom_model_data": 12}, "model": "item/vegas12"},
+        { "predicate": {"custom_model_data": 13}, "model": "item/vegas13"}
+
+    ]
+}
