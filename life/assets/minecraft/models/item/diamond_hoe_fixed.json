@@ -2,5 +2,9 @@
     "parent": "item/generated",
     "textures": {
         "layer0": "items/diamond_hoe"
-    }
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/syanpen"}
+        { "predicate": {"custom_model_data": 2}, "model": "item/cracker"},
+    ]
 }
