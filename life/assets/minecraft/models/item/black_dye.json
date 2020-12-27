@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/black_dye"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/soul_flare"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/dragon_bone"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/meteor"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/adamantite"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/blood_chain"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/ruciru_platinum"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/suisei"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/tyougoukin_maple"}
+ ]
+}
