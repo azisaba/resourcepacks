@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/regidoraco"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, -90, -141],
+			"translation": [0, 13.5, 2],
+			"scale": [1.65, 1.65, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [99, 90, -141],
+			"translation": [0, 13.5, 2],
+			"scale": [1.65, 1.65, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [14, -99, 63],
+			"translation": [8.25, 5.25, -7],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [79, 95, -120],
+			"translation": [8.5, 4.75, -6.5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.5]
+		}
+	}
+}
