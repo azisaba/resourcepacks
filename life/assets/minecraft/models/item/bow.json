@@ -219,6 +219,35 @@
                 "pull": 0.9
             },
             "model": "item/datonation"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "item/bakuhaiyumi"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7,
+                "pulling": 1
+            },
+            "model": "item/bakuhaiyumi_hiki1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/bakuhaiyumi_hiki2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/bakuhaiyumi_hiki3"
         }
     ]
 }
