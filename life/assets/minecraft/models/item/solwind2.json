@@ -1,62 +1,6 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "item/generated",
-	"texture_size": [32, 32],
 	"textures": {
-		"0": "未採用/リーバル",
-		"particle": "未採用/リーバル",
 		"layer0": "items/solwind2"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [32, 32, 0],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [25.5, -90, -10],
-			"translation": [-7.75, 2.75, -4.25],
-			"scale": [0.5, 0.5, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [54.75, 90, -10],
-			"translation": [8, 2.75, -4.25],
-			"scale": [0.5, 0.5, 1]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, -96, 21.75],
-			"translation": [-0.25, -1.25, -7],
-			"scale": [0.5, 0.5, 1]
-		},
-		"firstperson_lefthand": {
-			"rotation": [-37, 460, 5.25],
-			"translation": [11.75, -1.25, -6.75],
-			"scale": [0.5, 0.5, 1]
-		},
-		"ground": {
-			"translation": [-4.75, 0, 9],
-			"scale": [0.5, 0.5, 1]
-		},
-		"gui": {
-			"translation": [-4.5, -3.75, 0],
-			"scale": [0.5, 0.5, 1]
-		},
-		"head": {
-			"rotation": [0, 0, -46],
-			"translation": [-11, -8.5, 11]
-		},
-		"fixed": {
-			"translation": [-5.25, -3, 5.75],
-			"scale": [0.5, 0.5, 1]
-		}
-	}
+	
 }
