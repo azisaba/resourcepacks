@@ -277,6 +277,35 @@
                 "pull": 0.9
             },
             "model": "item/comet_bow"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 9
+                 },
+                 "model": "item/ExplosionBow0"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 9,
+                 "pulling": 1
+                 },
+                 "model": "item/ExplosionBow1"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 9,
+                 "pulling": 1,
+                 "pull":0.65
+                 },
+                 "model": "item/ExplosionBow2"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 9,
+                 "pulling": 1,
+                 "pull":0.9
+                 },
+                 "model": "item/ExplosionBow3"
         }
     ]
 }
