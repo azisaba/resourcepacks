@@ -306,6 +306,35 @@
                  "pull":0.9
                  },
                  "model": "item/ExplosionBow3"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 10
+                 },
+                 "model": "item/LuckyBow"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 10,
+                 "pulling": 1
+                 },
+                 "model": "item/LuckyBow_hiki1"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 10,
+                 "pulling": 1,
+                 "pull":0.65
+                 },
+                 "model": "item/LuckyBow_hiki2"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 10,
+                 "pulling": 1,
+                 "pull":0.9
+                 },
+                 "model": "item/LuckyBow_hiki3"
         }
     ]
 }
