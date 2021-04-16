@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/rikorisu_sword_black"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [174.25, 90, -135],
+			"translation": [0, 11, 1],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90.75, 258.25, -152],
+			"translation": [-2, -9, 1],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [52, 85, 4],
+			"translation": [8.25, 2.25, -7],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-86.75, -90, 74],
+			"translation": [8.5, -8.25, -6.5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, -1, -135],
+			"translation": [0, 10, 0],
+			"scale": [1.3, 1.3, 1]
+		},
+		"head": {
+			"rotation": [0, -3, -88],
+			"translation": [-1.25, -16.5, 9.75],
+			"scale": [1.5, 1.5, 2.5]
+		},
+		"fixed": {
+			"rotation": [90, 0, 45],
+			"translation": [0, 0, -44.25],
+			"scale": [3, 3, 1]
+		}
+	}
+}
