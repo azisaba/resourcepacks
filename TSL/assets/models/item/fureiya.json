@@ -3,4 +3,31 @@
     "textures": {
         "layer0": "items/fureiya"
     }
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [-28, 90, 0],
+        "translation": [1, 4.5, 3.75]
+    },
+      "thirdperson_lefthand": {
+       "rotation": [-28, -90, 0],
+       "translation": [-1, 4.5, 3.75]
+    },
+    "firstperson_righthand": {
+      "rotation": [-36.75, 84.5, 0],
+      "translation": [3.25, 2.75, 0]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-36.75, -84.5, 0],
+      "translation": [3.25, 2.75, 0]
+    },
+    "ground": {
+      "translation": [0, 3.75, 1]
+    },
+    "head": {
+      "translation": [0, -16.75, 5.25]
+    },
+    "fixed": {
+      "translation": [0, 0, -0.5]
+    }
+  }
 }
