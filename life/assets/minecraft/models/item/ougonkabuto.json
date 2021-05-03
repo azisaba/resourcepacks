@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"texture": "block/gold_block",
-		"texture1": "block/red_concrete",
-		"particle": "block/red_concrete"
+		"particle": "block/red_concrete",
+		"texture1": "block/red_concrete"
 	},
 	"elements": [
 		{
@@ -34,8 +34,8 @@
 		},
 		{
 			"name": "Box2",
-			"from": [15.125, 11.125, 0],
-			"to": [16.125, 15.25, 16],
+			"from": [15.125, 11.375, 0],
+			"to": [16.125, 15.5, 16],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
 				"east": {"uv": [0, 5.5, 16, 16], "texture": "#texture"},
@@ -125,8 +125,8 @@
 		},
 		{
 			"name": "Box2",
-			"from": [0, -4.75, -0.375],
-			"to": [16, 11.25, 0.625],
+			"from": [0, -3.75, -0.375],
+			"to": [16, 12.25, 0.625],
 			"faces": {
 				"north": {"uv": [0, 2.5, 16, 16], "texture": "#texture"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#texture"},
