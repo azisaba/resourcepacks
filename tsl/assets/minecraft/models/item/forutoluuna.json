@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "tex/forutoluuna"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-175.75, -90, -138.75],
+			"translation": [-0.25, 5.25, 3.25],
+			"scale": [1.15, 1.15, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-175.75, 90, 138.75],
+			"translation": [-0.25, 5.25, 3.25],
+			"scale": [1.15, 1.15, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-23, -95.25, 26.5],
+			"translation": [6, 2.25, -4.75],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [23, -95.25, -26.5],
+			"translation": [6, 3, -4.25],
+			"scale": [1.25, 1.25, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, -135],
+			"translation": [0, 12, 0],
+			"scale": [1.35, 1.35, 1]
+		},
+		"gui": {
+			"translation": [1.25, 0, 0]
+		},
+		"head": {
+			"rotation": [0, -20.5, 104.5],
+			"translation": [8.25, 7.25, 2.75]
+		},
+		"fixed": {
+			"translation": [0, 0.5, -1.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}
