@@ -1,0 +1,10 @@
+  
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/villager_spawn_egg"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/fire_spell"}
+    ]
+}
