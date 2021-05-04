@@ -2,10 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "items/tanatosu3",
 		"layer1": "items/tanatosu1",
 		"layer2": "items/tanatosu2",
-		"particle": "items/tanatosu3"
+		"layer3": "items/tanatosu3",
 	},
 	"elements": [
 		{
@@ -1015,21 +1014,4 @@
 			"translation": [ 0, 0, -52.75 ]
 		}
 	},
-	"groups": [
-		{
-			"name": "hexadecagon",
-			"origin": [ 8, 8, 8 ],
-			"children": [ 0, 1, 2, 3, 4, 5, 6, 7 ]
-		},
-		{
-			"name": "kensin",
-			"origin": [ 0, 0, 0 ],
-			"children": [ 8, 9, 10, 11, 12, 13, 14 ]
-		},
-		{
-			"name": "e",
-			"origin": [ 0, 0, 0 ],
-			"children": [ 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 ]
-		}
-	]
 }
