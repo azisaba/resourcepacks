@@ -4,6 +4,12 @@
         "layer0": "item/golden_pickaxe"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/doriru"}
-        ]
+		{ "predicate": {"custom_model_data": 1}, "model": "item/doriru"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/crystalsword"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/hayate"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/ice_falchion_anime"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/kaiyoukenkoukai"},
+		{ "predicate": {"custom_model_data": 6}, "model": "item/phoenixfalchion_anime"}
+    ]
 }
+
