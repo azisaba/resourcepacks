@@ -1,6 +1,12 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "items/1458"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/1458"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [1.5, 1.5, 5]
+		}
+	}
 }
