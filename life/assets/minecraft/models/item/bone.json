@@ -3,36 +3,11 @@
     "textures": {
         "layer0": "item/bone"
     },
-    "overrides": [
-        {
-            "predicate": {
-                 "custom_model_data": 1
-                 },
-                 "model": "item/bone_boroboro"
-        },
-        {
-            "predicate": {
-                 "custom_model_data": 2
-                 },
-                 "model": "item/bone_kizu"
-        },
-        {
-            "predicate": {
-                 "custom_model_data": 3
-                 },
-                 "model": "item/bone_kyouko"
-        },
-        {
-            "predicate": {
-                 "custom_model_data": 4
-                 },
-                 "model": "item/wolffang"
-        },
-                {
-            "predicate": {
-                 "custom_model_data": 5
-                 },
-                 "model": "item/mahouwolffang"
-        }
-    ]
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/bone_boroboro"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/bone_kizu"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/bone_kyouko"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/wolffang"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/mahouwolffang"}
+	]
 }
