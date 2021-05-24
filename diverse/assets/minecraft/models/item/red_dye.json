@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/rdye"
+    },
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/rdye/rdye1"}
+	]
+}

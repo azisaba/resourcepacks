@@ -1,0 +1,11 @@
+{   
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/wheat"
+    },
+    "overrides": [
+        {"predicate":{"custom_model_data":1},"model":"item/item/wheat_1"},
+        {"predicate":{"custom_model_data":4},"model":"item/item/wheat_4"},
+        {"predicate":{"custom_model_data":9},"model":"item/item/wheat_9"}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stone_hoe"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/shoe/shoe1"},
+		{"predicate":{"custom_model_data":2},"model":"item/shoe/shoe2"},
+		{"predicate":{"custom_model_data":3},"model":"item/shoe/shoe3"},
+		{"predicate":{"custom_model_data":4},"model":"item/shoe/shoe4"},
+		{"predicate":{"custom_model_data":5},"model":"item/shoe/shoe5"},
+		{"predicate":{"custom_model_data":6},"model":"item/shoe/shoe6"},
+		{"predicate":{"custom_model_data":7},"model":"item/shoe/shoe7"},
+		{"predicate":{"custom_model_data":8},"model":"item/shoe/shoe8"}
+	]
+}

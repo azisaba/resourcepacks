@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/emerald"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/boxes/box1"},
+		{"predicate":{"custom_model_data":2},"model":"item/boxes/box2"},
+		{"predicate":{"custom_model_data":3},"model":"item/boxes/box3"},
+		{"predicate":{"custom_model_data":206},"model":"item/miner/miner206"},
+		{"predicate":{"custom_model_data":207},"model":"item/miner/miner207"},
+		{"predicate":{"custom_model_data":208},"model":"item/miner/miner208"}
+	]
+}

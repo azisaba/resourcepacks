@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+	"overrides": [
+		{"predicate":{"custom_model_data":151},"model":"item/fishes/fishes151"},
+        {"predicate":{"custom_model_data":152},"model":"item/fishes/fishes152"},
+        {"predicate":{"custom_model_data":153},"model":"item/fishes/fishes153"},
+        {"predicate":{"custom_model_data":154},"model":"item/fishes/fishes154"},
+        {"predicate":{"custom_model_data":155},"model":"item/fishes/fishes155"},
+        {"predicate":{"custom_model_data":156},"model":"item/fishes/fishes156"},
+        {"predicate":{"custom_model_data":157},"model":"item/fishes/fishes157"},
+        {"predicate":{"custom_model_data":158},"model":"item/fishes/fishes158"},
+        {"predicate":{"custom_model_data":159},"model":"item/fishes/fishes159"},
+        {"predicate":{"custom_model_data":160},"model":"item/fishes/fishes160"}
+	]
+}

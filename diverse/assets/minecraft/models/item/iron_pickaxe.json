@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/iron_pickaxe"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":301},"model":"item/miner/miner301"},
+		{"predicate":{"custom_model_data":302},"model":"item/miner/miner302"},
+		{"predicate":{"custom_model_data":303},"model":"item/miner/miner303"}
+	]
+}

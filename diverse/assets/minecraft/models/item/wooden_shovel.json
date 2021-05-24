@@ -1,0 +1,21 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/wooden_shovel"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":101},"model":"item/craft/product101"},
+		{"predicate":{"custom_model_data":102},"model":"item/craft/product102"},
+		{"predicate":{"custom_model_data":206},"model":"item/craft/product206"},
+		{"predicate":{"custom_model_data":207},"model":"item/craft/product207"},
+		{"predicate":{"custom_model_data":301},"model":"item/craft/product301"},
+		{"predicate":{"custom_model_data":306},"model":"item/craft/product306"},
+		{"predicate":{"custom_model_data":308},"model":"item/craft/product308"},
+		{"predicate":{"custom_model_data":401},"model":"item/craft/product401"},
+		{"predicate":{"custom_model_data":409},"model":"item/craft/product409"},
+		{"predicate":{"custom_model_data":501},"model":"item/craft/product501"},
+		{"predicate":{"custom_model_data":508},"model":"item/craft/product508"},
+		{"predicate":{"custom_model_data":602},"model":"item/craft/product602"},
+		{"predicate":{"custom_model_data":607},"model":"item/craft/product607"}
+	]
+}

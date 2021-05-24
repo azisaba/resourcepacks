@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/diamond"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":201},"model":"item/miner/miner201"},
+		{"predicate":{"custom_model_data":202},"model":"item/miner/miner202"},
+		{"predicate":{"custom_model_data":203},"model":"item/miner/miner203"},
+		{"predicate":{"custom_model_data":204},"model":"item/miner/miner204"},
+		{"predicate":{"custom_model_data":205},"model":"item/miner/miner205"},
+		{"predicate":{"custom_model_data":209},"model":"item/miner/miner209"}
+	]
+}
