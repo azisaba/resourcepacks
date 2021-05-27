@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/tatutas_yari_w_trans"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, -90, -141],
+			"translation": [0, 2, 2.75],
+			"scale": [1.65, 1.65, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [99, 90, -141],
+			"translation": [0, 3, 2],
+			"scale": [1.65, 1.65, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [28, -99, 63],
+			"translation": [8.25, 5.25, -7],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [91, 95, -120],
+			"translation": [8.5, 4.75, -6.5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 14.75, 0],
+			"scale": [1.65, 1.65, 1]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.5]
+		}
+	}
+}
