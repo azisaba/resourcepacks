@@ -336,5 +336,34 @@
                  },
                  "model": "item/luckybow_hiki3"
         }
+               {
+            "predicate": {
+                 "custom_model_data": 1201
+                 },
+                 "model": "item/bazirisuku1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1201,
+                "pulling": 1
+            },
+            "model": "item/bazirisuku2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1201,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/bazirisuku3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1201,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/bazirisuku4"
+        },
     ]
 }
