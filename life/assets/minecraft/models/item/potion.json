@@ -1,21 +1,9 @@
 {
-    "parent": "item/generated",
+    "parent": "item/handheld",
     "textures": {
-        "layer0": "item/potion_overlay",
-        "layer1": "item/potion"
+        "layer0": "item/potion"
     },
-    "overrides": [
-        {
-            "predicate": {
-                 "custom_model_data": 1
-                 },
-                 "model": "item/ender_pearl_anteizai"
-         },
-        {
-            "predicate": {
-                 "custom_model_data": 2
-                 },
-                 "model": "item/bone_koukazai"
-         }
-     ]
+	"overrides": [
+		{ "predicate": {"custom_model_data": 2}, "model": "item/sinyu"}
+	]
 }
