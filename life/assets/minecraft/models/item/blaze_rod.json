@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/blaze_rod"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 2}, "model": "item/manarod"}
+	]
+}
