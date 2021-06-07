@@ -4,6 +4,8 @@
         "layer0": "item/blaze_rod"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 2}, "model": "item/manarod"}
+		{ "predicate": {"custom_model_data": 2}, "model": "item/manarod_a"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/manarod_b"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/manarod_c"}
 	]
 }
