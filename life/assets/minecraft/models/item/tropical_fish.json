@@ -4,6 +4,8 @@
         "layer0": "item/tropical_fish"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 2}, "model": "item/sinrinarowana"}
+		{ "predicate": {"custom_model_data": 2}, "model": "item/sinrinarowana"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/tunamaguro"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/kingsamon"}
 	]
 }
