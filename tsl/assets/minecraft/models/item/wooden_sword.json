@@ -1,0 +1,44 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/wooden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "item/azi1"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "item/azi2"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "item/azi3"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "item/46kuri1"
+    },
+    {
+      "predicate": { "custom_model_data": 5 },
+      "model": "item/46kuri2"
+    },
+    {
+      "predicate": { "custom_model_data": 6 },
+      "model": "item/46kuri3"
+    },
+    {
+      "predicate": { "custom_model_data": 7 },
+      "model": "item/azu1"
+    },
+    {
+      "predicate": { "custom_model_data": 8 },
+      "model": "item/azu2"
+    },
+    {
+      "predicate": { "custom_model_data": 9 },
+      "model": "item/azu3"
+    }
+  ]
+}
