@@ -1,0 +1,83 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/gaster_blaster"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [
+				5,
+				0,
+				20
+			],
+			"rotation": [
+				155,
+				-60,
+				0
+			],
+			"scale": [
+				2,
+				1.5,
+				3
+			]
+		},
+		"thirdperson_lefthand": {
+			"translation": [
+				5,
+				0,
+				20
+			],
+			"rotation": [
+				155,
+				-60,
+				0
+			],
+			"scale": [
+				2,
+				1.5,
+				3
+			]
+		},
+		"firstperson_righthand": {
+			"translation": [
+				5,
+				10,
+				0
+			],
+			"rotation": [
+				105,
+				-60,
+				0
+			],
+			"scale": [
+				2,
+				1.5,
+				3
+			]
+		},
+		"firstperson_lefthand": {
+			"translation": [
+				5,
+				10,
+				0
+			],
+			"rotation": [
+				105,
+				-60,
+				0
+			],
+			"scale": [
+				2,
+				1.5,
+				3
+			]
+		},
+		"gui": {
+			"scale": [
+				1.25,
+				1,
+				1
+			]
+		}
+	}
+}
