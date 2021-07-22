@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/wooden_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67, -4, 1],
+			"translation": [-6, 4.25, 7.5],
+			"scale": [1.75, 1.71, 0.99]
+		},
+		"firstperson_righthand": {
+			"rotation": [-1, -1, 1],
+			"translation": [-9.5, 2, 5.5],
+			"scale": [2.67, 2.69, 1]
+		},
+		"head": {
+			"rotation": [2, 2, 4],
+			"translation": [0, -15.5, 7.5],
+			"scale": [2.48, 2.44, 1]
+		}
+	}
+}
