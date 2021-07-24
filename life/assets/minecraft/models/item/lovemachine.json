@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/lovemachine",
+		"particle": "items/lovemachine"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 88, -10.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [68.25, 0, 0],
+			"translation": [-6, -4.5, 14.75],
+			"scale": [3, 3, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-32, -85.25, 0],
+			"translation": [0.5, 3, 1.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"translation": [0, 3.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0.5, 7.5, 7.5],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 6.25, -4],
+			"scale": [4, 4, 4]
+		}
+	}
+}
