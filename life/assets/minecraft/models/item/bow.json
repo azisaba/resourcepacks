@@ -596,6 +596,35 @@
                 "pull": 0.9
             },
             "model": "item/siryuu34"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 20
+                 },
+                 "model": "item/makaizouyumi1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20,
+                "pulling": 1
+            },
+            "model": "item/makaizouyumi2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/makaizouyumi3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/makaizouyumi4"
         }
     ]
 }
