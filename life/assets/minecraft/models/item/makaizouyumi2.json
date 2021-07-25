@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/makaizouyumi1",
+		"particle": "items/makaizouyumi1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [6.25, 90, 0],
+			"translation": [0, 1.75, 6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-98.5, 90, 0],
+			"translation": [0, 1.75, 6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-13, 99.5, -3.75],
+			"translation": [3.5, 1.5, -1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-109.75, 99.5, -3.75],
+			"translation": [3.5, 1.5, -1.5]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 6.5, -6.25]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.5]
+		}
+	}
+}
