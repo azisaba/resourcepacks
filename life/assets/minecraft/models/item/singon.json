@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/handheld",
 	"textures": {
 		"0": "items/singon",
 		"particle": "items/singon"
@@ -8,7 +7,7 @@
 	"elements": [
 		{
 			"from": [0, 0, 8],
-			"to": [16, 16, 8],
+			"to": [16, 16, 8.4],
 			"faces": {
 				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
