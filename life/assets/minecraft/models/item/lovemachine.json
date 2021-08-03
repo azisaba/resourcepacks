@@ -1,19 +1,10 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
 	"textures": {
-		"0": "items/lovemachine",
+		"layer0": "items/lovemachine",
 		"particle": "items/lovemachine"
 	},
-	"elements": [
-		{
-			"from": [0, 0, 8],
-			"to": [16, 16, 8.5],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#0"}
-			}
-		}
-	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 88, -10.5]
