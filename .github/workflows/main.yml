@@ -17,6 +17,9 @@ jobs:
       - name: 見つけたディレクトリからリソースパックの作成
         run: parallel -a pack.txt --wd {} zip -r "$PWD"/{/}.zip .
 
+      - name: 作成したリソースパックを表示する
+        run: find "$PWD" -maxdepth 1 -type f -name "*.zip"
+
       - uses: softprops/action-gh-release@v1
         with:
           tag_name: action-v${{ github.run_number }}
