@@ -4,6 +4,7 @@
         "layer0": "item/honeycomb"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 2}, "model": "item/senryoubako"}
+		{ "predicate": {"custom_model_data": 2}, "model": "item/senryoubako"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/zyuryoubako"}
 	]
 }
