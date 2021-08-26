@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "block/andesite",
-		"6": "item/melon_slice",
+		"6": "models/melon_slice",
 		"7": "item/firework_rocket",
 		"particle": "block/daylight_detector_top"
 	},
@@ -534,16 +534,19 @@
 		{
 			"name": "melon_slice",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 		},
 		{
 			"name": "firework_rocket",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 		},
 		{
 			"name": "firework_rocket",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [27, 28, 29, 30, 31, 32, 33, 34]
 		}
 	]
