@@ -36,6 +36,14 @@
         { "predicate": { "damage": 0.0006402048655569782, "pulling": 1, "pull": 0.65 },
             "model": "item/b2001" },
         { "predicate": { "damage": 0.0006402048655569782, "pulling": 1, "pull": 0.9 },
-            "model": "item/b3001" }
+            "model": "item/b3001" },
+        { "predicate": { "damage": 0.0012804097311139564 },
+            "model": "item/b0002" },
+        { "predicate": { "damage": 0.0012804097311139564, "pulling": 1 },
+            "model": "item/b0002" },
+        { "predicate": { "damage": 0.0012804097311139564, "pulling": 1, "pull": 0.65 },
+            "model": "item/b0002" },
+        { "predicate": { "damage": 0.0012804097311139564, "pulling": 1, "pull": 0.9 },
+            "model": "item/b0002" }
     ]
 }
