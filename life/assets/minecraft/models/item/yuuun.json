@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/yuuun"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [138, -139, -180],
+			"translation": [0.25, 8.75, -5.5],
+			"scale": [2.23, 2.23, 2.41]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-44, 160, -180],
+			"translation": [1.5, 8, -8.75],
+			"scale": [2.23, 2.23, 2.41]
+		},
+		"firstperson_righthand": {
+			"rotation": [47, -92, 72],
+			"translation": [8.25, 2.25, -7],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [129, -90, 74],
+			"translation": [5.75, 3, -6.5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, 45],
+			"translation": [0, 12, 0],
+			"scale": [2.24, 2.24, 2]
+		},
+		"head": {
+			"rotation": [0, -3, -88],
+			"translation": [0, -16.5, 9],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -2.25],
+			"scale": [1.4, 1.4, 1]
+		}
+	}
+}
