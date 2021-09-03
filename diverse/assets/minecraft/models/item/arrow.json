@@ -1,9 +1,9 @@
 {   
-    "parent": "minecraft:item/generated",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "minecraft:item/arrow"
+        "layer0": "item/arrow"
     },
     "overrides": [
-        {"predicate":{"custom_model_data":1},"model":"arrow/1"}
+        {"predicate":{"custom_model_data":1},"model":"item/arrow/1"}
 	]
 }
