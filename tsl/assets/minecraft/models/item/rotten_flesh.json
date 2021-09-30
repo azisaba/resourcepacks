@@ -1,0 +1,13 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/rotten_flesh"
+  },
+  "overrides": [
+    {"predicate": { "custom_model_data": 1 },"model": "item/hwame"},
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "item/hwame"
+    }
+  ]
+}
