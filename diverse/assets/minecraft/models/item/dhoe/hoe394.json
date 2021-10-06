@@ -1604,14 +1604,13 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 90, 70],
-			"translation": [1, 14.75, 11],
-			"scale": [2.2, 2.2, 2.2]
+			"rotation": [0, 90, 90],
+			"translation": [1, 5.5, 2.75],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 90, 0],
-			"translation": [0.5, 17.5, -10],
-			"scale": [2, 2, 2]
+			"translation": [4, 1.5, -10]
 		},
 		"ground": {
 			"translation": [0, 4.75, 0]
@@ -1625,6 +1624,11 @@
 			"rotation": [0, 90, 0],
 			"translation": [-8.75, -13, -65.25],
 			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, 80, 0],
+			"translation": [1, 4.25, -13],
+			"scale": [1.05, 1, 1]
 		}
 	},
 	"groups": [
