@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "items/trace4",
+	"textures": {
+		"layer0": "items/trace4"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 13.25, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 13.25, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5.76, -54.95, 92.27],
+			"translation": [2.5, 1.75, -2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [2.61, -69.58, 13.23],
+			"translation": [2.5, 1.75, -2.5]
+		},
+		"head": {
+			"rotation": [-180, 89, 44],
+			"translation": [0, -4.5, -0.5],
+			"scale": [4, 4, 2]
+		},
+		"fixed": {
+			"rotation": [90, 0, 45],
+			"translation": [0, 0, -42.25],
+			"scale": [4, 4, 3]
+		}
+	}
+}
