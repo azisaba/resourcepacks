@@ -1,23 +1,9 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
 	"textures": {
-		"0": "items/runebow",
-		"particle": "items/runebow"
+		"layer0": "items/runebow"
 	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 0],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
-			}
-		}
-	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-139.75, 91.75, 6.25],
