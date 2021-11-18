@@ -683,6 +683,35 @@
                 "pull": 0.9
             },
             "model": "item/hyougokuyumi4"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 23
+                 },
+                 "model": "item/ryokuryuuyumi"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24,
+                "pulling": 1
+            },
+            "model": "item/ryokuryuuyumi_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25,
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/ryokuryuuyumi_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26,
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/ryokuryuuyumi_3"
         }
     ]
 }
