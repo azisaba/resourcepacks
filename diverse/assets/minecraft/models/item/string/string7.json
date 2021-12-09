@@ -437,10 +437,16 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
 			"translation": [-7, -3, -28.75]
+		},
+		"gui": {
+			"rotation": [27, 0, 26],
+			"translation": [0, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
 			"translation": [-0.75, -54.75, 0],

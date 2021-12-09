@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "brown_mushroom_block",
-		"1": "bone_block_side",
-		"2": "pumpkin_stem",
-		"3": "fire_coral",
-		"particle": "brown_mushroom_block"
+		"0": "block/brown_mushroom_block",
+		"1": "block/bone_block_side",
+		"2": "block/pumpkin_stem",
+		"3": "block/fire_coral",
+		"particle": "block/brown_mushroom_block"
 	},
 	"elements": [
 		{
@@ -425,11 +425,17 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [68, 0, 0],
 			"translation": [-7.25, 6.5, -23.5],
 			"scale": [3, 3, 3]
+		},
+		"gui": {
+			"rotation": [1, 70, 0],
+			"translation": [0, 3, 0],
+			"scale": [1.2, 1.2, 1.2]
 		}
 	}
 }

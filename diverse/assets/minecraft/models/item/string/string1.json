@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "bookshelf",
-		"1": "snow",
-		"2": "carved_pumpkin",
-		"3": "pumpkin_side",
-		"4": "pumpkin_top",
-		"particle": "bookshelf"
+		"0": "block/bookshelf",
+		"1": "block/snow",
+		"2": "block/carved_pumpkin",
+		"3": "block/pumpkin_side",
+		"4": "block/pumpkin_top",
+		"particle": "block/bookshelf"
 	},
 	"elements": [
 		{
@@ -400,7 +400,13 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
+		"gui": {
+			"rotation": [0, 131, 11],
+			"translation": [0, 2.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
 		"head": {
 			"translation": [0, -50.5, -9.5],
 			"scale": [2.5, 2.5, 2.5]
