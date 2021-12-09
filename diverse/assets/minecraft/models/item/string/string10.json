@@ -401,11 +401,17 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"firstperson_righthand": {
 			"rotation": [-15, 103, 0],
 			"translation": [-4.75, 9.5, 2.25],
 			"scale": [0.78, 0.75, 0.78]
+		},
+		"gui": {
+			"rotation": [9, 12, 56],
+			"translation": [-4.75, 5.25, 0],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"head": {
 			"rotation": [0, 0, 62],
