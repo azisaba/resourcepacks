@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/red_concrete_powder",
 		"1": "block/red_concrete",
-		"4": "block/weeping_vines",
+		"3": "block/iron_bars",
 		"particle": "block/red_concrete_powder"
 	},
 	"elements": [
@@ -168,12 +168,12 @@
 			"to": [10.30025, 25.2, 10.06191],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-99.1811, -25.20853, -96.30353]},
 			"faces": {
-				"north": {"uv": [3.6, 0, 12.4, 16], "texture": "#4"},
-				"east": {"uv": [3.6, 0, 12.4, 16], "texture": "#4"},
-				"south": {"uv": [3.6, 0, 12.4, 16], "texture": "#4"},
-				"west": {"uv": [3.6, 0, 12.4, 16], "texture": "#4"},
-				"up": {"uv": [3.6, 10.8, 0.4, 16], "texture": "#4"},
-				"down": {"uv": [3.6, 0, 12.4, 16], "texture": "#4"}
+				"north": {"uv": [2, 4, 14, 16], "texture": "#3"},
+				"east": {"uv": [2, 4, 14, 16], "texture": "#3"},
+				"south": {"uv": [2, 4, 14, 16], "texture": "#3"},
+				"west": {"uv": [2, 4, 14, 16], "texture": "#3"},
+				"up": {"uv": [14.4, 0, 16, 3.6], "texture": "#3"},
+				"down": {"uv": [2, 4, 14, 16], "texture": "#3"}
 			}
 		},
 		{
@@ -441,16 +441,19 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
-			"translation": [-7, -3, -28.75]
+			"translation": [0, -2, -4],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [1.5, 0, 0],
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [27, 0, 26],
-			"translation": [0, -0.25, 0],
-			"scale": [0.6, 0.6, 0.6]
+			"rotation": [45, 0, 30],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"head": {
-			"translation": [-0.75, -54.75, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"translation": [0, -45, 0]
 		}
 	},
 	"groups": [

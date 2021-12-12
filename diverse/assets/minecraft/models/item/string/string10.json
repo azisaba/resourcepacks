@@ -403,9 +403,13 @@
 	],
 	"gui_light": "front",
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -180, 0],
+			"translation": [1.5, -2.25, 1]
+		},
 		"firstperson_righthand": {
-			"rotation": [-15, 103, 0],
-			"translation": [-4.75, 9.5, 2.25],
+			"rotation": [-15, -180, -11],
+			"translation": [-0.25, 5.5, 2.25],
 			"scale": [0.78, 0.75, 0.78]
 		},
 		"gui": {

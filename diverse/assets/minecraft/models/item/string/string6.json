@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/pink_terracotta",
-		"1": "block/snow",
+		"0": "blocks/pink_terracotta",
+		"1": "blocks/snow",
 		"2": "blocks/dirt",
-		"particle": "block/pink_terracotta"
+		"particle": "blocks/pink_terracotta"
 	},
 	"elements": [
 		{
@@ -372,13 +372,19 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
-			"translation": [-6, -2, -25]
+			"translation": [0, -2, -4.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"translation": [1.25, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [11, 33, 45]
+			"rotation": [31, 0, 35],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
-			"translation": [0, -58, 0],
+			"translation": [0, -56.25, 0],
 			"scale": [2, 2, 2]
 		}
 	}
