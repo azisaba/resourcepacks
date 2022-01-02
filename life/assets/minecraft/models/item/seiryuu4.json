@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/seiryuu4",
+		"layer0": "items/seiryuu4"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [25, -90, 0],
+			"translation": [-1.25, 0.75, 10],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [25, -90, 0],
+			"translation": [-1.25, 0.75, 10],
+			"scale": [-2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -86.75, 39],
+			"translation": [2, 6.5, -5.25],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -86.75, 39],
+			"translation": [2, 6.5, -5.25],
+			"scale": [-2, 2, 1]
+		},
+		"ground": {
+			"translation": [0, 12.5, 0],
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"translation": [2, -15.5, 7],
+			"scale": [3, 3, 1]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.75],
+			"scale": [2, 2, 1]
+		}
+	}
+}
