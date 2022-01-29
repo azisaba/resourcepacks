@@ -4,6 +4,13 @@
     "layer0": "block/white_stained_glass"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 1 }, "model": "item/right_arrow" }
+    { "predicate": { "custom_model_data": 1 }, "model": "item/right_arrow" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/left_arrow" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/up_arrow" },
+    { "predicate": { "custom_model_data": 4 }, "model": "item/down_arrow" },
+    { "predicate": { "custom_model_data": 5 }, "model": "item/right_triangle" },
+    { "predicate": { "custom_model_data": 6 }, "model": "item/left_triangle" },
+    { "predicate": { "custom_model_data": 7 }, "model": "item/up_triangle" },
+    { "predicate": { "custom_model_data": 8 }, "model": "item/down_triangle" }
   ]
 }
