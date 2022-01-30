@@ -2,5 +2,8 @@
     "parent": "item/generated",
     "textures": {
         "layer0": "item/trident"
-    }
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/inuskin"}
+    ] 
 }
