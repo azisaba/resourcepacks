@@ -43,7 +43,7 @@
     },
     "overrides": [
         { "predicate": {"custom_model_data": 0}, "model": "item/shield"},
-        { "predicate": {"custom_model_data": 0,"blocking": 1}, "model": "item/shield_blocking"}
+        { "predicate": {"custom_model_data": 0,"blocking": 1}, "model": "item/shield_blocking"},
         { "predicate": {"custom_model_data": 2}, "model": "item/ice_shield"},
         { "predicate": {"custom_model_data": 2,"blocking": 1}, "model": "item/ice_shield_blocking"}
     ]
