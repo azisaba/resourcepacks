@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "items/netherbrick"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -117, 27],
+			"translation": [0, 0.75, 1.5],
+			"scale": [0.6, 0.6, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -117, -27],
+			"translation": [0, 0.75, 1.5],
+			"scale": [0.6, 0.6, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -80, 72],
+			"translation": [2, -1, -4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -80, -72],
+			"translation": [2, -1, -4]
+		},
+		"ground": {
+			"rotation": [56, -3, 3],
+			"translation": [0, -1.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [0, 0, 22]
+		}
+	}
+}
