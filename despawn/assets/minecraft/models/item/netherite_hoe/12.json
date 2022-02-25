@@ -1,6 +1,1340 @@
 {
-	"parent": "item/handheld_gun",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"layer0": "item/netherite_hoe/12"
-	}
+		"0": "item/netherite_hoe/deiko_keisou",
+		"particle": "item/netherite_hoe/deiko_keisou"
+	},
+	"elements": [
+		{
+			"name": "deiko_keisou_0",
+			"from": [15, 0.1, 0.5],
+			"to": [15.5, 0.4, 1],
+			"faces": {
+				"north": {"uv": [15.5, 0.5, 15, 1], "texture": "#0"},
+				"east": {"uv": [15, 0.5, 15.5, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 0.5, 15.5, 1], "texture": "#0"},
+				"west": {"uv": [15, 0.5, 15.5, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [15, 0.5, 15.5, 1], "texture": "#0"},
+				"down": {"uv": [15, 1, 15.5, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_1",
+			"from": [14.5, 0.1, 1],
+			"to": [15, 0.4, 1.5],
+			"faces": {
+				"north": {"uv": [15, 1, 14.5, 1.5], "texture": "#0"},
+				"east": {"uv": [14.5, 1, 15, 1.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [14.5, 1, 15, 1.5], "texture": "#0"},
+				"west": {"uv": [14.5, 1, 15, 1.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [14.5, 1, 15, 1.5], "texture": "#0"},
+				"down": {"uv": [14.5, 1.5, 15, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_2",
+			"from": [15, 0.1, 1],
+			"to": [15.5, 0.4, 1.5],
+			"faces": {
+				"north": {"uv": [15.5, 1, 15, 1.5], "texture": "#0"},
+				"east": {"uv": [15, 1, 15.5, 1.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 1, 15.5, 1.5], "texture": "#0"},
+				"west": {"uv": [15, 1, 15.5, 1.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [15, 1, 15.5, 1.5], "texture": "#0"},
+				"down": {"uv": [15, 1.5, 15.5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_3",
+			"from": [13.5, 0.1, 1.5],
+			"to": [14, 0.4, 2],
+			"faces": {
+				"north": {"uv": [14, 1.5, 13.5, 2], "texture": "#0"},
+				"east": {"uv": [13.5, 1.5, 14, 2], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.5, 1.5, 14, 2], "texture": "#0"},
+				"west": {"uv": [13.5, 1.5, 14, 2], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13.5, 1.5, 14, 2], "texture": "#0"},
+				"down": {"uv": [13.5, 2, 14, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_4",
+			"from": [14, 0.1, 1.5],
+			"to": [14.5, 0.4, 2],
+			"faces": {
+				"north": {"uv": [14.5, 1.5, 14, 2], "texture": "#0"},
+				"east": {"uv": [14, 1.5, 14.5, 2], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [14, 1.5, 14.5, 2], "texture": "#0"},
+				"west": {"uv": [14, 1.5, 14.5, 2], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [14, 1.5, 14.5, 2], "texture": "#0"},
+				"down": {"uv": [14, 2, 14.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_5",
+			"from": [14.5, 0.1, 1.5],
+			"to": [15, 0.4, 2],
+			"faces": {
+				"north": {"uv": [15, 1.5, 14.5, 2], "texture": "#0"},
+				"east": {"uv": [14.5, 1.5, 15, 2], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [14.5, 1.5, 15, 2], "texture": "#0"},
+				"west": {"uv": [14.5, 1.5, 15, 2], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [14.5, 1.5, 15, 2], "texture": "#0"},
+				"down": {"uv": [14.5, 2, 15, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_6",
+			"from": [13, 0.1, 2],
+			"to": [13.5, 0.4, 2.5],
+			"faces": {
+				"north": {"uv": [13.5, 2, 13, 2.5], "texture": "#0"},
+				"east": {"uv": [13, 2, 13.5, 2.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13, 2, 13.5, 2.5], "texture": "#0"},
+				"west": {"uv": [13, 2, 13.5, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13, 2, 13.5, 2.5], "texture": "#0"},
+				"down": {"uv": [13, 2.5, 13.5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_7",
+			"from": [13.5, 0.1, 2],
+			"to": [14, 0.4, 2.5],
+			"faces": {
+				"north": {"uv": [14, 2, 13.5, 2.5], "texture": "#0"},
+				"east": {"uv": [13.5, 2, 14, 2.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.5, 2, 14, 2.5], "texture": "#0"},
+				"west": {"uv": [13.5, 2, 14, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13.5, 2, 14, 2.5], "texture": "#0"},
+				"down": {"uv": [13.5, 2.5, 14, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_8",
+			"from": [14, 0.1, 2],
+			"to": [14.5, 0.4, 2.5],
+			"faces": {
+				"north": {"uv": [14.5, 2, 14, 2.5], "texture": "#0"},
+				"east": {"uv": [14, 2, 14.5, 2.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [14, 2, 14.5, 2.5], "texture": "#0"},
+				"west": {"uv": [14, 2, 14.5, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [14, 2, 14.5, 2.5], "texture": "#0"},
+				"down": {"uv": [14, 2.5, 14.5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_9",
+			"from": [12, 0.1, 2.5],
+			"to": [12.5, 0.4, 3],
+			"faces": {
+				"north": {"uv": [12.5, 2.5, 12, 3], "texture": "#0"},
+				"east": {"uv": [12, 2.5, 12.5, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 2.5, 12.5, 3], "texture": "#0"},
+				"west": {"uv": [12, 2.5, 12.5, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 2.5, 12.5, 3], "texture": "#0"},
+				"down": {"uv": [12, 3, 12.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_10",
+			"from": [12.5, 0.1, 2.5],
+			"to": [13, 0.4, 3],
+			"faces": {
+				"north": {"uv": [13, 2.5, 12.5, 3], "texture": "#0"},
+				"east": {"uv": [12.5, 2.5, 13, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 2.5, 13, 3], "texture": "#0"},
+				"west": {"uv": [12.5, 2.5, 13, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.5, 2.5, 13, 3], "texture": "#0"},
+				"down": {"uv": [12.5, 3, 13, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_11",
+			"from": [13, 0.1, 2.5],
+			"to": [13.5, 0.4, 3],
+			"faces": {
+				"north": {"uv": [13.5, 2.5, 13, 3], "texture": "#0"},
+				"east": {"uv": [13, 2.5, 13.5, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13, 2.5, 13.5, 3], "texture": "#0"},
+				"west": {"uv": [13, 2.5, 13.5, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13, 2.5, 13.5, 3], "texture": "#0"},
+				"down": {"uv": [13, 3, 13.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_12",
+			"from": [13.5, 0.1, 2.5],
+			"to": [14, 0.4, 3],
+			"faces": {
+				"north": {"uv": [14, 2.5, 13.5, 3], "texture": "#0"},
+				"east": {"uv": [13.5, 2.5, 14, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.5, 2.5, 14, 3], "texture": "#0"},
+				"west": {"uv": [13.5, 2.5, 14, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13.5, 2.5, 14, 3], "texture": "#0"},
+				"down": {"uv": [13.5, 3, 14, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_13",
+			"from": [11, 0.1, 3],
+			"to": [11.5, 0.4, 3.5],
+			"faces": {
+				"north": {"uv": [11.5, 3, 11, 3.5], "texture": "#0"},
+				"east": {"uv": [11, 3, 11.5, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 3, 11.5, 3.5], "texture": "#0"},
+				"west": {"uv": [11, 3, 11.5, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 3, 11.5, 3.5], "texture": "#0"},
+				"down": {"uv": [11, 3.5, 11.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_14",
+			"from": [11.5, 0.1, 3],
+			"to": [12, 0.4, 3.5],
+			"faces": {
+				"north": {"uv": [12, 3, 11.5, 3.5], "texture": "#0"},
+				"east": {"uv": [11.5, 3, 12, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 3, 12, 3.5], "texture": "#0"},
+				"west": {"uv": [11.5, 3, 12, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 3, 12, 3.5], "texture": "#0"},
+				"down": {"uv": [11.5, 3.5, 12, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_15",
+			"from": [12, 0.1, 3],
+			"to": [12.5, 0.4, 3.5],
+			"faces": {
+				"north": {"uv": [12.5, 3, 12, 3.5], "texture": "#0"},
+				"east": {"uv": [12, 3, 12.5, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 3, 12.5, 3.5], "texture": "#0"},
+				"west": {"uv": [12, 3, 12.5, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 3, 12.5, 3.5], "texture": "#0"},
+				"down": {"uv": [12, 3.5, 12.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_16",
+			"from": [12.5, 0.1, 3],
+			"to": [13, 0.4, 3.5],
+			"faces": {
+				"north": {"uv": [13, 3, 12.5, 3.5], "texture": "#0"},
+				"east": {"uv": [12.5, 3, 13, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 3, 13, 3.5], "texture": "#0"},
+				"west": {"uv": [12.5, 3, 13, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.5, 3, 13, 3.5], "texture": "#0"},
+				"down": {"uv": [12.5, 3.5, 13, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_17",
+			"from": [13, 0.1, 3],
+			"to": [13.5, 0.4, 3.5],
+			"faces": {
+				"north": {"uv": [13.5, 3, 13, 3.5], "texture": "#0"},
+				"east": {"uv": [13, 3, 13.5, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13, 3, 13.5, 3.5], "texture": "#0"},
+				"west": {"uv": [13, 3, 13.5, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [13, 3, 13.5, 3.5], "texture": "#0"},
+				"down": {"uv": [13, 3.5, 13.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_18",
+			"from": [10.5, 0.1, 3.5],
+			"to": [11, 0.4, 4],
+			"faces": {
+				"north": {"uv": [11, 3.5, 10.5, 4], "texture": "#0"},
+				"east": {"uv": [10.5, 3.5, 11, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 3.5, 11, 4], "texture": "#0"},
+				"west": {"uv": [10.5, 3.5, 11, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 3.5, 11, 4], "texture": "#0"},
+				"down": {"uv": [10.5, 4, 11, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_19",
+			"from": [11, 0.1, 3.5],
+			"to": [11.5, 0.4, 4],
+			"faces": {
+				"north": {"uv": [11.5, 3.5, 11, 4], "texture": "#0"},
+				"east": {"uv": [11, 3.5, 11.5, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 3.5, 11.5, 4], "texture": "#0"},
+				"west": {"uv": [11, 3.5, 11.5, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 3.5, 11.5, 4], "texture": "#0"},
+				"down": {"uv": [11, 4, 11.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_20",
+			"from": [11.5, 0.1, 3.5],
+			"to": [12, 0.4, 4],
+			"faces": {
+				"north": {"uv": [12, 3.5, 11.5, 4], "texture": "#0"},
+				"east": {"uv": [11.5, 3.5, 12, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 3.5, 12, 4], "texture": "#0"},
+				"west": {"uv": [11.5, 3.5, 12, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 3.5, 12, 4], "texture": "#0"},
+				"down": {"uv": [11.5, 4, 12, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_21",
+			"from": [12, 0.1, 3.5],
+			"to": [12.5, 0.4, 4],
+			"faces": {
+				"north": {"uv": [12.5, 3.5, 12, 4], "texture": "#0"},
+				"east": {"uv": [12, 3.5, 12.5, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 3.5, 12.5, 4], "texture": "#0"},
+				"west": {"uv": [12, 3.5, 12.5, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 3.5, 12.5, 4], "texture": "#0"},
+				"down": {"uv": [12, 4, 12.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_22",
+			"from": [12.5, 0.1, 3.5],
+			"to": [13, 0.4, 4],
+			"faces": {
+				"north": {"uv": [13, 3.5, 12.5, 4], "texture": "#0"},
+				"east": {"uv": [12.5, 3.5, 13, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 3.5, 13, 4], "texture": "#0"},
+				"west": {"uv": [12.5, 3.5, 13, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.5, 3.5, 13, 4], "texture": "#0"},
+				"down": {"uv": [12.5, 4, 13, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_23",
+			"from": [9.5, 0.1, 4],
+			"to": [10, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [10, 4, 9.5, 4.5], "texture": "#0"},
+				"east": {"uv": [9.5, 4, 10, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 4, 10, 4.5], "texture": "#0"},
+				"west": {"uv": [9.5, 4, 10, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 4, 10, 4.5], "texture": "#0"},
+				"down": {"uv": [9.5, 4.5, 10, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_24",
+			"from": [10, 0.1, 4],
+			"to": [10.5, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [10.5, 4, 10, 4.5], "texture": "#0"},
+				"east": {"uv": [10, 4, 10.5, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 4, 10.5, 4.5], "texture": "#0"},
+				"west": {"uv": [10, 4, 10.5, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 4, 10.5, 4.5], "texture": "#0"},
+				"down": {"uv": [10, 4.5, 10.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_25",
+			"from": [10.5, 0.1, 4],
+			"to": [11, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [11, 4, 10.5, 4.5], "texture": "#0"},
+				"east": {"uv": [10.5, 4, 11, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 4, 11, 4.5], "texture": "#0"},
+				"west": {"uv": [10.5, 4, 11, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 4, 11, 4.5], "texture": "#0"},
+				"down": {"uv": [10.5, 4.5, 11, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_26",
+			"from": [11, 0.1, 4],
+			"to": [11.5, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [11.5, 4, 11, 4.5], "texture": "#0"},
+				"east": {"uv": [11, 4, 11.5, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 4, 11.5, 4.5], "texture": "#0"},
+				"west": {"uv": [11, 4, 11.5, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 4, 11.5, 4.5], "texture": "#0"},
+				"down": {"uv": [11, 4.5, 11.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_27",
+			"from": [11.5, 0.1, 4],
+			"to": [12, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [12, 4, 11.5, 4.5], "texture": "#0"},
+				"east": {"uv": [11.5, 4, 12, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 4, 12, 4.5], "texture": "#0"},
+				"west": {"uv": [11.5, 4, 12, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 4, 12, 4.5], "texture": "#0"},
+				"down": {"uv": [11.5, 4.5, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_28",
+			"from": [12, 0.1, 4],
+			"to": [12.5, 0.4, 4.5],
+			"faces": {
+				"north": {"uv": [12.5, 4, 12, 4.5], "texture": "#0"},
+				"east": {"uv": [12, 4, 12.5, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 4, 12.5, 4.5], "texture": "#0"},
+				"west": {"uv": [12, 4, 12.5, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 4, 12.5, 4.5], "texture": "#0"},
+				"down": {"uv": [12, 4.5, 12.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_29",
+			"from": [8.5, 0.1, 4.5],
+			"to": [9, 0.4, 5],
+			"faces": {
+				"north": {"uv": [9, 4.5, 8.5, 5], "texture": "#0"},
+				"east": {"uv": [8.5, 4.5, 9, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 4.5, 9, 5], "texture": "#0"},
+				"west": {"uv": [8.5, 4.5, 9, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 4.5, 9, 5], "texture": "#0"},
+				"down": {"uv": [8.5, 5, 9, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_30",
+			"from": [9, 0.1, 4.5],
+			"to": [9.5, 0.4, 5],
+			"faces": {
+				"north": {"uv": [9.5, 4.5, 9, 5], "texture": "#0"},
+				"east": {"uv": [9, 4.5, 9.5, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 4.5, 9.5, 5], "texture": "#0"},
+				"west": {"uv": [9, 4.5, 9.5, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 4.5, 9.5, 5], "texture": "#0"},
+				"down": {"uv": [9, 5, 9.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_31",
+			"from": [9.5, 0.1, 4.5],
+			"to": [10, 0.4, 5],
+			"faces": {
+				"north": {"uv": [10, 4.5, 9.5, 5], "texture": "#0"},
+				"east": {"uv": [9.5, 4.5, 10, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 4.5, 10, 5], "texture": "#0"},
+				"west": {"uv": [9.5, 4.5, 10, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 4.5, 10, 5], "texture": "#0"},
+				"down": {"uv": [9.5, 5, 10, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_32",
+			"from": [10, 0.1, 4.5],
+			"to": [10.5, 0.4, 5],
+			"faces": {
+				"north": {"uv": [10.5, 4.5, 10, 5], "texture": "#0"},
+				"east": {"uv": [10, 4.5, 10.5, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 4.5, 10.5, 5], "texture": "#0"},
+				"west": {"uv": [10, 4.5, 10.5, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 4.5, 10.5, 5], "texture": "#0"},
+				"down": {"uv": [10, 5, 10.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_33",
+			"from": [10.5, 0.1, 4.5],
+			"to": [11, 0.4, 5],
+			"faces": {
+				"north": {"uv": [11, 4.5, 10.5, 5], "texture": "#0"},
+				"east": {"uv": [10.5, 4.5, 11, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 4.5, 11, 5], "texture": "#0"},
+				"west": {"uv": [10.5, 4.5, 11, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 4.5, 11, 5], "texture": "#0"},
+				"down": {"uv": [10.5, 5, 11, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_34",
+			"from": [11, 0.1, 4.5],
+			"to": [11.5, 0.4, 5],
+			"faces": {
+				"north": {"uv": [11.5, 4.5, 11, 5], "texture": "#0"},
+				"east": {"uv": [11, 4.5, 11.5, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 4.5, 11.5, 5], "texture": "#0"},
+				"west": {"uv": [11, 4.5, 11.5, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 4.5, 11.5, 5], "texture": "#0"},
+				"down": {"uv": [11, 5, 11.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_35",
+			"from": [11.5, 0.1, 4.5],
+			"to": [12, 0.4, 5],
+			"faces": {
+				"north": {"uv": [12, 4.5, 11.5, 5], "texture": "#0"},
+				"east": {"uv": [11.5, 4.5, 12, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 4.5, 12, 5], "texture": "#0"},
+				"west": {"uv": [11.5, 4.5, 12, 5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 4.5, 12, 5], "texture": "#0"},
+				"down": {"uv": [11.5, 5, 12, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_36",
+			"from": [8, 0.1, 5],
+			"to": [8.5, 0.4, 5.5],
+			"faces": {
+				"north": {"uv": [8.5, 5, 8, 5.5], "texture": "#0"},
+				"east": {"uv": [8, 5, 8.5, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 5, 8.5, 5.5], "texture": "#0"},
+				"west": {"uv": [8, 5, 8.5, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 5, 8.5, 5.5], "texture": "#0"},
+				"down": {"uv": [8, 5.5, 8.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_37",
+			"from": [8.5, 0.1, 5],
+			"to": [9, 0.4, 5.5],
+			"faces": {
+				"north": {"uv": [9, 5, 8.5, 5.5], "texture": "#0"},
+				"east": {"uv": [8.5, 5, 9, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 5, 9, 5.5], "texture": "#0"},
+				"west": {"uv": [8.5, 5, 9, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 5, 9, 5.5], "texture": "#0"},
+				"down": {"uv": [8.5, 5.5, 9, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_38",
+			"from": [9, 0.1, 5],
+			"to": [9.5, 0.4, 5.5],
+			"faces": {
+				"north": {"uv": [9.5, 5, 9, 5.5], "texture": "#0"},
+				"east": {"uv": [9, 5, 9.5, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 5, 9.5, 5.5], "texture": "#0"},
+				"west": {"uv": [9, 5, 9.5, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 5, 9.5, 5.5], "texture": "#0"},
+				"down": {"uv": [9, 5.5, 9.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_39",
+			"from": [9.5, 0.1, 5],
+			"to": [10, 0.4, 5.5],
+			"faces": {
+				"north": {"uv": [10, 5, 9.5, 5.5], "texture": "#0"},
+				"east": {"uv": [9.5, 5, 10, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 5, 10, 5.5], "texture": "#0"},
+				"west": {"uv": [9.5, 5, 10, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 5, 10, 5.5], "texture": "#0"},
+				"down": {"uv": [9.5, 5.5, 10, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_40",
+			"from": [10, -0.1, 5],
+			"to": [10.5, 0.6, 5.5],
+			"faces": {
+				"north": {"uv": [10.5, 5, 10, 5.5], "texture": "#0"},
+				"east": {"uv": [10, 5, 10.5, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 5, 10.5, 5.5], "texture": "#0"},
+				"west": {"uv": [10, 5, 10.5, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 5, 10.5, 5.5], "texture": "#0"},
+				"down": {"uv": [10, 5.5, 10.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_41",
+			"from": [10.5, -0.1, 5],
+			"to": [11, 0.6, 5.5],
+			"faces": {
+				"north": {"uv": [11, 5, 10.5, 5.5], "texture": "#0"},
+				"east": {"uv": [10.5, 5, 11, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 5, 11, 5.5], "texture": "#0"},
+				"west": {"uv": [10.5, 5, 11, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 5, 11, 5.5], "texture": "#0"},
+				"down": {"uv": [10.5, 5.5, 11, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_42",
+			"from": [11, 0.1, 5],
+			"to": [11.5, 0.4, 5.5],
+			"faces": {
+				"north": {"uv": [11.5, 5, 11, 5.5], "texture": "#0"},
+				"east": {"uv": [11, 5, 11.5, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 5, 11.5, 5.5], "texture": "#0"},
+				"west": {"uv": [11, 5, 11.5, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 5, 11.5, 5.5], "texture": "#0"},
+				"down": {"uv": [11, 5.5, 11.5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_43",
+			"from": [7.5, 0.1, 5.5],
+			"to": [8, 0.4, 6],
+			"faces": {
+				"north": {"uv": [8, 5.5, 7.5, 6], "texture": "#0"},
+				"east": {"uv": [7.5, 5.5, 8, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.5, 5.5, 8, 6], "texture": "#0"},
+				"west": {"uv": [7.5, 5.5, 8, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.5, 5.5, 8, 6], "texture": "#0"},
+				"down": {"uv": [7.5, 6, 8, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_44",
+			"from": [8, 0.1, 5.5],
+			"to": [8.5, 0.4, 6],
+			"faces": {
+				"north": {"uv": [8.5, 5.5, 8, 6], "texture": "#0"},
+				"east": {"uv": [8, 5.5, 8.5, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 5.5, 8.5, 6], "texture": "#0"},
+				"west": {"uv": [8, 5.5, 8.5, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 5.5, 8.5, 6], "texture": "#0"},
+				"down": {"uv": [8, 6, 8.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_45",
+			"from": [8.5, 0.1, 5.5],
+			"to": [9, 0.4, 6],
+			"faces": {
+				"north": {"uv": [9, 5.5, 8.5, 6], "texture": "#0"},
+				"east": {"uv": [8.5, 5.5, 9, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 5.5, 9, 6], "texture": "#0"},
+				"west": {"uv": [8.5, 5.5, 9, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 5.5, 9, 6], "texture": "#0"},
+				"down": {"uv": [8.5, 6, 9, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_46",
+			"from": [9.5, 0, 5.5],
+			"to": [10, 0.5, 6],
+			"faces": {
+				"north": {"uv": [10, 5.5, 9.5, 6], "texture": "#0"},
+				"east": {"uv": [9.5, 5.5, 10, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 5.5, 10, 6], "texture": "#0"},
+				"west": {"uv": [9.5, 5.5, 10, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 5.5, 10, 6], "texture": "#0"},
+				"down": {"uv": [9.5, 6, 10, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_47",
+			"from": [10, 0, 5.5],
+			"to": [10.5, 0.5, 6],
+			"faces": {
+				"north": {"uv": [10.5, 5.5, 10, 6], "texture": "#0"},
+				"east": {"uv": [10, 5.5, 10.5, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 5.5, 10.5, 6], "texture": "#0"},
+				"west": {"uv": [10, 5.5, 10.5, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 5.5, 10.5, 6], "texture": "#0"},
+				"down": {"uv": [10, 6, 10.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_48",
+			"from": [10.5, -0.1, 5.5],
+			"to": [11, 0.6, 6],
+			"faces": {
+				"north": {"uv": [11, 5.5, 10.5, 6], "texture": "#0"},
+				"east": {"uv": [10.5, 5.5, 11, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 5.5, 11, 6], "texture": "#0"},
+				"west": {"uv": [10.5, 5.5, 11, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 5.5, 11, 6], "texture": "#0"},
+				"down": {"uv": [10.5, 6, 11, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_49",
+			"from": [9, 0, 6],
+			"to": [9.5, 0.5, 6.5],
+			"faces": {
+				"north": {"uv": [9.5, 6, 9, 6.5], "texture": "#0"},
+				"east": {"uv": [9, 6, 9.5, 6.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 6, 9.5, 6.5], "texture": "#0"},
+				"west": {"uv": [9, 6, 9.5, 6.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 6, 9.5, 6.5], "texture": "#0"},
+				"down": {"uv": [9, 6.5, 9.5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_50",
+			"from": [9.5, 0, 6],
+			"to": [10, 0.5, 6.5],
+			"faces": {
+				"north": {"uv": [10, 6, 9.5, 6.5], "texture": "#0"},
+				"east": {"uv": [9.5, 6, 10, 6.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 6, 10, 6.5], "texture": "#0"},
+				"west": {"uv": [9.5, 6, 10, 6.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 6, 10, 6.5], "texture": "#0"},
+				"down": {"uv": [9.5, 6.5, 10, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_51",
+			"from": [10, 0, 6],
+			"to": [10.5, 0.5, 6.5],
+			"faces": {
+				"north": {"uv": [10.5, 6, 10, 6.5], "texture": "#0"},
+				"east": {"uv": [10, 6, 10.5, 6.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 6, 10.5, 6.5], "texture": "#0"},
+				"west": {"uv": [10, 6, 10.5, 6.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 6, 10.5, 6.5], "texture": "#0"},
+				"down": {"uv": [10, 6.5, 10.5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_52",
+			"from": [8.5, 0, 6.5],
+			"to": [9, 0.5, 7],
+			"faces": {
+				"north": {"uv": [9, 6.5, 8.5, 7], "texture": "#0"},
+				"east": {"uv": [8.5, 6.5, 9, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 6.5, 9, 7], "texture": "#0"},
+				"west": {"uv": [8.5, 6.5, 9, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 6.5, 9, 7], "texture": "#0"},
+				"down": {"uv": [8.5, 7, 9, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_53",
+			"from": [9, 0, 6.5],
+			"to": [9.5, 0.5, 7],
+			"faces": {
+				"north": {"uv": [9.5, 6.5, 9, 7], "texture": "#0"},
+				"east": {"uv": [9, 6.5, 9.5, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 6.5, 9.5, 7], "texture": "#0"},
+				"west": {"uv": [9, 6.5, 9.5, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 6.5, 9.5, 7], "texture": "#0"},
+				"down": {"uv": [9, 7, 9.5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_54",
+			"from": [9.5, 0, 6.5],
+			"to": [10, 0.5, 7],
+			"faces": {
+				"north": {"uv": [10, 6.5, 9.5, 7], "texture": "#0"},
+				"east": {"uv": [9.5, 6.5, 10, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 6.5, 10, 7], "texture": "#0"},
+				"west": {"uv": [9.5, 6.5, 10, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 6.5, 10, 7], "texture": "#0"},
+				"down": {"uv": [9.5, 7, 10, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_55",
+			"from": [8, 0, 7],
+			"to": [8.5, 0.5, 7.5],
+			"faces": {
+				"north": {"uv": [8.5, 7, 8, 7.5], "texture": "#0"},
+				"east": {"uv": [8, 7, 8.5, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 7, 8.5, 7.5], "texture": "#0"},
+				"west": {"uv": [8, 7, 8.5, 7.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 7, 8.5, 7.5], "texture": "#0"},
+				"down": {"uv": [8, 7.5, 8.5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_56",
+			"from": [8.5, 0, 7],
+			"to": [9, 0.5, 7.5],
+			"faces": {
+				"north": {"uv": [9, 7, 8.5, 7.5], "texture": "#0"},
+				"east": {"uv": [8.5, 7, 9, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 7, 9, 7.5], "texture": "#0"},
+				"west": {"uv": [8.5, 7, 9, 7.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 7, 9, 7.5], "texture": "#0"},
+				"down": {"uv": [8.5, 7.5, 9, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_57",
+			"from": [9, 0, 7],
+			"to": [9.5, 0.5, 7.5],
+			"faces": {
+				"north": {"uv": [9.5, 7, 9, 7.5], "texture": "#0"},
+				"east": {"uv": [9, 7, 9.5, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 7, 9.5, 7.5], "texture": "#0"},
+				"west": {"uv": [9, 7, 9.5, 7.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 7, 9.5, 7.5], "texture": "#0"},
+				"down": {"uv": [9, 7.5, 9.5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_58",
+			"from": [7.5, 0, 7.5],
+			"to": [8, 0.5, 8],
+			"faces": {
+				"north": {"uv": [8, 7.5, 7.5, 8], "texture": "#0"},
+				"east": {"uv": [7.5, 7.5, 8, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.5, 7.5, 8, 8], "texture": "#0"},
+				"west": {"uv": [7.5, 7.5, 8, 8], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.5, 7.5, 8, 8], "texture": "#0"},
+				"down": {"uv": [7.5, 8, 8, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_59",
+			"from": [8, 0, 7.5],
+			"to": [8.5, 0.5, 8],
+			"faces": {
+				"north": {"uv": [8.5, 7.5, 8, 8], "texture": "#0"},
+				"east": {"uv": [8, 7.5, 8.5, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 7.5, 8.5, 8], "texture": "#0"},
+				"west": {"uv": [8, 7.5, 8.5, 8], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 7.5, 8.5, 8], "texture": "#0"},
+				"down": {"uv": [8, 8, 8.5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_60",
+			"from": [8.5, 0, 7.5],
+			"to": [9, 0.5, 8],
+			"faces": {
+				"north": {"uv": [9, 7.5, 8.5, 8], "texture": "#0"},
+				"east": {"uv": [8.5, 7.5, 9, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 7.5, 9, 8], "texture": "#0"},
+				"west": {"uv": [8.5, 7.5, 9, 8], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 7.5, 9, 8], "texture": "#0"},
+				"down": {"uv": [8.5, 8, 9, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_61",
+			"from": [7, 0, 8],
+			"to": [7.5, 0.5, 8.5],
+			"faces": {
+				"north": {"uv": [7.5, 8, 7, 8.5], "texture": "#0"},
+				"east": {"uv": [7, 8, 7.5, 8.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 8, 7.5, 8.5], "texture": "#0"},
+				"west": {"uv": [7, 8, 7.5, 8.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 8, 7.5, 8.5], "texture": "#0"},
+				"down": {"uv": [7, 8.5, 7.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_62",
+			"from": [7.5, 0, 8],
+			"to": [8, 0.5, 8.5],
+			"faces": {
+				"north": {"uv": [8, 8, 7.5, 8.5], "texture": "#0"},
+				"east": {"uv": [7.5, 8, 8, 8.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.5, 8, 8, 8.5], "texture": "#0"},
+				"west": {"uv": [7.5, 8, 8, 8.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.5, 8, 8, 8.5], "texture": "#0"},
+				"down": {"uv": [7.5, 8.5, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_63",
+			"from": [8, 0, 8],
+			"to": [8.5, 0.5, 8.5],
+			"faces": {
+				"north": {"uv": [8.5, 8, 8, 8.5], "texture": "#0"},
+				"east": {"uv": [8, 8, 8.5, 8.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 8, 8.5, 8.5], "texture": "#0"},
+				"west": {"uv": [8, 8, 8.5, 8.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 8, 8.5, 8.5], "texture": "#0"},
+				"down": {"uv": [8, 8.5, 8.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_64",
+			"from": [6.5, 0, 8.5],
+			"to": [7, 0.5, 9],
+			"faces": {
+				"north": {"uv": [7, 8.5, 6.5, 9], "texture": "#0"},
+				"east": {"uv": [6.5, 8.5, 7, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 8.5, 7, 9], "texture": "#0"},
+				"west": {"uv": [6.5, 8.5, 7, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 8.5, 7, 9], "texture": "#0"},
+				"down": {"uv": [6.5, 9, 7, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_65",
+			"from": [7, 0, 8.5],
+			"to": [7.5, 0.5, 9],
+			"faces": {
+				"north": {"uv": [7.5, 8.5, 7, 9], "texture": "#0"},
+				"east": {"uv": [7, 8.5, 7.5, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 8.5, 7.5, 9], "texture": "#0"},
+				"west": {"uv": [7, 8.5, 7.5, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 8.5, 7.5, 9], "texture": "#0"},
+				"down": {"uv": [7, 9, 7.5, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_66",
+			"from": [7.5, 0, 8.5],
+			"to": [8, 0.5, 9],
+			"faces": {
+				"north": {"uv": [8, 8.5, 7.5, 9], "texture": "#0"},
+				"east": {"uv": [7.5, 8.5, 8, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"west": {"uv": [7.5, 8.5, 8, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"down": {"uv": [7.5, 9, 8, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_67",
+			"from": [6.5, 0, 9],
+			"to": [7, 0.5, 9.5],
+			"faces": {
+				"north": {"uv": [7, 9, 6.5, 9.5], "texture": "#0"},
+				"east": {"uv": [6.5, 9, 7, 9.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 9, 7, 9.5], "texture": "#0"},
+				"west": {"uv": [6.5, 9, 7, 9.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 9, 7, 9.5], "texture": "#0"},
+				"down": {"uv": [6.5, 9.5, 7, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_68",
+			"from": [7, 0, 9],
+			"to": [7.5, 0.5, 9.5],
+			"faces": {
+				"north": {"uv": [7.5, 9, 7, 9.5], "texture": "#0"},
+				"east": {"uv": [7, 9, 7.5, 9.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 9, 7.5, 9.5], "texture": "#0"},
+				"west": {"uv": [7, 9, 7.5, 9.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 9, 7.5, 9.5], "texture": "#0"},
+				"down": {"uv": [7, 9.5, 7.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_69",
+			"from": [6, 0, 9.5],
+			"to": [6.5, 0.5, 10],
+			"faces": {
+				"north": {"uv": [6.5, 9.5, 6, 10], "texture": "#0"},
+				"east": {"uv": [6, 9.5, 6.5, 10], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 9.5, 6.5, 10], "texture": "#0"},
+				"west": {"uv": [6, 9.5, 6.5, 10], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 9.5, 6.5, 10], "texture": "#0"},
+				"down": {"uv": [6, 10, 6.5, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_70",
+			"from": [6.5, 0, 9.5],
+			"to": [7, 0.5, 10],
+			"faces": {
+				"north": {"uv": [7, 9.5, 6.5, 10], "texture": "#0"},
+				"east": {"uv": [6.5, 9.5, 7, 10], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 9.5, 7, 10], "texture": "#0"},
+				"west": {"uv": [6.5, 9.5, 7, 10], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 9.5, 7, 10], "texture": "#0"},
+				"down": {"uv": [6.5, 10, 7, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_71",
+			"from": [5.5, 0, 10],
+			"to": [6, 0.5, 10.5],
+			"faces": {
+				"north": {"uv": [6, 10, 5.5, 10.5], "texture": "#0"},
+				"east": {"uv": [5.5, 10, 6, 10.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 10, 6, 10.5], "texture": "#0"},
+				"west": {"uv": [5.5, 10, 6, 10.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 10, 6, 10.5], "texture": "#0"},
+				"down": {"uv": [5.5, 10.5, 6, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_72",
+			"from": [6, 0, 10],
+			"to": [6.5, 0.5, 10.5],
+			"faces": {
+				"north": {"uv": [6.5, 10, 6, 10.5], "texture": "#0"},
+				"east": {"uv": [6, 10, 6.5, 10.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 10, 6.5, 10.5], "texture": "#0"},
+				"west": {"uv": [6, 10, 6.5, 10.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 10, 6.5, 10.5], "texture": "#0"},
+				"down": {"uv": [6, 10.5, 6.5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_73",
+			"from": [5, 0, 10.5],
+			"to": [5.5, 0.5, 11],
+			"faces": {
+				"north": {"uv": [5.5, 10.5, 5, 11], "texture": "#0"},
+				"east": {"uv": [5, 10.5, 5.5, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 10.5, 5.5, 11], "texture": "#0"},
+				"west": {"uv": [5, 10.5, 5.5, 11], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 10.5, 5.5, 11], "texture": "#0"},
+				"down": {"uv": [5, 11, 5.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_74",
+			"from": [5.5, 0, 10.5],
+			"to": [6, 0.5, 11],
+			"faces": {
+				"north": {"uv": [6, 10.5, 5.5, 11], "texture": "#0"},
+				"east": {"uv": [5.5, 10.5, 6, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 10.5, 6, 11], "texture": "#0"},
+				"west": {"uv": [5.5, 10.5, 6, 11], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 10.5, 6, 11], "texture": "#0"},
+				"down": {"uv": [5.5, 11, 6, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_75",
+			"from": [4, 0, 11],
+			"to": [4.5, 0.5, 11.5],
+			"faces": {
+				"north": {"uv": [4.5, 11, 4, 11.5], "texture": "#0"},
+				"east": {"uv": [4, 11, 4.5, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 11, 4.5, 11.5], "texture": "#0"},
+				"west": {"uv": [4, 11, 4.5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 11, 4.5, 11.5], "texture": "#0"},
+				"down": {"uv": [4, 11.5, 4.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_76",
+			"from": [4.5, 0, 11],
+			"to": [5, 0.5, 11.5],
+			"faces": {
+				"north": {"uv": [5, 11, 4.5, 11.5], "texture": "#0"},
+				"east": {"uv": [4.5, 11, 5, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.5, 11, 5, 11.5], "texture": "#0"},
+				"west": {"uv": [4.5, 11, 5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4.5, 11, 5, 11.5], "texture": "#0"},
+				"down": {"uv": [4.5, 11.5, 5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_77",
+			"from": [5, 0, 11],
+			"to": [5.5, 0.5, 11.5],
+			"faces": {
+				"north": {"uv": [5.5, 11, 5, 11.5], "texture": "#0"},
+				"east": {"uv": [5, 11, 5.5, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 11, 5.5, 11.5], "texture": "#0"},
+				"west": {"uv": [5, 11, 5.5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 11, 5.5, 11.5], "texture": "#0"},
+				"down": {"uv": [5, 11.5, 5.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_78",
+			"from": [3.5, 0, 11.5],
+			"to": [4, 0.5, 12],
+			"faces": {
+				"north": {"uv": [4, 11.5, 3.5, 12], "texture": "#0"},
+				"east": {"uv": [3.5, 11.5, 4, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 11.5, 4, 12], "texture": "#0"},
+				"west": {"uv": [3.5, 11.5, 4, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 11.5, 4, 12], "texture": "#0"},
+				"down": {"uv": [3.5, 12, 4, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_79",
+			"from": [4, 0, 11.5],
+			"to": [4.5, 0.5, 12],
+			"faces": {
+				"north": {"uv": [4.5, 11.5, 4, 12], "texture": "#0"},
+				"east": {"uv": [4, 11.5, 4.5, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 11.5, 4.5, 12], "texture": "#0"},
+				"west": {"uv": [4, 11.5, 4.5, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 11.5, 4.5, 12], "texture": "#0"},
+				"down": {"uv": [4, 12, 4.5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_80",
+			"from": [4.5, 0, 11.5],
+			"to": [5, 0.5, 12],
+			"faces": {
+				"north": {"uv": [5, 11.5, 4.5, 12], "texture": "#0"},
+				"east": {"uv": [4.5, 11.5, 5, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.5, 11.5, 5, 12], "texture": "#0"},
+				"west": {"uv": [4.5, 11.5, 5, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4.5, 11.5, 5, 12], "texture": "#0"},
+				"down": {"uv": [4.5, 12, 5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_81",
+			"from": [3, 0, 12],
+			"to": [3.5, 0.5, 12.5],
+			"faces": {
+				"north": {"uv": [3.5, 12, 3, 12.5], "texture": "#0"},
+				"east": {"uv": [3, 12, 3.5, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 12, 3.5, 12.5], "texture": "#0"},
+				"west": {"uv": [3, 12, 3.5, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 12, 3.5, 12.5], "texture": "#0"},
+				"down": {"uv": [3, 12.5, 3.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_82",
+			"from": [3.5, 0, 12],
+			"to": [4, 0.5, 12.5],
+			"faces": {
+				"north": {"uv": [4, 12, 3.5, 12.5], "texture": "#0"},
+				"east": {"uv": [3.5, 12, 4, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 12, 4, 12.5], "texture": "#0"},
+				"west": {"uv": [3.5, 12, 4, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 12, 4, 12.5], "texture": "#0"},
+				"down": {"uv": [3.5, 12.5, 4, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_83",
+			"from": [4, 0, 12],
+			"to": [4.5, 0.5, 12.5],
+			"faces": {
+				"north": {"uv": [4.5, 12, 4, 12.5], "texture": "#0"},
+				"east": {"uv": [4, 12, 4.5, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 12, 4.5, 12.5], "texture": "#0"},
+				"west": {"uv": [4, 12, 4.5, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 12, 4.5, 12.5], "texture": "#0"},
+				"down": {"uv": [4, 12.5, 4.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_84",
+			"from": [2.5, -0.1, 12.5],
+			"to": [3, 0.6, 13],
+			"faces": {
+				"north": {"uv": [3, 12.5, 2.5, 13], "texture": "#0"},
+				"east": {"uv": [2.5, 12.5, 3, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.5, 12.5, 3, 13], "texture": "#0"},
+				"west": {"uv": [2.5, 12.5, 3, 13], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 12.5, 3, 13], "texture": "#0"},
+				"down": {"uv": [2.5, 13, 3, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_85",
+			"from": [3, 0, 12.5],
+			"to": [3.5, 0.5, 13],
+			"faces": {
+				"north": {"uv": [3.5, 12.5, 3, 13], "texture": "#0"},
+				"east": {"uv": [3, 12.5, 3.5, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 12.5, 3.5, 13], "texture": "#0"},
+				"west": {"uv": [3, 12.5, 3.5, 13], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 12.5, 3.5, 13], "texture": "#0"},
+				"down": {"uv": [3, 13, 3.5, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_86",
+			"from": [3.5, 0, 12.5],
+			"to": [4, 0.5, 13],
+			"faces": {
+				"north": {"uv": [4, 12.5, 3.5, 13], "texture": "#0"},
+				"east": {"uv": [3.5, 12.5, 4, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 12.5, 4, 13], "texture": "#0"},
+				"west": {"uv": [3.5, 12.5, 4, 13], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 12.5, 4, 13], "texture": "#0"},
+				"down": {"uv": [3.5, 13, 4, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_87",
+			"from": [2, 0.1, 13],
+			"to": [2.5, 0.4, 13.5],
+			"faces": {
+				"north": {"uv": [2.5, 13, 2, 13.5], "texture": "#0"},
+				"east": {"uv": [2, 13, 2.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 13, 2.5, 13.5], "texture": "#0"},
+				"west": {"uv": [2, 13, 2.5, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 13, 2.5, 13.5], "texture": "#0"},
+				"down": {"uv": [2, 13.5, 2.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_88",
+			"from": [2.5, -0.1, 13],
+			"to": [3, 0.6, 13.5],
+			"faces": {
+				"north": {"uv": [3, 13, 2.5, 13.5], "texture": "#0"},
+				"east": {"uv": [2.5, 13, 3, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.5, 13, 3, 13.5], "texture": "#0"},
+				"west": {"uv": [2.5, 13, 3, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 13, 3, 13.5], "texture": "#0"},
+				"down": {"uv": [2.5, 13.5, 3, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_89",
+			"from": [3, -0.1, 13],
+			"to": [3.5, 0.6, 13.5],
+			"faces": {
+				"north": {"uv": [3.5, 13, 3, 13.5], "texture": "#0"},
+				"east": {"uv": [3, 13, 3.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 13, 3.5, 13.5], "texture": "#0"},
+				"west": {"uv": [3, 13, 3.5, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 13, 3.5, 13.5], "texture": "#0"},
+				"down": {"uv": [3, 13.5, 3.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_90",
+			"from": [1.5, 0.1, 13.5],
+			"to": [2, 0.4, 14],
+			"faces": {
+				"north": {"uv": [2, 13.5, 1.5, 14], "texture": "#0"},
+				"east": {"uv": [1.5, 13.5, 2, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1.5, 13.5, 2, 14], "texture": "#0"},
+				"west": {"uv": [1.5, 13.5, 2, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1.5, 13.5, 2, 14], "texture": "#0"},
+				"down": {"uv": [1.5, 14, 2, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_91",
+			"from": [2, 0.1, 13.5],
+			"to": [2.5, 0.4, 14],
+			"faces": {
+				"north": {"uv": [2.5, 13.5, 2, 14], "texture": "#0"},
+				"east": {"uv": [2, 13.5, 2.5, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 13.5, 2.5, 14], "texture": "#0"},
+				"west": {"uv": [2, 13.5, 2.5, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 13.5, 2.5, 14], "texture": "#0"},
+				"down": {"uv": [2, 14, 2.5, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_92",
+			"from": [2.5, 0.1, 13.5],
+			"to": [3, 0.4, 14],
+			"faces": {
+				"north": {"uv": [3, 13.5, 2.5, 14], "texture": "#0"},
+				"east": {"uv": [2.5, 13.5, 3, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.5, 13.5, 3, 14], "texture": "#0"},
+				"west": {"uv": [2.5, 13.5, 3, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 13.5, 3, 14], "texture": "#0"},
+				"down": {"uv": [2.5, 14, 3, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_93",
+			"from": [1.5, 0.1, 14],
+			"to": [2, 0.4, 14.5],
+			"faces": {
+				"north": {"uv": [2, 14, 1.5, 14.5], "texture": "#0"},
+				"east": {"uv": [1.5, 14, 2, 14.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1.5, 14, 2, 14.5], "texture": "#0"},
+				"west": {"uv": [1.5, 14, 2, 14.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1.5, 14, 2, 14.5], "texture": "#0"},
+				"down": {"uv": [1.5, 14.5, 2, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_94",
+			"from": [2, 0.1, 14],
+			"to": [2.5, 0.4, 14.5],
+			"faces": {
+				"north": {"uv": [2.5, 14, 2, 14.5], "texture": "#0"},
+				"east": {"uv": [2, 14, 2.5, 14.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 14, 2.5, 14.5], "texture": "#0"},
+				"west": {"uv": [2, 14, 2.5, 14.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 14, 2.5, 14.5], "texture": "#0"},
+				"down": {"uv": [2, 14.5, 2.5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_95",
+			"from": [1, 0.1, 14.5],
+			"to": [1.5, 0.4, 15],
+			"faces": {
+				"north": {"uv": [1.5, 14.5, 1, 15], "texture": "#0"},
+				"east": {"uv": [1, 14.5, 1.5, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 14.5, 1.5, 15], "texture": "#0"},
+				"west": {"uv": [1, 14.5, 1.5, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1, 14.5, 1.5, 15], "texture": "#0"},
+				"down": {"uv": [1, 15, 1.5, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_96",
+			"from": [1.5, 0.1, 14.5],
+			"to": [2, 0.4, 15],
+			"faces": {
+				"north": {"uv": [2, 14.5, 1.5, 15], "texture": "#0"},
+				"east": {"uv": [1.5, 14.5, 2, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1.5, 14.5, 2, 15], "texture": "#0"},
+				"west": {"uv": [1.5, 14.5, 2, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1.5, 14.5, 2, 15], "texture": "#0"},
+				"down": {"uv": [1.5, 15, 2, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_97",
+			"from": [0.5, 0.1, 15],
+			"to": [1, 0.4, 15.5],
+			"faces": {
+				"north": {"uv": [1, 15, 0.5, 15.5], "texture": "#0"},
+				"east": {"uv": [0.5, 15, 1, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0.5, 15, 1, 15.5], "texture": "#0"},
+				"west": {"uv": [0.5, 15, 1, 15.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0.5, 15, 1, 15.5], "texture": "#0"},
+				"down": {"uv": [0.5, 15.5, 1, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "deiko_keisou_98",
+			"from": [1, 0.1, 15],
+			"to": [1.5, 0.4, 15.5],
+			"faces": {
+				"north": {"uv": [1.5, 15, 1, 15.5], "texture": "#0"},
+				"east": {"uv": [1, 15, 1.5, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 15, 1.5, 15.5], "texture": "#0"},
+				"west": {"uv": [1, 15, 1.5, 15.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1, 15, 1.5, 15.5], "texture": "#0"},
+				"down": {"uv": [1, 15.5, 1.5, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [82, 0, -90],
+			"translation": [15.5, 1.25, -2],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [82, 0, 90],
+			"translation": [-15.5, 1.25, -2],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [15, -15, 90],
+			"translation": [-9.25, 6, -1.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [22, -15, -90],
+			"translation": [18, 6, 0.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [-1.75, 9, 11.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"rotation": [-90, 178, 0],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 9.5],
+			"scale": [1.3, 1.3, 1.3]
+		}
+	},
+	"groups": [
+		{
+			"name": "deiko_keisou",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98]
+		}
+	]
 }
