@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/mimicry_sword",
+		"layer0": "items/mimicry_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-39.25, -90.5, 0],
+			"translation": [0, 10, 2.25],
+			"scale": [1.5, 1.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-114.25, 0, 0],
+			"translation": [-6, -5.5, 6.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-46, -85.75, -18.5],
+			"translation": [0, 6, 3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-29.25, 101.75, 0],
+			"translation": [0, 5.25, 3.25]
+		}
+	}
+}
