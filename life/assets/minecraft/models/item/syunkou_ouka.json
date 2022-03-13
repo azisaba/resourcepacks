@@ -8,11 +8,30 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 88, 64],
-			"translation": [0, 8.5, 3]
+			"translation": [0, 8.5, 3],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [69, 0, 0],
-			"translation": [-7.5, -8, 5.25]
+			"translation": [-8, -7.25, 10.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"rotation": [-180, 0, 46],
+			"translation": [0, 9, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"rotation": [11, 90, -94],
+			"translation": [0.25, 13.25, 3.25]
+		},
+		"fixed": {
+			"rotation": [0, -90, -9],
+			"translation": [0, -3.25, -14.75],
+			"scale": [2, 2, 2]
 		}
 	}
 }
