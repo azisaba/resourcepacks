@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"1": "items/ookanehira",
+		"2": "items/ookanehira",
+		"particle": "items/ookanehira",
+		"layer0": "items/ookanehira"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, -90, -141],
+			"translation": [0, 5.5, 3],
+			"scale": [1.65, 1.65, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [99, 90, -141],
+			"translation": [0, 6, 2],
+			"scale": [1.65, 1.65, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [4, -88, 61],
+			"translation": [6, 3, -0.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [57, 95, -106],
+			"translation": [9.75, 2, -2.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 14.75, 0],
+			"scale": [1.65, 1.65, 1]
+		},
+		"gui": {
+			"translation": [-1.5, -1.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"rotation": [-180, 85, -9],
+			"translation": [0, 14, -15.5],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [94, 82, 47],
+			"translation": [-0.25, 8.75, -49.25],
+			"scale": [4, 4, 1]
+		}
+	}
+}
