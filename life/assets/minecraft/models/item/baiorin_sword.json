@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/baiorin",
+		"layer0": "items/baiorin"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 88, 64],
+			"translation": [0, 8.5, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [69, 0, 0],
+			"translation": [-6.25, 1.75, 5.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 108, -14],
+			"translation": [6.5, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [2, -71, 0],
+			"translation": [-80, -80, 80]
+		},
+		"ground": {
+			"rotation": [0, 0, 46],
+			"translation": [0, 6.75, 0]
+		},
+		"head": {
+			"rotation": [-180, 0, 45],
+			"translation": [0, -9.75, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [-39, -90, 95],
+			"translation": [0, 0.75, -22],
+			"scale": [2, 2, 2]
+		}
+	}
+}
