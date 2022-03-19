@@ -1,6 +1,19 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "items/dx0446"
-    }
+	"credit": "Made with Blockbench . Rain",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "tex"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-13.25, -90, 0],
+			"translation": [0.25, 0, -1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [111.24, -86.52, 113.33],
+			"translation": [8.75, 1.25, -7],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
 }
