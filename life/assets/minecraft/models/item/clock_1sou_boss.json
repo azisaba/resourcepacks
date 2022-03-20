@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "items/clock_1sou_boss",
-		"particle": "items/clock_1sou_boss"
+		"0": "items/Clock_1sou_Boss",
+		"particle": "items/Clock_1sou_Boss"
 	},
 	"elements": [
 		{
@@ -591,32 +591,36 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 88, 64],
-			"translation": [0, 8.5, 3]
+			"rotation": [73.32, 2.38, 2.04],
+			"translation": [1.25, 3, 4]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-145, 90, 99],
-			"translation": [0, 8.5, 1.75]
+			"rotation": [73.32, 2.38, 2.04],
+			"translation": [0, 2.5, 1.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [5, 72, -14],
+			"rotation": [1.63, 17.26, -9.7],
 			"translation": [6, 0, -4.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [2, -71, 0],
-			"translation": [-80, -80, 80]
+			"rotation": [0.67, 8, 4.96],
+			"translation": [6.5, 1, -3.25]
 		},
 		"ground": {
 			"translation": [0, 7, 0]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [-1.75, 5.25, 0],
+			"scale": [2, 2, 2]
 		},
 		"head": {
 			"translation": [4, -13, 0],
 			"scale": [4, 4, 4]
 		},
 		"fixed": {
-			"rotation": [-72, 90, 71],
-			"translation": [0, 12.25, -16.25],
-			"scale": [2, 2, 2]
+			"translation": [4.5, 17.75, -16.5],
+			"scale": [4, 4, 4]
 		}
 	},
 	"groups": [
