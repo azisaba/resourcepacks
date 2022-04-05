@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sakura",
+		"0": "block/sakura",
 		"1": "block/bell_side",
-		"particle": "sakura"
+		"particle": "block/sakura"
 	},
 	"elements": [
 		{
@@ -3823,10 +3823,16 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [-1, 7, 1.5],
 			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [50, 29, 19],
+			"translation": [-2, 4.75, 0],
+			"scale": [2.5, 2.5, 2.5]
 		},
 		"head": {
 			"scale": [4, 4, 4]

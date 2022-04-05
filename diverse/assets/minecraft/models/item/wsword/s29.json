@@ -1361,11 +1361,22 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 90, 0],
 			"translation": [0.75, 3.5, 0],
 			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -75, 0],
+			"translation": [4.75, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-34, -6, 38],
+			"translation": [1, 2.75, 0],
+			"scale": [0.8, 0.8, 0.8]
 		}
 	}
 }
