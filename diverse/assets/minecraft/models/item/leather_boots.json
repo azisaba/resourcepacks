@@ -1,0 +1,9 @@
+{   
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_boots"
+    },
+    "overrides": [
+        {"predicate":{"custom_model_data":1},"model":"item/leather_boots/1"}
+	]
+}
