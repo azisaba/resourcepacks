@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/reityou_dan-na",
+		"layer0": "items/reityou_dan-na"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 88, 64],
+			"translation": [0, -9.25, -2.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 88, 64],
+			"translation": [0.25, 6.5, 4.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 108, -14],
+			"translation": [8.75, -6, 5.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [27, -71, 0],
+			"translation": [6.5, 0.25, 0],
+			"scale": [1.45, 1.43, 1.49]
+		},
+		"ground": {
+			"rotation": [0, 0, 46],
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"head": {
+			"translation": [0, -14.75, 7.5],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [-176, -90, 95],
+			"translation": [0, 4.25, -16.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
