@@ -1,14 +1,5 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "items/dx0571"
-	},
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -180, 3],
-			"translation": [-5, 4, 0.25],
-			"scale": [1.1, 1.1, 1.1]
-		}
-	}
-}
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/dx0571"
+    }
