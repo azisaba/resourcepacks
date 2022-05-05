@@ -1,0 +1,76 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx0583"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				-93,
+				-90,
+				-49
+			],
+			"translation": [
+				2.25,
+				-1.75,
+				1.25
+			],
+			"scale": [
+				0.35,
+				0.35,
+				0.5
+			]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [
+				3,
+				90,
+				-49
+			],
+			"translation": [
+				2.25,
+				-1.75,
+				1.25
+			],
+			"scale": [
+				0.35,
+				0.35,
+				0.5
+			]
+		},
+		"firstperson_righthand": {
+			"rotation": [
+				138.5,
+				0,
+				88.25
+			],
+			"translation": [
+				-3.75,
+				6,
+				4
+			],
+			"scale": [
+				0.35,
+				0.35,
+				0.5
+			]
+		},
+		"firstperson_lefthand": {
+			"rotation": [
+				-38.5,
+				0,
+				88.25
+			],
+			"translation": [
+				-3.75,
+				6,
+				4
+			],
+			"scale": [
+				0.35,
+				0.35,
+				0.5
+			]
+		}
+	}
+}
