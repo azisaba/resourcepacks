@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/harudori",
+		"layer0": "items/harudori"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 88, 64],
+			"translation": [0, 8.5, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-145, 90, 99],
+			"translation": [0, 8.5, 1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, 72, -14],
+			"translation": [6, 0, -4.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [2, -71, 0],
+			"translation": [-80, -80, 80]
+		},
+		"ground": {
+			"translation": [0, 7, 0]
+		},
+		"head": {
+			"rotation": [-180, 0, -51],
+			"translation": [6, -5.5, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [-72, 90, 71],
+			"translation": [0, 12.25, -16.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
