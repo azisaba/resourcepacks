@@ -1,6 +1,43 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "items/dx0621"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"texture_size": [32, 32],
+  "textures": {
+		"layer0": "items/dx0621"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 16],
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [7.75, 7.5, 2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-7.75, 7.5, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 17, -1],
+			"translation": [6.5, 2.75, -2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 17, 0],
+			"translation": [-6.5, 2.75, 1.25]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [1.75, 14, 4.75]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 7.5],
+			"scale": [1, 1.0625, 1.07031]
+		}
+	}
 }
