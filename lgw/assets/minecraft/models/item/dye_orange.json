@@ -1,14 +1,36 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/generated",
+	"parent": "item/handheld",
 	"textures": {
 		"layer0": "items/dye_powder_orange"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, -90, 45],
-			"translation": [0, 1.25, 1.5],
-			"scale": [0.6, 0.6, 1]
+			"rotation": [0, -90, 20],
+			"translation": [0, 3, -0.5],
+			"scale": [0.7, 0.7, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -20],
+			"translation": [0, 3, -0.5],
+			"scale": [0.7, 0.7, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 20],
+			"translation": [1.75, 2.75, 0],
+			"scale": [0.7, 0.7, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -20],
+			"translation": [1.75, 2.75, 0],
+			"scale": [0.7, 0.7, 1]
+		},
+		"ground": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"rotation": [0, -90, 29],
+			"translation": [0, 0.75, -4.75]
 		}
 	}
 }
