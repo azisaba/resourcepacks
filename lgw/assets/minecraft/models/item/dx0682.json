@@ -6,18 +6,20 @@
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, -90, 45]
+			"rotation": [0, -90, 45],
+			"translation": [0, 1.5, -0.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 90, -45]
+			"rotation": [0, 90, -45],
+			"translation": [0, 1.5, -0.5]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -90, 40],
-			"translation": [0, 3, 0]
+			"translation": [0, 4.5, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, -40],
-			"translation": [0, 3, 0]
+			"translation": [0, 4.5, 0]
 		},
 		"ground": {
 			"translation": [0, 5, 0]
