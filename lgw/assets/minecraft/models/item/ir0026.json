@@ -1,0 +1,25 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/ir0026"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [-9.16, 8.1, 1.25],
+			"scale": [0.88, 0.88, 4]
+		},
+		"firstperson_lefthand": {
+			"translation": [-8.935, 7.855, 1.25],
+			"scale": [0.88, 0.88, 4]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		}
+	}
+}
