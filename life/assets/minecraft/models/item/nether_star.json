@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/nether_star"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/cl1_kaku"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/cl2_kaku"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/cl3_kaku"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/cl4_kaku"}
+    ]
+}
