@@ -3,8 +3,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "block/quartz_block_bottom",
-		"1": "block/block/anvil",
-		"2": "block/block/green_stained_glass",
+		"1": "block/anvil",
+		"2": "block/green_stained_glass",
 		"particle": "block/quartz_block_bottom"
 	},
 	"elements": [
@@ -167,7 +167,7 @@
 		},
 		"gui": {
 			"rotation": [17, -26, 0],
-			"translation": [-1.75, 3, 0],
+			"translation": [-1.75, 4.75, 0],
 			"scale": [1.23047, 1.26172, 1.22852]
 		},
 		"head": {
@@ -176,7 +176,7 @@
 		},
 		"fixed": {
 			"rotation": [0, -180, 0],
-			"translation": [7.5, 11.75, -1],
+			"translation": [10, 13.5, -1],
 			"scale": [4, 4, 4]
 		}
 	},
