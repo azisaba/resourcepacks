@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/revolver_seiryu_reload"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [12, -90, 55],
+			"translation": [0, 1, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [12, 90, -55],
+			"translation": [0, 1, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-73, -58, -13],
+			"translation": [-1.12, 5.45, 1.13],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-73, 122, 13],
+			"translation": [-1.12, 5.45, 1.13],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0]
+		}
+	}
+}
