@@ -5,7 +5,6 @@
 		"2": "block/stripped_dark_oak_log",
 		"3": "block/concrete_powder_gray",
 		"particle": "block/bell_bottom"
-	
 	},
 	"elements": [
 		{
@@ -16,18 +15,6 @@
 				"east": {"uv": [0, 0, 16, 2], "rotation": 90, "texture": "#2"},
 				"south": {"uv": [0, 0, 16, 2], "texture": "#missing"},
 				"west": {"uv": [0, 0, 16, 2], "rotation": 270, "texture": "#2"},
-				"up": {"uv": [0, 0, 16, 2], "texture": "#2"},
-				"down": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#2"}
-			}
-		},
-		{
-			"from": [-16, -12, -3],
-			"to": [32, -7, -1],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 3], "rotation": 180, "texture": "#2"},
-				"east": {"uv": [0, 0, 5, 2], "rotation": 90, "texture": "#2"},
-				"south": {"uv": [0, 0, 16, 5], "texture": "#missing"},
-				"west": {"uv": [0, 0, 5, 2], "rotation": 270, "texture": "#2"},
 				"up": {"uv": [0, 0, 16, 2], "texture": "#2"},
 				"down": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#2"}
 			}
@@ -130,20 +117,19 @@
 			"children": [
 				0,
 				1,
-				2,
 				{
 					"name": "group",
 					"origin": [0, 0, 0],
 					"color": 0,
 					"children": [
+						2,
 						3,
 						4,
-						5,
 						{
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [6, 7, 8]
+							"children": [5, 6, 7]
 						}
 					]
 				}
