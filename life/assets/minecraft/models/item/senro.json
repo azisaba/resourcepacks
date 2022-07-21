@@ -4,7 +4,6 @@
 		"0": "block/grass_path_top",
 		"2": "block/stripped_dark_oak_log",
 		"3": "block/concrete_powder_gray",
-		"particle": "generated"
 	},
 	"elements": [
 		{
@@ -33,7 +32,7 @@
 		},
 		{
 			"from": [-16, -16, -1],
-			"to": [32, 32, 0],
+			"to": [32, 32, 2],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
 				"east": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#0"},
@@ -116,6 +115,11 @@
 			}
 		}
 	],
+	"display": {
+		"fixed": {
+			"translation": [0, 0, 7.5]
+		}
+	},
 	"groups": [
 		{
 			"name": "senro",
