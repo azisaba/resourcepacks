@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/popped_chorus_fruit"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 42}, "model": "items/stoned_rice_cooker" }
+    ]
+}
