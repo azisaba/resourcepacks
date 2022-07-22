@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cooked_beef"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 41}, "model": "items/rice_cooker" }
+    ]
+}
