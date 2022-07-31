@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/texture",
-		"2": "block/texture",
+		"1": "block/concrete_light_gray",
+		"2": "block/concrete_light_gray",
 		"3": "block/stone_andesite",
-		"4": "block/texture",
+		"4": "block/concrete_red",
 		"particle": "block/bell_bottom"
 	},
 	"elements": [
@@ -4587,11 +4587,11 @@
 			"to": [16, 0, 16],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 2], "texture": "#3"},
-				"east": {"uv": [0, 0, 16, 2], "texture": "#3"},
-				"south": {"uv": [0, 0, 16, 2], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#missing"},
 				"west": {"uv": [0, 0, 16, 2], "texture": "#3"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
 			}
 		}
 	],
@@ -4625,7 +4625,7 @@
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -17.5],
+			"translation": [0, 0, -17.25],
 			"scale": [2, 2, 2]
 		}
 	},
