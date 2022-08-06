@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/sikisai_yumi1",
+		"layer0": "items/sikisai_yumi1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-126.87, 90, 0],
+			"translation": [0, 2, 6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-126.87, -90, 0],
+			"translation": [0, 2, 6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-156.25, 65.27, 41.22],
+			"translation": [3.5, 5.75, -4.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [169.22, -73.16, -84.1],
+			"translation": [6.25, 5.75, -2.75]
+		},
+		"ground": {
+			"translation": [0, 6, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -90]
+		},
+		"head": {
+			"translation": [0, -18.25, 7],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"translation": [0, 0, -2],
+			"scale": [2, 2, 2]
+		}
+	}
+}
