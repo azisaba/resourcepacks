@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "items/dx0765",
-		"1": "items/dx0766",
+		"0": "items/dx0766",
+		"1": "items/dx0765",
 		"2": "items/dx0767",
-		"particle": "items/dx0765"
+		"particle": "items/dx0766"
 	},
 	"elements": [
 		{
@@ -22,22 +22,23 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-80.07, 5.73, 95.29],
-			"translation": [0.25, 0.5, -2.75],
+			"rotation": [89, 5.73, 95.29],
+			"translation": [0.25, 1.75, -3],
 			"scale": [1, 0.0002, 1]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0.25, 2.25, -4],
+			"rotation": [-173, 0, 0],
+			"translation": [0.25, 1.25, -3],
 			"scale": [0.0002, 1, 1]
 		},
 		"firstperson_righthand": {
-			"rotation": [-92.78, -0.07, 92.76],
-			"translation": [-0.75, 2.25, -0.5],
+			"rotation": [60.75, 0, 90],
+			"translation": [0.25, 1.5, -3],
 			"scale": [1, 0.0002, 1]
 		},
 		"firstperson_lefthand": {
-			"rotation": [-36.75, 0, 0],
-			"translation": [2.75, 0, -5.5],
+			"rotation": [-180, 0, 0],
+			"translation": [4, 0, -5.5],
 			"scale": [0.0002, 1, 1]
 		},
 		"ground": {
