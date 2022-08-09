@@ -1,0 +1,778 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/Hanabi4KIIRO",
+		"particle": "items/Hanabi4KIIRO"
+	},
+	"elements": [
+		{
+			"name": "Hanabi1MURASAKI_0",
+			"from": [1, 10, 1],
+			"to": [2, 10.5, 1.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [2, 1, 1, 1.5], "texture": "#0"},
+				"east": {"uv": [1.5, 1, 2, 1.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 1, 2, 1.5], "texture": "#0"},
+				"west": {"uv": [1, 1, 1.5, 1.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1, 1, 2, 1.5], "texture": "#0"},
+				"down": {"uv": [1, 1.5, 2, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_1",
+			"from": [11.5, 10, 1],
+			"to": [15, 10.5, 4.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [15, 1, 11.5, 1.5], "texture": "#0"},
+				"east": {"uv": [14.5, 1, 15, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 4, 15, 4.5], "texture": "#0"},
+				"west": {"uv": [11.5, 1, 12, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 1, 15, 4.5], "texture": "#0"},
+				"down": {"uv": [11.5, 4.5, 15, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_2",
+			"from": [1.5, 10, 1.5],
+			"to": [2.5, 10.5, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [2.5, 1.5, 1.5, 2], "texture": "#0"},
+				"east": {"uv": [2, 1.5, 2.5, 2], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1.5, 1.5, 2.5, 2], "texture": "#0"},
+				"west": {"uv": [1.5, 1.5, 2, 2], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1.5, 1.5, 2.5, 2], "texture": "#0"},
+				"down": {"uv": [1.5, 2, 2.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_3",
+			"from": [2, 10, 2],
+			"to": [3, 10.5, 2.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [3, 2, 2, 2.5], "texture": "#0"},
+				"east": {"uv": [2.5, 2, 3, 2.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 2, 3, 2.5], "texture": "#0"},
+				"west": {"uv": [2, 2, 2.5, 2.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 2, 3, 2.5], "texture": "#0"},
+				"down": {"uv": [2, 2.5, 3, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_4",
+			"from": [2.5, 10, 2.5],
+			"to": [4, 10.5, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [4, 2.5, 2.5, 3], "texture": "#0"},
+				"east": {"uv": [3.5, 2.5, 4, 3], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.5, 2.5, 4, 3], "texture": "#0"},
+				"west": {"uv": [2.5, 2.5, 3, 3], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 2.5, 4, 3], "texture": "#0"},
+				"down": {"uv": [2.5, 3, 4, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_5",
+			"from": [3, 10, 3],
+			"to": [4, 10.5, 3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [4, 3, 3, 3.5], "texture": "#0"},
+				"east": {"uv": [3.5, 3, 4, 3.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 3, 4, 3.5], "texture": "#0"},
+				"west": {"uv": [3, 3, 3.5, 3.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 3, 4, 3.5], "texture": "#0"},
+				"down": {"uv": [3, 3.5, 4, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_6",
+			"from": [3.5, 10, 3.5],
+			"to": [5, 10.5, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5, 3.5, 3.5, 4], "texture": "#0"},
+				"east": {"uv": [4.5, 3.5, 5, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 3.5, 5, 4], "texture": "#0"},
+				"west": {"uv": [3.5, 3.5, 4, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 3.5, 5, 4], "texture": "#0"},
+				"down": {"uv": [3.5, 4, 5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_7",
+			"from": [4.5, 10, 4],
+			"to": [5.5, 10.5, 4.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5.5, 4, 4.5, 4.5], "texture": "#0"},
+				"east": {"uv": [5, 4, 5.5, 4.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.5, 4, 5.5, 4.5], "texture": "#0"},
+				"west": {"uv": [4.5, 4, 5, 4.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4.5, 4, 5.5, 4.5], "texture": "#0"},
+				"down": {"uv": [4.5, 4.5, 5.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_8",
+			"from": [5, 10, 4.5],
+			"to": [5.5, 10.5, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5.5, 4.5, 5, 5], "texture": "#0"},
+				"east": {"uv": [5, 4.5, 5.5, 5.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 5, 5.5, 5.5], "texture": "#0"},
+				"west": {"uv": [5, 4.5, 5.5, 5.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 4.5, 5.5, 5.5], "texture": "#0"},
+				"down": {"uv": [5, 5.5, 5.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_9",
+			"from": [5.5, 10, 5],
+			"to": [6, 10.5, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6, 5, 5.5, 5.5], "texture": "#0"},
+				"east": {"uv": [5.5, 5, 6, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 5.5, 6, 6], "texture": "#0"},
+				"west": {"uv": [5.5, 5, 6, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 5, 6, 6], "texture": "#0"},
+				"down": {"uv": [5.5, 6, 6, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_10",
+			"from": [6, 10, 5.5],
+			"to": [6.5, 10.5, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6.5, 5.5, 6, 6], "texture": "#0"},
+				"east": {"uv": [6, 5.5, 6.5, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 7, 6.5, 7.5], "texture": "#0"},
+				"west": {"uv": [6, 5.5, 6.5, 7.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 5.5, 6.5, 7.5], "texture": "#0"},
+				"down": {"uv": [6, 7.5, 6.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_11",
+			"from": [6.5, 10, 6],
+			"to": [7, 10.5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7, 6, 6.5, 6.5], "texture": "#0"},
+				"east": {"uv": [6.5, 6, 7, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 7.5, 7, 8], "texture": "#0"},
+				"west": {"uv": [6.5, 6, 7, 8], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 6, 7, 8], "texture": "#0"},
+				"down": {"uv": [6.5, 8, 7, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_12",
+			"from": [7.5, 10, 6],
+			"to": [8, 10.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [8, 6, 7.5, 6.5], "texture": "#0"},
+				"east": {"uv": [7.5, 6, 8, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"west": {"uv": [7.5, 6, 8, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.5, 6, 8, 9], "texture": "#0"},
+				"down": {"uv": [7.5, 9, 8, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_13",
+			"from": [7, 10, 6.5],
+			"to": [7.5, 10.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7.5, 6.5, 7, 7], "texture": "#0"},
+				"east": {"uv": [7, 6.5, 7.5, 8.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 8, 7.5, 8.5], "texture": "#0"},
+				"west": {"uv": [7, 6.5, 7.5, 8.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 6.5, 7.5, 8.5], "texture": "#0"},
+				"down": {"uv": [7, 8.5, 7.5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_14",
+			"from": [8, 10, 6.5],
+			"to": [8.5, 10.5, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [8.5, 6.5, 8, 7], "texture": "#0"},
+				"east": {"uv": [8, 6.5, 8.5, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 6.5, 8.5, 7], "texture": "#0"},
+				"west": {"uv": [8, 6.5, 8.5, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 6.5, 8.5, 7], "texture": "#0"},
+				"down": {"uv": [8, 7, 8.5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_15",
+			"from": [8, 10, 7.5],
+			"to": [8.5, 10.5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [8.5, 7.5, 8, 8], "texture": "#0"},
+				"east": {"uv": [8, 7.5, 8.5, 10], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 9.5, 8.5, 10], "texture": "#0"},
+				"west": {"uv": [8, 7.5, 8.5, 10], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 7.5, 8.5, 10], "texture": "#0"},
+				"down": {"uv": [8, 10, 8.5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_16",
+			"from": [8.5, 10, 8],
+			"to": [9.5, 10.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [9.5, 8, 8.5, 8.5], "texture": "#0"},
+				"east": {"uv": [9, 8, 9.5, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 10.5, 9.5, 11], "texture": "#0"},
+				"west": {"uv": [8.5, 8, 9, 11], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 8, 9.5, 11], "texture": "#0"},
+				"down": {"uv": [8.5, 11, 9.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_17",
+			"from": [5.5, 10, 8.5],
+			"to": [6, 10.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6, 8.5, 5.5, 9], "texture": "#0"},
+				"east": {"uv": [5.5, 8.5, 6, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 8.5, 6, 9], "texture": "#0"},
+				"west": {"uv": [5.5, 8.5, 6, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 8.5, 6, 9], "texture": "#0"},
+				"down": {"uv": [5.5, 9, 6, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_18",
+			"from": [6.5, 10, 8.5],
+			"to": [7, 10.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7, 8.5, 6.5, 9], "texture": "#0"},
+				"east": {"uv": [6.5, 8.5, 7, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 8.5, 7, 9], "texture": "#0"},
+				"west": {"uv": [6.5, 8.5, 7, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 8.5, 7, 9], "texture": "#0"},
+				"down": {"uv": [6.5, 9, 7, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_19",
+			"from": [7, 10, 9],
+			"to": [7.5, 10.5, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7.5, 9, 7, 9.5], "texture": "#0"},
+				"east": {"uv": [7, 9, 7.5, 9.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 9, 7.5, 9.5], "texture": "#0"},
+				"west": {"uv": [7, 9, 7.5, 9.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 9, 7.5, 9.5], "texture": "#0"},
+				"down": {"uv": [7, 9.5, 7.5, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_20",
+			"from": [9.5, 10, 9],
+			"to": [10, 10.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [10, 9, 9.5, 9.5], "texture": "#0"},
+				"east": {"uv": [9.5, 9, 10, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 11, 10, 11.5], "texture": "#0"},
+				"west": {"uv": [9.5, 9, 10, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 9, 10, 11.5], "texture": "#0"},
+				"down": {"uv": [9.5, 11.5, 10, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_21",
+			"from": [6.5, 10, 10],
+			"to": [7, 10.5, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7, 10, 6.5, 10.5], "texture": "#0"},
+				"east": {"uv": [6.5, 10, 7, 10.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6.5, 10, 7, 10.5], "texture": "#0"},
+				"west": {"uv": [6.5, 10, 7, 10.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6.5, 10, 7, 10.5], "texture": "#0"},
+				"down": {"uv": [6.5, 10.5, 7, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_22",
+			"from": [10, 10, 10],
+			"to": [11, 10.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11, 10, 10, 10.5], "texture": "#0"},
+				"east": {"uv": [10.5, 10, 11, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 11, 11, 11.5], "texture": "#0"},
+				"west": {"uv": [10, 10, 10.5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 10, 11, 11.5], "texture": "#0"},
+				"down": {"uv": [10, 11.5, 11, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_23",
+			"from": [7, 10, 10.5],
+			"to": [7.5, 10.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7.5, 10.5, 7, 11], "texture": "#0"},
+				"east": {"uv": [7, 10.5, 7.5, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 11, 7.5, 11.5], "texture": "#0"},
+				"west": {"uv": [7, 10.5, 7.5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 10.5, 7.5, 11.5], "texture": "#0"},
+				"down": {"uv": [7, 11.5, 7.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_24",
+			"from": [8, 10, 10.5],
+			"to": [8.5, 10.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [8.5, 10.5, 8, 11], "texture": "#0"},
+				"east": {"uv": [8, 10.5, 8.5, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 10.5, 8.5, 11], "texture": "#0"},
+				"west": {"uv": [8, 10.5, 8.5, 11], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 10.5, 8.5, 11], "texture": "#0"},
+				"down": {"uv": [8, 11, 8.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_25",
+			"from": [5, 10, 11],
+			"to": [5.5, 10.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5.5, 11, 5, 11.5], "texture": "#0"},
+				"east": {"uv": [5, 11, 5.5, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 11.5, 5.5, 12], "texture": "#0"},
+				"west": {"uv": [5, 11, 5.5, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 11, 5.5, 12], "texture": "#0"},
+				"down": {"uv": [5, 12, 5.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_26",
+			"from": [6, 10, 11],
+			"to": [6.5, 10.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6.5, 11, 6, 11.5], "texture": "#0"},
+				"east": {"uv": [6, 11, 6.5, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 11, 6.5, 11.5], "texture": "#0"},
+				"west": {"uv": [6, 11, 6.5, 11.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 11, 6.5, 11.5], "texture": "#0"},
+				"down": {"uv": [6, 11.5, 6.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_27",
+			"from": [8.5, 10, 11],
+			"to": [9, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [9, 11, 8.5, 11.5], "texture": "#0"},
+				"east": {"uv": [8.5, 11, 9, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 13, 9, 13.5], "texture": "#0"},
+				"west": {"uv": [8.5, 11, 9, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.5, 11, 9, 13.5], "texture": "#0"},
+				"down": {"uv": [8.5, 13.5, 9, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_28",
+			"from": [11, 10, 11],
+			"to": [11.5, 10.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11.5, 11, 11, 11.5], "texture": "#0"},
+				"east": {"uv": [11, 11, 11.5, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 12, 11.5, 12.5], "texture": "#0"},
+				"west": {"uv": [11, 11, 11.5, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 11, 11.5, 12.5], "texture": "#0"},
+				"down": {"uv": [11, 12.5, 11.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_29",
+			"from": [10.5, 10, 11.5],
+			"to": [11, 10.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11, 11.5, 10.5, 12], "texture": "#0"},
+				"east": {"uv": [10.5, 11.5, 11, 12], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 11.5, 11, 12], "texture": "#0"},
+				"west": {"uv": [10.5, 11.5, 11, 12], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 11.5, 11, 12], "texture": "#0"},
+				"down": {"uv": [10.5, 12, 11, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_30",
+			"from": [11.5, 10, 11.5],
+			"to": [12, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [12, 11.5, 11.5, 12], "texture": "#0"},
+				"east": {"uv": [11.5, 11.5, 12, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 13, 12, 13.5], "texture": "#0"},
+				"west": {"uv": [11.5, 11.5, 12, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 11.5, 12, 13.5], "texture": "#0"},
+				"down": {"uv": [11.5, 13.5, 12, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_31",
+			"from": [5.5, 10, 12],
+			"to": [6, 10.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6, 12, 5.5, 12.5], "texture": "#0"},
+				"east": {"uv": [5.5, 12, 6, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 12, 6, 12.5], "texture": "#0"},
+				"west": {"uv": [5.5, 12, 6, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 12, 6, 12.5], "texture": "#0"},
+				"down": {"uv": [5.5, 12.5, 6, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_32",
+			"from": [7, 10, 12],
+			"to": [7.5, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7.5, 12, 7, 12.5], "texture": "#0"},
+				"east": {"uv": [7, 12, 7.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 13, 7.5, 13.5], "texture": "#0"},
+				"west": {"uv": [7, 12, 7.5, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 12, 7.5, 13.5], "texture": "#0"},
+				"down": {"uv": [7, 13.5, 7.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_33",
+			"from": [9, 10, 12],
+			"to": [9.5, 10.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [9.5, 12, 9, 12.5], "texture": "#0"},
+				"east": {"uv": [9, 12, 9.5, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 12.5, 9.5, 13], "texture": "#0"},
+				"west": {"uv": [9, 12, 9.5, 13], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 12, 9.5, 13], "texture": "#0"},
+				"down": {"uv": [9, 13, 9.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_34",
+			"from": [10, 10, 12],
+			"to": [10.5, 10.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [10.5, 12, 10, 12.5], "texture": "#0"},
+				"east": {"uv": [10, 12, 10.5, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 12, 10.5, 12.5], "texture": "#0"},
+				"west": {"uv": [10, 12, 10.5, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 12, 10.5, 12.5], "texture": "#0"},
+				"down": {"uv": [10, 12.5, 10.5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_35",
+			"from": [12.5, 10, 12],
+			"to": [13, 10.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [13, 12, 12.5, 12.5], "texture": "#0"},
+				"east": {"uv": [12.5, 12, 13, 12.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 12, 13, 12.5], "texture": "#0"},
+				"west": {"uv": [12.5, 12, 13, 12.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.5, 12, 13, 12.5], "texture": "#0"},
+				"down": {"uv": [12.5, 12.5, 13, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_36",
+			"from": [5, 10, 12.5],
+			"to": [5.5, 10.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5.5, 12.5, 5, 13], "texture": "#0"},
+				"east": {"uv": [5, 12.5, 5.5, 13], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 12.5, 5.5, 13], "texture": "#0"},
+				"west": {"uv": [5, 12.5, 5.5, 13], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 12.5, 5.5, 13], "texture": "#0"},
+				"down": {"uv": [5, 13, 5.5, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_37",
+			"from": [6, 10, 12.5],
+			"to": [6.5, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6.5, 12.5, 6, 13], "texture": "#0"},
+				"east": {"uv": [6, 12.5, 6.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 13, 6.5, 13.5], "texture": "#0"},
+				"west": {"uv": [6, 12.5, 6.5, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 12.5, 6.5, 13.5], "texture": "#0"},
+				"down": {"uv": [6, 13.5, 6.5, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_38",
+			"from": [10.5, 10, 12.5],
+			"to": [11, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11, 12.5, 10.5, 13], "texture": "#0"},
+				"east": {"uv": [10.5, 12.5, 11, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 13, 11, 13.5], "texture": "#0"},
+				"west": {"uv": [10.5, 12.5, 11, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 12.5, 11, 13.5], "texture": "#0"},
+				"down": {"uv": [10.5, 13.5, 11, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_39",
+			"from": [12, 10, 12.5],
+			"to": [12.5, 10.5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [12.5, 12.5, 12, 13], "texture": "#0"},
+				"east": {"uv": [12, 12.5, 12.5, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 14.5, 12.5, 15], "texture": "#0"},
+				"west": {"uv": [12, 12.5, 12.5, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 12.5, 12.5, 15], "texture": "#0"},
+				"down": {"uv": [12, 15, 12.5, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_40",
+			"from": [11, 10, 13],
+			"to": [11.5, 10.5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11.5, 13, 11, 13.5], "texture": "#0"},
+				"east": {"uv": [11, 13, 11.5, 13.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 13, 11.5, 13.5], "texture": "#0"},
+				"west": {"uv": [11, 13, 11.5, 13.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 13, 11.5, 13.5], "texture": "#0"},
+				"down": {"uv": [11, 13.5, 11.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_41",
+			"from": [5.5, 10, 13.5],
+			"to": [6, 10.5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6, 13.5, 5.5, 14], "texture": "#0"},
+				"east": {"uv": [5.5, 13.5, 6, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 13.5, 6, 14], "texture": "#0"},
+				"west": {"uv": [5.5, 13.5, 6, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 13.5, 6, 14], "texture": "#0"},
+				"down": {"uv": [5.5, 14, 6, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_42",
+			"from": [8, 10, 13.5],
+			"to": [8.5, 10.5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [8.5, 13.5, 8, 14], "texture": "#0"},
+				"east": {"uv": [8, 13.5, 8.5, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 14.5, 8.5, 15], "texture": "#0"},
+				"west": {"uv": [8, 13.5, 8.5, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 13.5, 8.5, 15], "texture": "#0"},
+				"down": {"uv": [8, 15, 8.5, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_43",
+			"from": [9.5, 10, 13.5],
+			"to": [10, 10.5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [10, 13.5, 9.5, 14], "texture": "#0"},
+				"east": {"uv": [9.5, 13.5, 10, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 13.5, 10, 14], "texture": "#0"},
+				"west": {"uv": [9.5, 13.5, 10, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 13.5, 10, 14], "texture": "#0"},
+				"down": {"uv": [9.5, 14, 10, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_44",
+			"from": [7, 10, 14],
+			"to": [7.5, 10.5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [7.5, 14, 7, 14.5], "texture": "#0"},
+				"east": {"uv": [7, 14, 7.5, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 14.5, 7.5, 15], "texture": "#0"},
+				"west": {"uv": [7, 14, 7.5, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 14, 7.5, 15], "texture": "#0"},
+				"down": {"uv": [7, 15, 7.5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_45",
+			"from": [10.5, 10, 14],
+			"to": [11.5, 10.5, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11.5, 14, 10.5, 14.5], "texture": "#0"},
+				"east": {"uv": [11, 14, 11.5, 14.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 14, 11.5, 14.5], "texture": "#0"},
+				"west": {"uv": [10.5, 14, 11, 14.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 14, 11.5, 14.5], "texture": "#0"},
+				"down": {"uv": [10.5, 14.5, 11.5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_46",
+			"from": [5.5, 10, 14.5],
+			"to": [6, 10.5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [6, 14.5, 5.5, 15], "texture": "#0"},
+				"east": {"uv": [5.5, 14.5, 6, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 14.5, 6, 15], "texture": "#0"},
+				"west": {"uv": [5.5, 14.5, 6, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.5, 14.5, 6, 15], "texture": "#0"},
+				"down": {"uv": [5.5, 15, 6, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_47",
+			"from": [9.5, 10, 14.5],
+			"to": [10, 10.5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [10, 14.5, 9.5, 15], "texture": "#0"},
+				"east": {"uv": [9.5, 14.5, 10, 15], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.5, 14.5, 10, 15], "texture": "#0"},
+				"west": {"uv": [9.5, 14.5, 10, 15], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9.5, 14.5, 10, 15], "texture": "#0"},
+				"down": {"uv": [9.5, 15, 10, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_48",
+			"from": [12.5, 10, 14.5],
+			"to": [13, 10.5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [13, 14.5, 12.5, 15], "texture": "#0"},
+				"east": {"uv": [12.5, 14.5, 13, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.5, 15, 13, 15.5], "texture": "#0"},
+				"west": {"uv": [12.5, 14.5, 13, 15.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.5, 14.5, 13, 15.5], "texture": "#0"},
+				"down": {"uv": [12.5, 15.5, 13, 14.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_49",
+			"from": [5, 10, 15],
+			"to": [5.5, 10.5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [5.5, 15, 5, 15.5], "texture": "#0"},
+				"east": {"uv": [5, 15, 5.5, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5, 15, 5.5, 15.5], "texture": "#0"},
+				"west": {"uv": [5, 15, 5.5, 15.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5, 15, 5.5, 15.5], "texture": "#0"},
+				"down": {"uv": [5, 15.5, 5.5, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_50",
+			"from": [9, 10, 15],
+			"to": [9.5, 10.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [9.5, 15, 9, 15.5], "texture": "#0"},
+				"east": {"uv": [9, 15, 9.5, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 15.5, 9.5, 16], "texture": "#0"},
+				"west": {"uv": [9, 15, 9.5, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [9, 15, 9.5, 16], "texture": "#0"},
+				"down": {"uv": [9, 16, 9.5, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hanabi1MURASAKI_51",
+			"from": [10.5, 10, 15],
+			"to": [11.5, 10.5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.74519, 10.25, 10.10577]},
+			"faces": {
+				"north": {"uv": [11.5, 15, 10.5, 15.5], "texture": "#0"},
+				"east": {"uv": [11, 15, 11.5, 15.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 15, 11.5, 15.5], "texture": "#0"},
+				"west": {"uv": [10.5, 15, 11, 15.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.5, 15, 11.5, 15.5], "texture": "#0"},
+				"down": {"uv": [10.5, 15.5, 11.5, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [135, 0, -90],
+			"translation": [-1.75, -1.75, -5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, -180, -90],
+			"translation": [0.75, -1.75, -5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, -90],
+			"translation": [-4.25, 3.25, -2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 90],
+			"translation": [-0.5, 3.25, -2],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [-90, 0, 0],
+			"scale": [-1, 1, -1]
+		},
+		"head": {
+			"rotation": [104.5, 0, -90],
+			"translation": [-2.25, -9, -10.75]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"scale": [1, 1, -1]
+		}
+	},
+	"groups": [
+		{
+			"name": "Hanabi1MURASAKI",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+		}
+	]
+}
