@@ -4460,12 +4460,12 @@
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_righthand": {
-			"rotation": [10.49, 25.95, -3.5],
-			"translation": [1, 5.75, -2.25]
+			"rotation": [1.38, 4.61, -0.72],
+			"translation": [-4.25, 6, -3]
 		},
 		"firstperson_lefthand": {
-			"rotation": [10.49, 25.95, -3.5],
-			"translation": [1, 5.75, -2.25]
+			"rotation": [1.38, 4.61, -0.72],
+			"translation": [-4.25, 6, -3]
 		},
 		"ground": {
 			"translation": [0, 5.75, 0]
@@ -4490,15 +4490,11 @@
 			"name": "group",
 			"origin": [8.015, 28.44, 16.145],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "spike",
 					"origin": [8.31516, 3.85741, 0.79275],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						0,
 						1,
@@ -4582,8 +4578,6 @@
 					"name": "hexadecagon",
 					"origin": [8.015, 28.44, 16.145],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101]
 				}
 			]
@@ -4592,16 +4586,12 @@
 			"name": "hexadecagon",
 			"origin": [10.4, 10.4, 10.4],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [10.4, 10.4, 10.4],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133]
 		},
 		134,
@@ -4615,8 +4605,6 @@
 			"name": "hexadecagon",
 			"origin": [10.56, 14.7, 11.36],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [141, 142, 143, 144, 145, 146, 147, 148]
 		},
 		149,
@@ -4704,8 +4692,6 @@
 			"name": "hexadecagon",
 			"origin": [12.05, 16, 16],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [230, 231, 232, 233, 234, 235, 236, 237]
 		},
 		238,
@@ -4732,24 +4718,18 @@
 			"name": "hexadecagon",
 			"origin": [12.05, 16, 16],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [258, 259, 260, 261, 262, 263, 264, 265]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [12.05, 16, 16],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [266, 267, 268, 269, 270, 271, 272, 273]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [12.05, 16, 16],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [274, 275, 276, 277, 278, 279, 280, 281]
 		},
 		282,
