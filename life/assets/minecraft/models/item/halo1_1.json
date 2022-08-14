@@ -3,8 +3,9 @@
 	"parent": "item/handheld",
 	"textures": {
 		"layer0": "items/halo2",
+		"particle": "items/halo2"
 	},
-	"elements": [
+	"display": [
 		{
 			"name": "halo2_0",
 			"from": [6.875, 0, 0.125],
