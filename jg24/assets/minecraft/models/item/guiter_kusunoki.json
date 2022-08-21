@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/guiter_kusunoki",
+		"layer0": "items/guiter_kusunoki"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-129.75, 90, 0],
+			"translation": [0, 4.75, 2.75],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-129.75, -90, 0],
+			"translation": [0, 4.75, 2.75],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [177.1, 21.09, -104.85],
+			"translation": [2.75, 2.25, -3.75],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-175.72, 18.28, 162.86],
+			"translation": [2.75, 2.25, -3.75],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"head": {
+			"translation": [0, -11.75, 6.5],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.25],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}
