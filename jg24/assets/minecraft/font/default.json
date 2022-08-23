@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/black.png",
+            "ascent": 64,
+            "height": 128,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/icon.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE002\uE003\uE004\uE005",
+                "\uE006\uE007\uE008\uE009",
+                "\uE010\uE011\uE012\uE013",
+                "\uE014\uE015\uE016\uE017"
+            ]
+        }
+    ]
+}
