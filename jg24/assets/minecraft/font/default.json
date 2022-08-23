@@ -11,15 +11,6 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/counter_magic.png",
-            "ascent": 64,
-            "height": 64,
-            "chars": [
-                "\uE018"
-            ]
-        },
-        {
-            "type": "bitmap",
             "file": "minecraft:font/icon.png",
             "ascent": 8,
             "height": 9,
@@ -28,6 +19,15 @@
                 "\uE006\uE007\uE008\uE009",
                 "\uE010\uE011\uE012\uE013",
                 "\uE014\uE015\uE016\uE017"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/counter_magic.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": [
+                "\uE018"
             ]
         }
     ]
