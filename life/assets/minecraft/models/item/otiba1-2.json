@@ -3,7 +3,6 @@
 	"textures": {
 		"0": "block/stripped_dark_oak_log",
 		"1": "block/stripped_dark_oak_log_top",
-		"2": "block/stone_andesite",
 		"particle": "block/stripped_dark_oak_log"
 	},
 	"elements": [
@@ -4457,12 +4456,12 @@
 			"from": [-16, -2, -16],
 			"to": [32, 1, 32],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 3], "texture": "#2"},
-				"east": {"uv": [0, 0, 16, 3], "texture": "#2"},
-				"south": {"uv": [0, 0, 16, 3], "texture": "#2"},
-				"west": {"uv": [0, 0, 16, 3], "texture": "#2"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+				"north": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		}
 	],
