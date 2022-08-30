@@ -582,12 +582,12 @@
 			"translation": [0, 0, -0.5]
 		},
 		"gui": {
-			"rotation": [-15, 0, 31],
-			"translation": [0.75, -4.75, 0],
-			"scale": [1.4, 1.4, 1.4]
+			"rotation": [-31, 180, -37],
+			"translation": [3.75, -3.5, 0],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"head": {
-			"translation": [-8.25, 0, 1],
+			"translation": [0.25, -9.25, 1],
 			"scale": [4, 4, 4]
 		},
 		"fixed": {
@@ -599,29 +599,35 @@
 		{
 			"name": "alex",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5]
 		},
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [6, 7]
 		},
 		{
 			"name": "huujin - コピー",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [
 				{
 					"name": "group",
 					"origin": [14.11127, 12.83483, 7.53073],
+					"color": 0,
 					"children": [
 						{
 							"name": "group",
 							"origin": [16.62992, 23.83192, 7.57502],
+							"color": 0,
 							"children": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
 						},
 						{
 							"name": "group",
 							"origin": [27.19384, 16.32288, 7.51657],
+							"color": 0,
 							"children": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41]
 						}
 					]
