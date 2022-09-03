@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx0842"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, -38],
+			"translation": [0, 1, -2.75],
+			"scale": [0.6, 0.6, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-70, 88, 6],
+			"translation": [0, 1.75, -0.5],
+			"scale": [0.88, 0.69, 0.77]
+		},
+		"head": {
+			"translation": [9.5, -4, 0],
+			"scale": [0.35, 0.35, 1]
+		}
+	}
+}
