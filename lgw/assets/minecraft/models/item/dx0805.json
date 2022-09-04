@@ -1,6 +1,38 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "items/dx0805"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "dx0805",
+		"layer0": "dx0805"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, -90, 60],
+			"translation": [0, 8, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 90, -60],
+			"translation": [0, 8, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -75, 0],
+			"translation": [1, 4.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 105, 0],
+			"translation": [1, 4.5, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"translation": [0, 0.25, 0]
+		},
+		"head": {
+			"translation": [-13.5, 1.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
 }
