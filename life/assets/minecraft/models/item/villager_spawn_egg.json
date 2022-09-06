@@ -1,11 +1,10 @@
-  
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/villager_spawn_egg"
+        "layer0": "item/spawn_egg"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 0}, "model": "default"},
-		{ "predicate": {"custom_model_data": 1}, "model": "item/fire_spell"}
+        { "predicate": {"custom_model_data": 0}, "model": "item/vanilla_villager_spawn_egg" },
+		{ "predicate": {"custom_model_data": 1}, "model": "item/fire_spell" }
     ]
 }
