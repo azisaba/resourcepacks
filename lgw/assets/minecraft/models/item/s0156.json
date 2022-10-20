@@ -5,34 +5,10 @@
 		"layer0": "items/s0156"
 	},
 	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, 45],
-			"translation": [0, 2.5, 1.5],
-			"scale": [0.5, 0.5, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, -90, -220],
-			"translation": [0, -11.5, 3.5]
-		},
-		"firstperson_righthand": {
-			"rotation": [-60, 3, -85],
-			"translation": [5, 2.75, 0],
-			"scale": [1.05, 1.05, 1.05]
-		},
-		"firstperson_lefthand": {
-			"rotation": [110, -3, 260],
-			"translation": [5, 2.75, 0],
-			"scale": [1.05, 1.05, 1.05]
-		},
-		"ground": {
-			"rotation": [0, 0, 270],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [0, 0, 180]
-		},
-		"fixed": {
-			"rotation": [0, 0, 270]
+		"head": {
+			"rotation": [0, 0, -173],
+			"translation": [0, -17.25, 4.5],
+			"scale": [1.5, 1.5, 1.5]
 		}
 	}
 }
