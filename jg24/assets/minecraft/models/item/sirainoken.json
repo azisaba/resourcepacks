@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/sinrainoken",
+		"layer0": "items/sinrainoken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [51.25, 90, 0],
+			"translation": [0, 9.25, 2.75],
+			"scale": [1.4, 1.4, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [51.25, -90, 0],
+			"translation": [0, 9.25, 2.75],
+			"scale": [1.4, 1.4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 56, -180],
+			"translation": [3.5, 4.25, -5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -50.5, 0],
+			"translation": [3.5, 4.25, -5]
+		},
+		"ground": {
+			"translation": [0, 7, 0]
+		},
+		"head": {
+			"translation": [0, -11, 7.5],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.75],
+			"scale": [2, 2, 1]
+		}
+	}
+}
