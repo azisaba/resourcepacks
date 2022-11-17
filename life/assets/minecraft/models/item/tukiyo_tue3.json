@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/tukiyo_tue3",
+		"layer0": "items/tukiyo_tue3"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [-6, -8, 3.25],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [-6, -8, 3.25],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-92.7, 84.7, 81.6],
+			"translation": [8, 1, -6.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-168.7, 84.7, 81.6],
+			"translation": [8, 1, -6.25]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 6.25, -0.75],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 45],
+			"translation": [0, 0, -42.25],
+			"scale": [4, 4, 4]
+		}
+	}
+}
