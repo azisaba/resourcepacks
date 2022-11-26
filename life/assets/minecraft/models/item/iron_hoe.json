@@ -4,6 +4,11 @@
         "layer0": "item/iron_hoe"
     },
     "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/ami"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/owarinohazimari"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/saisu"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/kama2"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/sythe3"},
         { "predicate": {"custom_model_data": 98}, "model": "item/happybirthday"},
         { "predicate": {"custom_model_data": 99}, "model": "item/phantomrich_dool"}
     ]
