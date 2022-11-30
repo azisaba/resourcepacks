@@ -1,0 +1,18 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/firework_star"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "item/emojis/grin" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/emojis/love_you_gesture" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/emojis/meat_on_bone" },
+    { "predicate": { "custom_model_data": 4 }, "model": "item/emojis/point_left" },
+    { "predicate": { "custom_model_data": 5 }, "model": "item/emojis/point_right" },
+    { "predicate": { "custom_model_data": 6 }, "model": "item/emojis/pray" },
+    { "predicate": { "custom_model_data": 7 }, "model": "item/emojis/sparkles" },
+    { "predicate": { "custom_model_data": 8 }, "model": "item/emojis/thumbs_up" },
+    { "predicate": { "custom_model_data": 9 }, "model": "item/emojis/yum" },
+    { "predicate": { "custom_model_data": 10 }, "model": "item/acrylic-style/oisii" }
+  ]
+}
