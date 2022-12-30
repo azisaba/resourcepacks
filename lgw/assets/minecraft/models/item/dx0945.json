@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/dx0945",
+	"textures": {
+		"layer0": "items/dx0945"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-110.8, -87.88, -88.49],
+			"translation": [0.25, 6.75, 4.25],
+			"scale": [1.6, 1.6, 1.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-135.5, 74, -180],
+			"translation": [4.25, 7.75, -4.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"head": {
+			"rotation": [-90, 0, 45],
+			"translation": [0, -3.75, -3],
+			"scale": [4, 4, 4]
+		}
+	}
+}
