@@ -1,0 +1,102 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/AnzioSteamNormal"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				-45,
+				-90,
+				0
+			],
+			"translation": [
+				0,
+				1.75,
+				-4
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [
+				10,
+				90,
+				-55
+			],
+			"translation": [
+				0,
+				1.75,
+				-4
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
+		},
+		"firstperson_righthand": {
+			"rotation": [
+				0,
+				-100,
+				45
+			],
+			"translation": [
+				1.13,
+				3.2,
+				-3
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
+		},
+		"firstperson_lefthand": {
+			"rotation": [
+				0,
+				80,
+				-45
+			],
+			"translation": [
+				1.13,
+				3.2,
+				-3
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			]
+		},
+		"ground": {
+			"scale": [
+				1.25,
+				1.25,
+				1.25
+			]
+		},
+		"gui": {
+			"scale": [
+				1.25,
+				1.25,
+				1.25
+			]
+		},
+		"fixed": {
+			"rotation": [
+				180,
+				0,
+				180
+			],
+			"scale": [
+				1.25,
+				1.25,
+				1.25
+			]
+		}
+	}
+}
