@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/rhapsody_ono",
+		"layer0": "items/rhapsody_ono"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40.5, -90, 0],
+			"translation": [0, 7.25, 1.25],
+			"scale": [1.2, 1.2, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40.5, 90, 0],
+			"translation": [0, 7.25, 1.25],
+			"scale": [1.2, 1.2, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -88.75, 85],
+			"translation": [16, -1.75, -17.25],
+			"scale": [1.2, 1.2, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 88.75, -85],
+			"translation": [16, -1.75, -17.25],
+			"scale": [1.2, 1.2, 0.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"head": {
+			"rotation": [0, 0, -180],
+			"translation": [1.25, -14.25, 4.5],
+			"scale": [3.6, 3.6, 1.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.75],
+			"scale": [2, 2, 1]
+		}
+	}
+}
