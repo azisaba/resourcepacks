@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "items/ougi",
+		"layer0": "items/ougi"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-49.71, -90, 8.79],
+			"translation": [0, 5.75, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [30.25, -90, 0],
+			"translation": [0, 5.75, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-37.96, -73.74, 29.01],
+			"translation": [10.75, 2, -13]
+		},
+		"firstperson_lefthand": {
+			"rotation": [40.29, -73.74, 29.01],
+			"translation": [10.75, 2, -13]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"head": {
+			"rotation": [180, 0, -135.75],
+			"translation": [0, 1.5, 5.25],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [180, 0, -135.75],
+			"translation": [0, 6.25, -1],
+			"scale": [2, 2, 2]
+		}
+	}
+}
