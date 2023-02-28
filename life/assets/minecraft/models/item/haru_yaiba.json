@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/haru_yaiba",
+		"layer0": "items/haru_yaiba"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-49.79, -90, 0],
+			"translation": [0, 6.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-49.79, 90, 0],
+			"translation": [0, 6.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-80, -73.25, 0],
+			"translation": [16.25, -1.5, -14]
+		},
+		"firstperson_lefthand": {
+			"rotation": [120.89, 75.89, 176.58],
+			"translation": [16.25, -1.5, -14]
+		},
+		"ground": {
+			"translation": [1, 1.75, 0]
+		},
+		"gui": {
+			"translation": [0, 0, 2]
+		},
+		"head": {
+			"rotation": [-14.01, 48.07, -170.17],
+			"translation": [3.25, 11, -8.75],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, 0.5]
+		}
+	}
+}
