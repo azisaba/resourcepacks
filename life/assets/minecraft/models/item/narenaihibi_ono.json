@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/narenaihibi_ono",
+		"layer0": "items/narenaihibi_ono"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-31.5, -90, 0],
+			"translation": [0, 9.75, 5.25],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-31.5, 90, 0],
+			"translation": [0, 9.75, 5.25],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-58.25, -90, 0],
+			"translation": [12, 8, -8.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-58.25, 90, 0],
+			"translation": [12, 8, -8.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [0, -18, 7.25],
+			"scale": [3, 3, 2]
+		},
+		"fixed": {
+			"rotation": [78.75, 90, 0],
+			"translation": [2.75, -3.5, -23.25],
+			"scale": [4, 4, 2]
+		}
+	}
+}
