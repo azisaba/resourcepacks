@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/hell_Blade"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [51, 90, 0],
+			"translation": [0, 10.5, 2],
+			"scale": [1.5, 1.4, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, 0, 180],
+			"translation": [-5, -7.75, 3.25],
+			"scale": [1.5, 1.4, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [107, 93, -40],
+			"translation": [-1.5, 3.25, 2.75],
+			"scale": [1.25, 0.95, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [80, 80, 80],
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"rotation": [90, 90, 150],
+			"translation": [-0.75, 9, 5],
+			"scale": [1.5, 1.4, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, 1],
+			"translation": [1, 0.75, 0],
+			"scale": [1.3, 1.2, 0.4]
+		},
+		"head": {
+			"rotation": [-98, -90, 180],
+			"translation": [0, 6.75, -7],
+			"scale": [1.7, 1.7, 0.8]
+		},
+		"fixed": {
+			"rotation": [0, 0, 78],
+			"translation": [-0.75, 0.75, 0],
+			"scale": [1.5, 1.4, 0.5]
+		}
+	}
+}
