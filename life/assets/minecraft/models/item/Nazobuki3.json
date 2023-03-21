@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/Nazobuki3",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40.5, -90, 0],
+			"translation": [-0.25, 16.75, 3.25],
+			"scale": [2.5, 2.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40.5, -90, 0],
+			"translation": [-0.25, 16.25, 3.25],
+			"scale": [-2.5, 2.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-57.15, -90, -25],
+			"translation": [2, 8.25, 2.25],
+			"scale": [1.6, 1.6, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-57.15, -83.22, -25],
+			"translation": [2, 8, 2.25],
+			"scale": [-1.6, 1.6, 0.3]
+		},
+		"ground": {
+			"rotation": [0, 0, -180],
+			"translation": [0, 15, -1],
+			"scale": [3, 3, 0.6]
+		},
+		"gui": {
+			"rotation": [0, 11.75, 3.75],
+			"translation": [1, 0, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 180],
+			"translation": [-4.5, -18.75, 5],
+			"scale": [4, 4, 0.6]
+		},
+		"fixed": {
+			"rotation": [119, -90, 40],
+			"translation": [0.25, 4.5, -9],
+			"scale": [4, 4, 0.7]
+		}
+	}
+}
