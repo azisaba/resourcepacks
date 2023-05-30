@@ -2,5 +2,8 @@
     "parent": "item/generated",
     "textures": {
         "layer0": "item/writable_book"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 2}, "model": "item/baken-1"}
     }
 }
