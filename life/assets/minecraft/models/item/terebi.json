@@ -4,7 +4,7 @@
 		"0": "block/concrete_gray",
 		"1": "block/terebi-1",
 		"2": "block/concrete_black",
-		"particle": "blocks/concrete_gray"
+		"particle": "block/concrete_gray"
 	},
 	"elements": [
 		{
@@ -40,7 +40,7 @@
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 	"display": {
 		"fixed": {
 			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -40],
+			"translation": [0, 0, -50],
 			"scale": [2, 2, 2]
 		}
 	}
