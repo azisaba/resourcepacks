@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/rabbit_fire_ads",
+		"layer0": "items/rabbit_fire_ads"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 7.75, 1],
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 7.75, 1],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 7, -1],
+			"scale": [1, 1, 0.1]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9, 7, -1],
+			"scale": [1, 1, 0.1]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 30.75, 17.75],
+			"scale": [2, 2, 1]
+		}
+	}
+}
