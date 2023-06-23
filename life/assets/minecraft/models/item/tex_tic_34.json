@@ -1,9 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "item/generated",
+	"parent": "3dmodel.json",
+	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/anvil_base",
-		"particle": "block/anvil_base"
+		"0": "items/anvil_base",
+		"particle": "items/anvil_base"
 	},
 	"elements": [
 		{
@@ -780,11 +781,13 @@
 			"name": "group",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"nbt": "{}",
 			"children": [
 				{
 					"name": "group",
 					"origin": [0, 0, 0],
 					"color": 0,
+					"nbt": "{}",
 					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 				},
 				12,
@@ -820,12 +823,14 @@
 					"name": "group",
 					"origin": [0, 0, 0],
 					"color": 0,
+					"nbt": "{}",
 					"children": [41, 42, 43, 44, 45, 46]
 				},
 				{
 					"name": "group",
 					"origin": [0, 0, 0],
 					"color": 0,
+					"nbt": "{}",
 					"children": [
 						47,
 						48,
@@ -835,10 +840,13 @@
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
+							"nbt": "{}",
 							"children": [51, 52, 53]
 						}
 					]
 				},
+				54,
+				55
 			]
 		}
 	]
