@@ -2,34 +2,32 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"1": "items/ymd"
+		"particle": "items/ymd",
+		"layer0": "items/ymd"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [84, -92, 0],
-			"translation": [3.25, 1, 1.25],
-			"scale": [1.5, 1.5, 1.5]
+			"rotation": [60, -82, 2],
+			"translation": [3, 0.5, 4],
+			"scale": [1.5, 1.5, 1]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [65, 0, 0],
-			"translation": [-6, -8.5, 9],
-			"scale": [2, 2, 1]
+			"rotation": [70, -2, 0],
+			"translation": [-6.5, -8.25, 7.25],
+			"scale": [1.5, 1.5, 1]
 		},
 		"firstperson_righthand": {
-			"rotation": [-14, -52, 8],
-			"translation": [3, 3.75, 0],
-			"scale": [1.5, 1.5, 1.5]
+			"rotation": [-18, -52, -12],
+			"translation": [0.75, 2.75, 3]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, -91, 3],
 			"scale": [0, 0, 0]
 		},
 		"gui": {
-			"scale": [1.7, 1.7, 1.2]
+			"scale": [1.7, 1.7, 1]
 		},
 		"head": {
-			"rotation": [0, -180, 0],
-			"translation": [-0.25, 14, 0]
+			"translation": [0, 14, 0]
 		}
 	}
 }
