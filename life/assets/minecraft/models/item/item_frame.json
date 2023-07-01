@@ -1,6 +1,6 @@
 {
-    "parent": "block/oak_leaves",
+    "parent": "block/item_frame",
     "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "block/sakura"}
+        { "predicate": {"custom_model_data": 2}, "model": "items/k_item_frame"}
     ]
 }
