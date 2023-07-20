@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/crystal_blade"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 44],
+			"translation": [0, 8, 1.75],
+			"scale": [1.7, 1.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, -180, 109],
+			"translation": [-5.5, -9.25, 4.75],
+			"scale": [1.7, 1.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -94, 32],
+			"translation": [0.25, 4.5, 1.5],
+			"scale": [1.2, 1.2, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -180, -180],
+			"translation": [-80, -80, -80],
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"rotation": [90, 180, 70],
+			"translation": [1, -3.25, 3.75],
+			"scale": [1.7, 1.7, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 180, 90],
+			"translation": [1.25, 1.25, 0],
+			"scale": [1.1, 1.1, 1]
+		},
+		"head": {
+			"rotation": [-122, -180, -42.5],
+			"translation": [-6.25, -18, -11.25],
+			"scale": [2.7, 2.7, 0.8]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [-1.25, 1.75, -0.5],
+			"scale": [1.7, 1.7, 0.7]
+		}
+	}
+}
