@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"8": "Enchant",
+		"13": "blocks/redstone_block",
+		"particle": "Enchant"
+	},
+	"elements": [
+		{
+			"from": [7, 17.1, 10.6],
+			"to": [9, 18.1, 11.6],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [14.5, 3.25, 15.75, 2.75], "texture": "#8"},
+				"east": {"uv": [8, 10, 9, 11], "texture": "#13"},
+				"south": {"uv": [8, 10, 9, 11], "texture": "#13"},
+				"west": {"uv": [8, 10, 9, 11], "texture": "#13"},
+				"up": {"uv": [8, 10, 9, 11], "texture": "#13"},
+				"down": {"uv": [8, 10, 9, 11], "texture": "#13"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [68, 0, 0],
+			"translation": [-6.25, 3.75, 22],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [68, 0, 0],
+			"translation": [-3, 7, 20.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -2, 0],
+			"translation": [-22, 2.75, 0.75],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -3, 0],
+			"translation": [-19, 3.75, 1.5],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"ground": {
+			"translation": [0, 10.75, 0]
+		},
+		"gui": {
+			"rotation": [59, 116, -55],
+			"translation": [1.25, -4, 0]
+		},
+		"head": {
+			"translation": [-1.5, 14.75, 0]
+		},
+		"fixed": {
+			"rotation": [-111, -6, 0],
+			"translation": [0, -0.5, -13.5],
+			"scale": [3, 3, 3]
+		}
+	}
+}
