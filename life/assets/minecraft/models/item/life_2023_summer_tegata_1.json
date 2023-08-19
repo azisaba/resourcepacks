@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "life_2023_summer_tegata",
+		"particle": "life_2023_summer_tegata"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [15.296, 7.904, 16, 8.904], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0.52], "texture": "#0"},
+				"west": {"uv": [11.904, 1.376, 14.528, 2.376], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.392], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 7.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.5, 4.5, -5.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 5, -5.75]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [1.25, 0, 18.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
