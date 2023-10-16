@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"0": "hw2023_sirogisu",
-		"particle": "hw2023_sirogisu"
+		"layer0": "items/hw2023_sirogisu"
 	},
 	"display": {
 		"thirdperson_righthand": {
@@ -37,14 +36,6 @@
 		"fixed": {
 			"rotation": [0, 0, -90],
 			"scale": [2.2, 2.2, 1]
-		}
-	},
-	"groups": [
-		{
-			"name": "cod",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": []
 		}
 	]
 }
