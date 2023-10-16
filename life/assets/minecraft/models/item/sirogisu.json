@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"0": "hw2023_sirogisu",
+		"particle": "hw2023_sirogisu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, 180, 90],
+			"translation": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, 180, 90],
+			"translation": [-5, -9, 7],
+			"scale": [3, 3, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, -90],
+			"translation": [0, 5, 3],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"rotation": [180, 0, 90],
+			"translation": [0, 4, 0],
+			"scale": [2, 2, 1]
+		},
+		"gui": {
+			"rotation": [180, 0, 90],
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"rotation": [180, 0, 135],
+			"translation": [0, -6, -7],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, 0, -90],
+			"scale": [2.2, 2.2, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "cod",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}
