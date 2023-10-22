@@ -1,9 +1,13 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/leather"
-    },
-	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/hw_leather"}
-	]
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "items/leather"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 0.75, -0.75]
+		}
+	}
 }
