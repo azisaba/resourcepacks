@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "Downloads/ikarinoikari"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [140, -90, 0],
+			"translation": [0, 11.5, 3],
+			"scale": [2.2, 2.2, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [68, 0, 0],
+			"translation": [-6, -7.75, 7.25],
+			"scale": [2.2, 2.2, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [100.5, -90, 0],
+			"translation": [3, 5.5, -3],
+			"scale": [1.1, 1.1, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -39, -45],
+			"translation": [22.25, -6.75, -23.25],
+			"scale": [1.1, 1.1, 0.7]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 15, 0],
+			"scale": [2.2, 2.2, 1.4]
+		},
+		"gui": {
+			"scale": [1.7, 1.7, 1]
+		},
+		"head": {
+			"rotation": [0, 0, 45],
+			"translation": [0, -19.75, 7.25],
+			"scale": [3, 3, 2]
+		},
+		"fixed": {
+			"rotation": [-48, 0, 45],
+			"translation": [0, 7, -23.25],
+			"scale": [4, 4, 3]
+		}
+	}
+}
