@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/2023HW_masamunenew"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 90, -135],
+			"translation": [-0.25, 20, 7.75],
+			"scale": [1.65, 2.92, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-119, 96, -149],
+			"translation": [-1, -14, 23],
+			"scale": [1.65, 2.92, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [17, 108, 48],
+			"translation": [7.5, 2, -8.25],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [132, -102, 75],
+			"translation": [5.75, 3.5, -6.5],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [90, -90, 120],
+			"translation": [0, 22, 0],
+			"scale": [1.65, 2.92, 1]
+		},
+		"head": {
+			"rotation": [0, -3, 0],
+			"translation": [0, -16, 9],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0.25, -4.5],
+			"scale": [1.53, 2.11, 1]
+		}
+	}
+}
