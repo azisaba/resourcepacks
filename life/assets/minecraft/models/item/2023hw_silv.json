@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/2023hw_silv"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [33, 90, -82],
+			"translation": [0.5, 0.5, -3.5],
+			"scale": [0.91, 0.9, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [7, -90, 52],
+			"translation": [0, 0.5, -3],
+			"scale": [0.9, 0.9, 0.61]
+		},
+		"firstperson_righthand": {
+			"rotation": [-38, 92, 9],
+			"translation": [2.75, 2.25, -4.75],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [33, -99, 57],
+			"translation": [7.75, 0.5, -9],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"rotation": [89, 90, -135],
+			"translation": [0, 0.75, 0]
+		},
+		"gui": {
+			"translation": [-0.25, -0.25, 0]
+		},
+		"head": {
+			"rotation": [0, -3, 83.25],
+			"translation": [0, -16.5, 9],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0.5, -1.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}
