@@ -2,23 +2,32 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "items/tex_tic_62",
-		"particle": "items/tex_tic_62"
+		"particle": "tex_tic_62",
+		"layer0": "tex_tic_62"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-135, 90, 0],
-			"translation": [-5.5, -10, 8]
+			"rotation": [76, -90, 0],
+			"translation": [-6, -11.75, 8.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [45, 90, 0],
-			"translation": [-5.5, -10, 8]
+			"rotation": [0, 90, 66],
+			"translation": [-6, -12.5, 10]
 		},
 		"firstperson_righthand": {
-			"translation": [0, 0, 80]
+			"translation": [0, 4, 0],
+			"scale": [0, 0, 0]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, 0, 80]
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -16.75, 15.25],
+			"scale": [1.5, 1.5, 1.5]
 		}
 	}
 }
