@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/23hw_kusari"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, -90, 0],
+			"translation": [0, -1, 2.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 90, 0],
+			"translation": [0, 1, 2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [2, 8, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [2, 8, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, -20],
+			"translation": [0, 3, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, -23],
+			"translation": [0, 3.5, 0],
+			"scale": [1.49, 1.49, 1.49]
+		},
+		"fixed": {
+			"rotation": [0, 180, -23],
+			"translation": [0, 6, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "23hw_kama",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "aaaaaa",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "aaaaaa",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}
