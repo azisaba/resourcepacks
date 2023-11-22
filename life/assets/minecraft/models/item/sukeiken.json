@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/suikeiken",
+		"particle": "items/suikeiken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-135, 90, 0],
+			"translation": [0, -7, 2],
+			"scale": [1, 1, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-135, -90, 0],
+			"translation": [0, -7, 2],
+			"scale": [1, 1, 0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 0, 80]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 0, 80]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		{
+			"name": "aaaaaa",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}
