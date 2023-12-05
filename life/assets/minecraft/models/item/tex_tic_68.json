@@ -7,7 +7,7 @@
 		"2": "items/tex_tic_68_3",
 		"particle": "items/tex_tic_68_1"
 	},
-		"elements": [
+	"elements": [
 		{
 			"from": [7.40775, 0, 9.17983],
 			"to": [8.65775, 11.35, 9.42983],
@@ -32,19 +32,6 @@
 				"west": {"uv": [2.5, 3.5, 2.75, 6.5], "texture": "#1"},
 				"up": {"uv": [4.75, 9.25, 4.5, 9], "texture": "#1"},
 				"down": {"uv": [5, 9, 4.75, 9.25], "texture": "#1"}
-			}
-		},
-		{
-			"from": [7.77623, 0, 11.32049],
-			"to": [8.02623, 11.35, 12.07049],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [6.95064, 0, 8.72272]},
-			"faces": {
-				"north": {"uv": [4, 0, 4.25, 3], "texture": "#1"},
-				"east": {"uv": [4, 3, 4.25, 6], "texture": "#1"},
-				"south": {"uv": [4.25, 0, 4.5, 3], "texture": "#1"},
-				"west": {"uv": [4.25, 3, 4.5, 6], "texture": "#1"},
-				"up": {"uv": [5.75, 9.25, 5.5, 9], "texture": "#1"},
-				"down": {"uv": [9.25, 5.5, 9, 5.75], "texture": "#1"}
 			}
 		},
 		{
@@ -615,7 +602,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, -0.75, 0.25]
+			"translation": [0, -0.75, 0.75]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [-32.6, 42.45, -32],
@@ -655,27 +642,27 @@
 					"children": [
 						0,
 						1,
-						2,
 						{
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [3, 4, 5, 6]
+							"children": [2, 3, 4, 5]
 						},
 						{
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [7, 8, 9]
+							"children": [6, 7, 8]
 						},
 						{
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"children": [10, 11]
+							"children": [9, 10]
 						}
 					]
 				},
+				11,
 				12,
 				13,
 				14,
@@ -692,21 +679,20 @@
 				25,
 				26,
 				27,
-				28,
-				29
+				28
 			]
 		},
 		{
 			"name": "根本",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [30, 31, 32, 33]
+			"children": [29, 30, 31, 32]
 		},
 		{
 			"name": "刃",
 			"origin": [6.25, 8.59149, 7.9852],
 			"color": 0,
-			"children": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+			"children": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
 		}
 	]
 }
