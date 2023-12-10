@@ -11,19 +11,6 @@
 	},
 	"elements": [
 		{
-			"from": [4, 0, 5],
-			"to": [12, 26, 11],
-			"color": 5,
-			"faces": {
-				"north": {"uv": [0, 0, 8, 16], "texture": "#missing"},
-				"east": {"uv": [0, 0, 6, 16], "texture": "#missing"},
-				"south": {"uv": [0, 0, 8, 16], "texture": "#missing"},
-				"west": {"uv": [0, 0, 6, 16], "texture": "#missing"},
-				"up": {"uv": [0, 0, 8, 6], "texture": "#missing"},
-				"down": {"uv": [0, 0, 8, 6], "texture": "#missing"}
-			}
-		},
-		{
 			"from": [0, 6, 11],
 			"to": [11, 8, 13],
 			"rotation": {"angle": -22.5, "axis": "z", "origin": [0, 0, 0]},
@@ -647,7 +634,7 @@
 		{
 			"from": [-16, 7, 10],
 			"to": [-5, 9, 15],
-			"rotation": {"angle": 0, "axis": "z", "origin": [0, -7, 0]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -7, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#7"},
 				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#7"},
@@ -660,7 +647,7 @@
 		{
 			"from": [-13, 4, 2],
 			"to": [-8, 6, 7],
-			"rotation": {"angle": 0, "axis": "z", "origin": [0, -7, 0]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -7, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#7"},
 				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#7"},
@@ -673,7 +660,7 @@
 		{
 			"from": [4, 10, 11],
 			"to": [13, 12, 13],
-			"rotation": {"angle": 0, "axis": "z", "origin": [0, 7, 0]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#7"},
 				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#7"},
@@ -686,7 +673,7 @@
 		{
 			"from": [3, 16, 3],
 			"to": [14, 18, 5],
-			"rotation": {"angle": 0, "axis": "z", "origin": [0, 7, 0]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#7"},
 				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#7"},
@@ -779,12 +766,12 @@
 		}
 	},
 	"groups": [
-		0,
 		{
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [
+				0,
 				1,
 				2,
 				3,
@@ -840,8 +827,7 @@
 				53,
 				54,
 				55,
-				56,
-				57
+				56
 			]
 		}
 	]
