@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx1240"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-128.75, 88.25, 148.5],
+			"translation": [-0.25, 5.75, 1.5],
+			"scale": [0.7, 1, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-15.75, 90, 0],
+			"translation": [0.5, 6, 1.25],
+			"scale": [0.7, 1, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-47.37, 74.89, 56.96],
+			"translation": [-0.5, 7, 1.75],
+			"scale": [0.7, 1, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -72.25, 0],
+			"translation": [-2, 7.5, 2],
+			"scale": [0.7, 1, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 0, 69.5]
+		}
+	}
+}
