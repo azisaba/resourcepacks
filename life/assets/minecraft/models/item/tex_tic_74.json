@@ -1,51 +1,39 @@
 {
-  "credit": "Made with Blockbench",
-  "textures": {
-    "0": "items/tex_tic_74",
-    "particle": "items/tex_tic_74"
-  },
-  "elements": [
-    {
-      "from": [ -16, -2, 5 ],
-      "to": [ -16, 32, 27 ],
-      "faces": {
-        "east": {
-          "uv": [ 0, 0, 16, 16 ],
-          "texture": "#0"
-        },
-        "west": {
-          "uv": [ 0, 0, 16, 16 ],
-          "texture": "#0"
-        }
-      }
-    }
-  ],
-  "gui_light": "front",
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [ 71, -90, 0 ],
-      "translation": [ 3, -21.5, 3 ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [ 56, 90, 8 ],
-      "translation": [ -12.75, -35.5, 12.25 ]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 0, -90, 0 ],
-      "translation": [ 19, -14, 8.5 ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [ 0, 90, 0 ],
-      "translation": [ 1.5, -14, 8.5 ]
-    },
-    "ground": { "translation": [ 24, 3.75, -8 ] },
-    "gui": {
-      "rotation": [ 0, -90, 0 ],
-      "translation": [ 7.75, -6.75, 0 ]
-    },
-    "fixed": {
-      "rotation": [ 0, 90, 0 ],
-      "translation": [ -7.5, -6.25, -25 ]
-    }
-  }
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/tex_tic_74"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [74, -180, 0],
+			"translation": [-4.5, 4.5, 2.5],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [60, 0, 0],
+			"translation": [-5, -11.75, 8.5],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"firstperson_righthand": {
+			"translation": [13.75, -7.25, -17],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"firstperson_lefthand": {
+			"translation": [13, -6.75, -16.5],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"ground": {
+			"translation": [1, 14.5, 0],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"gui": {
+			"translation": [-0.25, 2.75, 0],
+			"scale": [1.43, 2.21, 0.1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0.5, 1.25, -0.5],
+			"scale": [1.43, 2.21, 0.1]
+		}
+	}
 }
