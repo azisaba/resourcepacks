@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/blue_stained_glass"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "block/suisou_mini" },
+    { "predicate": { "custom_model_data": 2 }, "model": "block/suisou_medium" },
+    { "predicate": { "custom_model_data": 3 }, "model": "block/suisou_mega" }
+  ]
+}
