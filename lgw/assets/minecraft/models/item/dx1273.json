@@ -1,0 +1,33 @@
+{
+	"credit": "Made by JiU",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx1273"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-10.21, 87.58, 58.38],
+			"translation": [0, 0.25, 1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [37.14, 82.23, 110.08],
+			"translation": [0, -4, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-71.93, 68.63, 95.95],
+			"translation": [-1.5, 5.75, 4.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-142.24, 82.87, -113.25],
+			"translation": [-2, 5.5, 4.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [0, 0, -45],
+			"translation": [-0.25, -21.5, 3.75]
+		}
+	}
+}
