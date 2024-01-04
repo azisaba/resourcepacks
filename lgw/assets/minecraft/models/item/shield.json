@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/sh0001"
+	},
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "item/shield_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 4.75, 0.75],
+			"scale": [1, 1, 0.66]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 66],
+			"translation": [1, 5.25, -1.25],
+			"scale": [1, 1, 0.9]
+		}
+	}
+}
