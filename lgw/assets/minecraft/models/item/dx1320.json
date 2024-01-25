@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/frieren"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, -28],
+			"translation": [-0.5, 3.5, -0.25],
+			"scale": [1.8, 1.8, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [68, 0, -15],
+			"translation": [-4.5, -6.75, 7],
+			"scale": [1.8, 1.8, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-113, -95, -76],
+			"translation": [-3.75, 2.25, 1.25],
+			"scale": [1.8, 1.8, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [12.25, 0, 0],
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -2.5, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"scale": [1.5, 1.5, 1]
+		}
+	}
+}
