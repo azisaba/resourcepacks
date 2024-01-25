@@ -3,19 +3,19 @@
 	"textures": {
 		"0": "block/stripped_oak_log",
 		"1": "block/stripped_birch_log",
-		"4": "entity/cat/black",
+		"4": "items/cat_black",
 		"5": "block/podzol_top",
 		"6": "block/flower_pot",
 		"7": "block/rose_bush_top",
 		"8": "block/redstone_lamp_on",
 		"9": "block/bookshelf",
-		"10": "boooooooooook",
+		"10": "items/boooooooooook",
 		"11": "entity/enchanting_table_book",
 		"15": "block/oak_planks",
 		"16": "block/oak_log",
 		"17": "block/quartz_block_top",
 		"18": "block/black_terracotta",
-		"19": "akabekoooooooooon",
+		"19": "items/akabekoooooooooon",
 		"particle": "block/rose_bush_top"
 	},
 	"elements": [
@@ -1001,12 +1001,7 @@
 			"to": [9.5, 29, 8.95],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 27, 8.999]},
 			"faces": {
-				"north": {"uv": [0, 0, 1, 3], "texture": "#18"},
-				"east": {"uv": [0, 0, 0, 3], "texture": "#17"},
-				"south": {"uv": [0, 0, 1, 3], "texture": "#17"},
-				"west": {"uv": [0, 0, 0, 3], "texture": "#17"},
-				"up": {"uv": [0, 0, 1, 0], "texture": "#17"},
-				"down": {"uv": [0, 0, 1, 0], "texture": "#17"}
+				"north": {"uv": [0, 0, 1, 3], "texture": "#18"}
 			}
 		},
 		{
@@ -1014,12 +1009,7 @@
 			"to": [9.25, 30.75, 8.9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [9, 27, 8.999]},
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 4.75], "texture": "#18"},
-				"east": {"uv": [0, 0, 0, 4.75], "texture": "#17"},
-				"south": {"uv": [0, 0, 0.5, 4.75], "texture": "#17"},
-				"west": {"uv": [0, 0, 0, 4.75], "texture": "#17"},
-				"up": {"uv": [0, 0, 0.5, 0], "texture": "#17"},
-				"down": {"uv": [0, 0, 0.5, 0], "texture": "#17"}
+				"north": {"uv": [0, 0, 0.5, 4.75], "texture": "#18"}
 			}
 		},
 		{
