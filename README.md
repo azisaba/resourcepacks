@@ -21,3 +21,4 @@
 
 - サクラ・サクラ人形 : [VOICEVOX: 四国めたん](https://zunko.jp/con_ongen_kiyaku.html)
 - ティターニア : [VOICEVOX: ずんだもん](https://zunko.jp/con_ongen_kiyaku.html)
+- Twemoji (絵文字) : [CC-BY-4.0](https://github.com/twitter/twemoji/blob/master/LICENSE-GRAPHICS)
