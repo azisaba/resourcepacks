@@ -1,9 +1,7 @@
 {
-	"parent": "block/stairs",
+	"parent": "block/cube_all",
 	"textures": {
-		"bottom": "block/sakura_planks",
-		"side": "block/sakura_planks",
-		"top": "block/sakura_planks"
+		"all": "block/sakura_planks"
 	},
 	"display": {
 		"head": {
