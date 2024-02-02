@@ -5,6 +5,7 @@
         "all": "block/stone"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/geode_dayo"}
+		{ "predicate": {"custom_model_data": 1}, "model": "item/geode_dayo"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/AL_knight"}
     ]
 }
