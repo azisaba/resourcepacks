@@ -1,0 +1,36 @@
+{
+	"credit": "Made by R",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx1384"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-107, 20, -172],
+			"translation": [11, -12, 15],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [73, -20, -8],
+			"translation": [11, -12, 15],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [46.63, 57.48, -48.02],
+			"translation": [-2, 5.75, 4.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-97.28, -54.52, -109.34],
+			"translation": [-2.5, 5.75, 5.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 13, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"rotation": [0, 0, -45]
+		}
+	}
+}
