@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/dx1392"
+    },
+    "display": {
+  		"thirdperson_righthand": {
+  			"rotation": [2, -90, 46],
+  			"translation": [0, 0.5, 2.75],
+  			"scale": [0.79, 0.8, 1.22]
+  		},
+  		"firstperson_righthand": {
+  			"rotation": [0, -85, 46],
+  			"translation": [0, 2.5, 3],
+  			"scale": [1.09, 1, 1]
+  		}
+  	}
+}
