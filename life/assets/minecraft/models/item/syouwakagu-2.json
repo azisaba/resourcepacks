@@ -159,7 +159,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.25, 0]},
 			"faces": {
 				"north": {"uv": [0, 0, 3.95, 15], "texture": "#1"},
-				"east": {"uv": [0, 0, 1, 15], "texture": "#missing"},
+				"east": {"uv": [0, 0, 1, 15], "texture": "#1"},
 				"south": {"uv": [0, 0, 3.95, 15], "texture": "#missing"},
 				"west": {"uv": [0, 0, 1, 15], "texture": "#missing"},
 				"up": {"uv": [0, 0, 3.95, 1], "texture": "#missing"},
@@ -1503,88 +1503,93 @@
 					"color": 0,
 					"children": [40, 41, 42, 43]
 				},
-				44
-			]
-		},
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"color": 2,
-			"children": [45, 46, 47, 48]
-		},
-		{
-			"name": "haikikou-2",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
+				44,
 				{
 					"name": "group",
 					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [49, 50, 51, 52, 53, 54, 55]
-				},
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 1,
-					"children": [56, 57, 58, 59, 60, 61, 62, 63]
-				}
-			]
-		},
-		{
-			"name": "haikikou-2",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [64, 65, 66, 67, 68, 69, 70]
-				},
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 1,
-					"children": [71, 72, 73, 74, 75, 76, 77, 78]
-				}
-			]
-		},
-		{
-			"name": "haikikou-2",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [79, 80, 81, 82, 83, 84, 85]
-				},
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 1,
-					"children": [86, 87, 88, 89, 90, 91, 92, 93]
-				}
-			]
-		},
-		{
-			"name": "haikikou-2",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [94, 95, 96, 97, 98, 99, 100]
-				},
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 1,
-					"children": [101, 102, 103, 104, 105, 106, 107, 108]
+					"color": 2,
+					"children": [
+						45,
+						46,
+						47,
+						48,
+						{
+							"name": "haikikou-2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [49, 50, 51, 52, 53, 54, 55]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 1,
+									"children": [56, 57, 58, 59, 60, 61, 62, 63]
+								}
+							]
+						},
+						{
+							"name": "haikikou-2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [64, 65, 66, 67, 68, 69, 70]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 1,
+									"children": [71, 72, 73, 74, 75, 76, 77, 78]
+								}
+							]
+						},
+						{
+							"name": "haikikou-2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [79, 80, 81, 82, 83, 84, 85]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 1,
+									"children": [86, 87, 88, 89, 90, 91, 92, 93]
+								}
+							]
+						},
+						{
+							"name": "haikikou-2",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [94, 95, 96, 97, 98, 99, 100]
+								},
+								{
+									"name": "group",
+									"origin": [8, 8, 8],
+									"color": 1,
+									"children": [101, 102, 103, 104, 105, 106, 107, 108]
+								}
+							]
+						}
+					]
 				}
 			]
 		}
