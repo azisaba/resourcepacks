@@ -1,0 +1,19 @@
+FAMASMOD1_ryogo14:
+    Held:
+        Hide_Attributes: true
+        Durability: 601
+        Weapon_Weight: 0.0075
+    Shoot:
+        Bullet_Drop:
+            Maxium_Distance_To_Targeted_Block: 50
+        Camera_Recoil:
+            Upwards:
+                Minium: 0.8
+                Maxium: 0.85
+            Sideways:
+                Minium: -0.3
+                Maxium: 0.3
+    Reload:
+        Visual_Reload:
+            Default_Visual_Reload: "Gray_Bar"
+            Visual_Reload: "Gray_Bar"
