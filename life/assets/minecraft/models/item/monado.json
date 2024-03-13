@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/monado",
+		"layer0": "items/monado"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-94.65, 86.78, 140.11],
+			"translation": [0, 8.75, 3],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-10.29, -87.45, 124.42],
+			"translation": [0, -13.5, 1],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [154.05, 58.24, -95.49],
+			"translation": [2, 1.75, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -83.25, 0],
+			"translation": [0, 0.75, 4.25]
+		},
+		"ground": {
+			"translation": [0, 2.25, 0]
+		},
+		"gui": {
+			"scale": [1.2, 1.2, 1]
+		},
+		"head": {
+			"rotation": [0, 0, 179],
+			"translation": [0, -19.25, 5.5],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"scale": [1.4, 1.4, 1]
+		}
+	}
+}
