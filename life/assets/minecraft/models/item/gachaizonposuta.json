@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "items/gachaizonposuta",
+		"layer0": "items/gachaizonposuta"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [21, 27, 0.25],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 0.03107], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, 0, 0],
+			"translation": [0, -8.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70.75, 0, 0],
+			"translation": [0, -8.25, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [180, 20.5, 180],
+			"translation": [0, 5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 25.75, 180],
+			"translation": [-3.5, 5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [91.09, -1.02, 51.97],
+			"translation": [0, -11.25, -6.5]
+		},
+		"gui": {
+			"rotation": [-180, 3.75, -180],
+			"translation": [3.5, -3.75, 0]
+		},
+		"head": {
+			"translation": [-1.75, 0, 1.5]
+		},
+		"fixed": {
+			"translation": [-6, -10, 0],
+			"scale": [2, 2, 0]
+		}
+	}
+}
