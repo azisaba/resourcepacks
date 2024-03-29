@@ -1,6 +1,29 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "items/dx1456"
-    }
+	"credit": "Made by JiU",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx1456"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-35.75, -90, 0],
+			"translation": [0, 1.5, -3.25],
+			"scale": [0.8, 0.8, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-35.75, 90, 0],
+			"translation": [0, 1.5, -3.25],
+			"scale": [0.8, 0.8, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [143.55, -85.43, 169.83],
+			"translation": [4, 4.25, -2.5],
+			"scale": [0.7, 0.7, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20.54, 80.65, -10.11],
+			"translation": [1, 4.75, -0.5],
+			"scale": [0.7, 0.7, 0.9]
+		}
+	}
 }
