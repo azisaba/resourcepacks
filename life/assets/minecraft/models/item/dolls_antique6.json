@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "items/dolls_antique6_1",
-		"1": "dolls_antique6_2",
-		"particle": "dolls_antique6_2"
+		"0": "items/dolls_antique6_1"
 	},
 	"elements": [
 		{
@@ -409,32 +407,6 @@
 				"up": {"uv": [13.75, 8.25, 13.25, 6.75], "texture": "#0"},
 				"down": {"uv": [14.25, 6.75, 13.75, 8.25], "texture": "#0"}
 			}
-		},
-		{
-			"from": [-16, -2, 13],
-			"to": [4, 32, 13],
-			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
-			"faces": {
-				"north": {"uv": [7.5, 4, 2.5, 12.5], "texture": "#1"},
-				"east": {"uv": [7.5, 4, 7.5, 12.5], "texture": "#1"},
-				"south": {"uv": [12.5, 4, 7.5, 12.5], "rotation": 180, "texture": "#1"},
-				"west": {"uv": [2.5, 4, 2.5, 12.5], "texture": "#1"},
-				"up": {"uv": [2.5, 4, 7.5, 4], "texture": "#1"},
-				"down": {"uv": [7.5, 4, 12.5, 4], "texture": "#1"}
-			}
-		},
-		{
-			"from": [12, -2, 13],
-			"to": [32, 32, 13],
-			"faces": {
-				"north": {"uv": [2.5, 4, 7.5, 12.5], "texture": "#1"},
-				"east": {"uv": [2.5, 4, 2.5, 12.5], "texture": "#1"},
-				"south": {"uv": [7.5, 4, 12.5, 12.5], "rotation": 180, "texture": "#1"},
-				"west": {"uv": [7.5, 4, 7.5, 12.5], "texture": "#1"},
-				"up": {"uv": [7.5, 4, 2.5, 4], "texture": "#1"},
-				"down": {"uv": [12.5, 4, 7.5, 4], "texture": "#1"}
-			}
 		}
-	],
-	"display": {}
+	]
 }
