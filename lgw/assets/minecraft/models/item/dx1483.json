@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "items/dx1483"
+	  },
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 7, 0],
+			"scale": [1.55, 1.4, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9.1, 7, 0],
+			"scale": [1.55, 1.4, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}
