@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/yomi"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90.79, -89.2, 90.88],
+			"translation": [0, -9.25, 1.5],
+			"scale": [4, 3, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65.5, 0.58, -79.28],
+			"translation": [-6, -8.25, 2],
+			"scale": [4, 3, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-152.67, -74.6, -113.03],
+			"translation": [-28, -5, 3],
+			"scale": [4, 3, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-165.83, 74.6, 113.03],
+			"translation": [7.75, -4, 6],
+			"scale": [4, 3, 0.8]
+		},
+		"ground": {
+			"translation": [0, 15.25, 0],
+			"scale": [4, 3, 0.8]
+		},
+		"gui": {
+			"rotation": [-180, 2.25, -133],
+			"scale": [3, 2, 1]
+		},
+		"head": {
+			"rotation": [178.1, 81.79, -49.06],
+			"translation": [0, 7.75, -9.5],
+			"scale": [4, 3, 0.8]
+		},
+		"fixed": {
+			"rotation": [-33, -89.75, 50.25],
+			"translation": [0, 0, -24.75],
+			"scale": [4, 3.65625, 0.8]
+		}
+	}
+}
