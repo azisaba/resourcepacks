@@ -1,0 +1,29 @@
+{
+	"credit": "Made by HGJZ",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/omg"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90.21, -89.66, 119.01],
+			"translation": [0, -1.75, 7],
+			"scale": [1.4, 1.4, 2.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [145.19, -86.82, -71.97],
+			"translation": [0, -2, 7.5],
+			"scale": [1.4, 1.4, 2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-150.5, 89.83, 12.63],
+			"translation": [-1, 5.5, 5],
+			"scale": [0.8, 0.8, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-56.97, -81.51, 87.17],
+			"translation": [-1, 5.25, 4.25],
+			"scale": [0.7, 0.7, 1.2]
+		}
+	}
+}
