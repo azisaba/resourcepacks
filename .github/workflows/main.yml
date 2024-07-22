@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: リソースパックとして機能するディレクトリを見つける
         run: find . -mindepth 2 -maxdepth 2 -type f -iname pack.mcmeta | parallel echo {//} > pack.txt
