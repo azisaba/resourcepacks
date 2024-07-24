@@ -1,11 +1,11 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/diamond_hoe"
+		"layer0": "item/clock"
 	},
 	"overrides": [
 
-		{"predicate": {"custom_model_data":       0}, "model":"item/diamond_hoe"},
+		{"predicate": {"custom_model_data":       0}, "model":"item/clock"},
 
 		{"predicate": {"custom_model_data":       1}, "model":"item/weapons/aa12"},
 		{"predicate": {"custom_model_data":       2}, "model":"item/weapons/ak12"},
@@ -89,10 +89,11 @@
 		{"predicate": {"custom_model_data":      80}, "model":"item/weapons/stim"},
 		{"predicate": {"custom_model_data":      81}, "model":"item/weapons/xr5gen2"},
 		{"predicate": {"custom_model_data":      82}, "model":"item/weapons/abyss_anime"},
-		{"predicate": {"custom_model_data":      83}, "model":"item/weapons/yabaidc9"},
-		{"predicate": {"custom_model_data":      84}, "model":"item/weapons/yabaidc9re"},
+		{"predicate": {"custom_model_data":      83}, "model":"item/weapons/dc9taboo"},
+		{"predicate": {"custom_model_data":      84}, "model":"item/weapons/dc9tabooreload"},
 		{"predicate": {"custom_model_data":      85}, "model":"item/weapons/abyss"},
 		{"predicate": {"custom_model_data":      86}, "model":"item/weapons/moment_anime"},
+		{"predicate": {"custom_model_data":      87}, "model":"item/weapons/moment"},
 		{"predicate": {"custom_model_data":      87}, "model":"item/weapons/moment"}
        ]
 }        
