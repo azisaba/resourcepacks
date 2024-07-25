@@ -1,11 +1,11 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/clock_00"
+		"layer0": "item/flower_banner_pattern"
 	},
 	"overrides": [
 
-		{"predicate": {"custom_model_data":       0}, "model":"item/clock"},
+		{"predicate": {"custom_model_data":       0}, "model":"item/flower_banner_pattern"},
 		{"predicate": {"custom_model_data":       1}, "model":"item/weapons/aa12"},
 		{"predicate": {"custom_model_data":       2}, "model":"item/weapons/ak12"},
 		{"predicate": {"custom_model_data":       3}, "model":"item/weapons/ak47"},
