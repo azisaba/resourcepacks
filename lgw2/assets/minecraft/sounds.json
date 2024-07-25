@@ -1,22 +1,47 @@
 {
   "shot.sound1": {
     "category": "master",
-    "sounds": ["shoot/sound1"]
+    "sounds": [
+      {
+        "name": "shoot/sound1",
+        "volume": 1.0
+      }
+    ]
   },
   "shot.fnfal": {
     "category": "master",
-    "sounds": ["shoot/fnfal"]
+    "sounds": [
+      {
+        "name": "shoot/fnfal",
+        "volume": 1.0
+      }
+    ]
   },
-    "shot.uzi": {
+  "shot.uzi": {
     "category": "master",
-    "sounds": ["shoot/uzi"]
+    "sounds": [
+      {
+        "name": "shoot/uzi",
+        "volume": 1.0
+      }
+    ]
   },
-    "shot.stg44": {
+  "shot.stg44": {
     "category": "master",
-    "sounds": ["shoot/stg44"]
+    "sounds": [
+      {
+        "name": "shoot/stg44",
+        "volume": 4.0
+      }
+    ]
   },
   "shot.m4a1": {
     "category": "master",
-    "sounds": ["shoot/m4a1"]
+    "sounds": [
+      {
+        "name": "shoot/m4a1",
+        "volume": 1.0
+      }
+    ]
   }
 }
