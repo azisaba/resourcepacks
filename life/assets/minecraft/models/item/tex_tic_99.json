@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"2": "diamond_sword",
+		"particle": "Downloads/1000026031",
+		"layer0": "Downloads/1000026031"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, -152],
+			"translation": [0, 8, 3.25],
+			"scale": [1.5, 1.5, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [0, 5, 3],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, -120],
+			"translation": [6.25, 1.5, -0.75],
+			"scale": [1, 1, 0.55]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [1, 1, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 0, -180],
+			"translation": [1.75, 0, 0]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 3.25, -12.5],
+			"scale": [2.5, 2.5, 1]
+		}
+	}
+}
