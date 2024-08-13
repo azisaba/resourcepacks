@@ -1,7 +1,16 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/m1garand_knife
-        "
-    }
+        "layer0": "item/m1garand_knife"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 0, -3.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 0, -3.75]
+		}
+	}
 }
