@@ -1,0 +1,39 @@
+{
+	"credit": "Made by ray",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/mp5summer"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [52, -91, 97],
+			"translation": [0.25, 2.75, 3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-36, 90, 0],
+			"translation": [0, 2.75, 4.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [105, -90, 140],
+			"translation": [1, 4.25, 2.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-59, 83, 31],
+			"translation": [3.75, 3.75, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2.25, 0]
+		},
+		"head": {
+			"rotation": [0, 180, -78],
+			"translation": [-1.75, -18, 5.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [3.25, 0, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

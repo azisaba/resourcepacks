@@ -1,0 +1,22 @@
+{
+	"credit": "Made by JiU",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/spassummer"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-122, -90, -67],
+			"translation": [0, 1.5, -1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [114, -85.74, 142.96],
+			"translation": [-0.25, 5, 2.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"rotation": [0, 180, -180],
+			"translation": [1.75, -14, 4.25]
+		}
+	}
+}
