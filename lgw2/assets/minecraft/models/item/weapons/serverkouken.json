@@ -1,6 +1,22 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/serverkouken"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/serverkouken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.75, 0.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.75, 0.75, 1]
+		},
+		"fixed": {
+			"translation": [1.5, -0.25, 0]
+		}
+	}
 }
