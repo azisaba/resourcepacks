@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"textures": {
-		"0": "item/karambitknifebloodred",
-		"particle": "item/karambitknifebloodred"
-	},
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/karambitknifebloodred"
+    },
 	"elements": [
 		{
 			"name": "karambitknife_0",
