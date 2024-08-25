@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/turi/bluetsuri"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 10.5, 1.5],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [0, 10.5, 1.5],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 82, 53],
+			"translation": [13.25, 6.75, -6.75],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -98, -53],
+			"translation": [13.25, 6.75, -6.75],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 2, 0],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"head": {
+			"rotation": [0, 0, -153],
+			"translation": [0, -15.25, 7.5],
+			"scale": [3, 3, 1.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [3, 3, 1.5]
+		}
+	}
+}
