@@ -1,0 +1,29 @@
+{
+	"credit": "Made by unc J",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/dx1534"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [50.25, 90, 0],
+			"translation": [0, 2.75, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [0, 2.5, 0.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-73.96, 9.68, -53.63],
+			"translation": [-1.75, 4.75, 4],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-58.9, 8.7, -167.21],
+			"translation": [-1, 4, 2],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}
