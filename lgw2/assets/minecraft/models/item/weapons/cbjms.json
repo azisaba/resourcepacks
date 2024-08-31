@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cbjms"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40, -90, 0],
+			"translation": [0, 0, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40, 90, 0],
+			"translation": [0, 0, 1.5],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}
