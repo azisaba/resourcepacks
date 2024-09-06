@@ -4,9 +4,7 @@
 		"layer0": "item/fishing_rod"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data":0}, "model": "item/fishing_rod"},
 		{"predicate": {"custom_model_data":0}, "model": "item/fishing_rod_cast"},
-		{"predicate": {"custom_model_data":1}, "model": "item/turi/redtsuri"},
 		{"predicate": {"custom_model_data":1}, "model": "item/turi/redtsurinage"}
 	]
 }
