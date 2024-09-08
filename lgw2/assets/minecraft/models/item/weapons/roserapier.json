@@ -1,0 +1,37 @@
+{
+	"credit": "Made by JiU",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "roserapier"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [60, -90, 100],
+			"translation": [0, 13, 2.5],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [152, -90, 100],
+			"translation": [0, 13, 2.5],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [78, -85.74, 180],
+			"translation": [-0.25, 5, 2.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [152, -85.74, 180],
+			"translation": [-0.25, 5, 2.25],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"rotation": [180, 0, 45],
+			"translation": [0, 7.5, 0]
+		},
+		"head": {
+			"rotation": [0, 90, 180],
+			"translation": [-7.25, -27, 3.25]
+		}
+	}
+}
