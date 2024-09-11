@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/koku_hayabusa",
+		"layer0": "items/koku_hayabusa"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-59, -90, 0],
+			"translation": [0, 7.5, -1.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-59, 90, 0],
+			"translation": [0, 7.5, -1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-15.06, -78.27, 75.25],
+			"translation": [6.5, 3, -7.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [163.74, 86, 94.15],
+			"translation": [6.5, 3, -7.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"head": {
+			"rotation": [180, 0, 0],
+			"translation": [0, -21, 5],
+			"scale": [3, 3, 3]
+		}
+	}
+}
