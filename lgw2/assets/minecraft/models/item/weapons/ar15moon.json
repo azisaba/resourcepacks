@@ -2,33 +2,33 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "items/sv98moon",
-		"particle": "items/sv98moon"
+		"layer0": "items/ar15moon",
+		"particle": "items/ar15moon"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 45],
-			"translation": [0, 1.25, -1.75],
-			"scale": [1.2, 1.2, 1]
+			"translation": [0, 1.5, -0.5],
+			"scale": [0.9, 0.9, 1]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, 90, -45],
-			"translation": [0, 1.25, -1.75],
-			"scale": [1.2, 1.2, 1]
+			"translation": [0, 1.5, -0.5],
+			"scale": [0.9, 0.9, 1]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -100, 45],
-			"translation": [13.5, -3.25, -13.25],
-			"scale": [2.4, 2.4, 2]
+			"translation": [13.25, -0.75, -8.75],
+			"scale": [1.8, 1.8, 2]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 80, -45],
-			"translation": [13.5, -3.25, -13.25],
-			"scale": [2.4, 2.4, 2]
+			"translation": [13.25, -0.75, -8.75],
+			"scale": [1.8, 1.8, 2]
 		},
 		"ground": {
 			"rotation": [90, 0, 0],
-			"scale": [1.2, 1.2, 1]
+			"scale": [0.9, 0.9, 1]
 		},
 		"gui": {
 			"translation": [0.75, 0, 0]
