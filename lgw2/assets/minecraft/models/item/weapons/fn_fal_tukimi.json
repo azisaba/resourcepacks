@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/fn_fal_tukimi",
+		"layer0": "item/fn_fal_tukimi"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-43.75, -90, 0],
+			"translation": [0, 2.75, -3],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-43.75, 90, 0],
+			"translation": [0, 2.75, -3],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-43.57, -85.5, 0.36],
+			"translation": [4, 3.25, -1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-43.57, 85.5, 0.36],
+			"translation": [4, 3.25, -1.75]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"head": {
+			"translation": [0, -15, 4.5],
+			"scale": [2, 2, 1.99609]
+		}
+	}
+}
