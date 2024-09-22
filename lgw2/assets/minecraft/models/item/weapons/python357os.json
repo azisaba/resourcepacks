@@ -1,0 +1,30 @@
+{
+	"credit": "Made by unc J",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/python357os"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-166.93, -89.23, -139.83],
+			"translation": [0, 3, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-69.88, 84.93, 37.68],
+			"translation": [0, 2.75, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [101.93, -85.74, 142.96],
+			"translation": [-0.5, 5.5, 2.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [137.62, 83.51, -179.29],
+			"translation": [0, 5.5, 1.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"translation": [1.25, 0, 0]
+		}
+	}
+}
