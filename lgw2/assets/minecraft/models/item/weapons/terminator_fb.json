@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/terminator_fb"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, -1.75, 0],
+			"scale": [1.45, 1.45, 2.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, -1.75, 0],
+			"scale": [1.45, 1.45, 2.75]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"head": {
+			"rotation": [0, 90, 24],
+			"translation": [-6.5, -3.75, -4],
+			"scale": [0.55, 0.7, 1]
+		}
+	}
+}
