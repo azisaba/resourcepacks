@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/night_dancer_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 6, 1.5],
+			"scale": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 6, 1.5],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 6, 0],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 6, 0],
+			"scale": [1, 1, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -135],
+			"translation": [0, 12, 0],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"head": {
+			"rotation": [180, -35, 35],
+			"translation": [-2.5, -26.5, 0],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"rotation": [90, 0, 35],
+			"translation": [-5, 0, -27.5],
+			"scale": [3, 3, 1.5]
+		}
+	}
+}
