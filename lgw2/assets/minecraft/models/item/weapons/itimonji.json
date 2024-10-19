@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/itimonji"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [-0.5, 7, 4.25],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [-0.5, 7, 4.25],
+			"scale": [1.5, 1.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [143.87, -78.27, -144.17],
+			"translation": [3.75, 7, 0],
+			"scale": [1.2, 1.2, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [143.87, 98.27, 144.17],
+			"translation": [3.75, 7, 0],
+			"scale": [1.2, 1.2, 0.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 45],
+			"translation": [0, -3.75, 0],
+			"scale": [2, 2, 0.7]
+		},
+		"head": {
+			"rotation": [0, 0, -160],
+			"translation": [0.5, -15, 3.75],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 0.25, 0.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}
