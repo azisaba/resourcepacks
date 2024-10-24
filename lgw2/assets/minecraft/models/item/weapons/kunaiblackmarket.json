@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/kunaiblackmarket"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62, 90, 0],
+			"translation": [-0.5, -4, -0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [62, -90, 0],
+			"translation": [-0.5, -4, -0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-58.28, -6.18, 92.58],
+			"translation": [2.25, 1.25, 0],
+			"scale": [0.5, 0.5, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [132.47, 12.6, 91.48],
+			"translation": [2.25, 1.25, 0],
+			"scale": [0.5, 0.5, 0.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 45],
+			"translation": [0, -1.25, 0],
+			"scale": [0.6, 0.6, 0.3]
+		},
+		"gui": {
+			"rotation": [-180, 0, 180]
+		},
+		"head": {
+			"rotation": [-99.75, 0, 145],
+			"translation": [2.25, -4.5, -7],
+			"scale": [0.6, 0.6, 0.3]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -90],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}
