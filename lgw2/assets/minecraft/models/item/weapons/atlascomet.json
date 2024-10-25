@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/atlascomet",
+		"particle": "item/atlascomet"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 0.5, -2],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 0.5, -2],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -100, 45],
+			"translation": [19, -9, -17.5],
+			"scale": [2.4, 2.4, 2.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 80, -45],
+			"translation": [19, -9, -17.5],
+			"scale": [2.4, 2.4, 2.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [0, 0, 108],
+			"translation": [0.25, -21, 4.5],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, -1.25],
+			"scale": [2.4, 2.4, 2.4]
+		}
+	}
+}
