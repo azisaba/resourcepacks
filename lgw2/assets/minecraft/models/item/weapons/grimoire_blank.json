@@ -1,0 +1,35 @@
+{
+	"credit": "Made by Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/grimoire_blank"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-1.48, 8.19, 20.24],
+			"translation": [0.5, 1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [1.48, -8.19, -20.24],
+			"translation": [0.5, 1.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 12],
+			"translation": [2.75, 0.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -12],
+			"translation": [2.75, 0.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [90, 0, 180],
+			"translation": [0, 7.75, -2],
+			"scale": [0.7, 0.7, 1.5]
+		}
+	}
+}
