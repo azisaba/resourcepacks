@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/pkp_dragonhollow"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"translation": [0, 2.75, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"translation": [0, 2.75, 1.5]
+		},
+		"head": {
+			"rotation": [0, 0, -30],
+			"translation": [0, -19, 4.25]
+		}
+	}
+}
