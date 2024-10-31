@@ -2,20 +2,36 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
+		"particle": "item/pkp_dragonhollow",
 		"layer0": "item/pkp_dragonhollow"
 	},
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 0, -90],
-			"translation": [0, 2.75, 1.5]
+			"rotation": [-43.25, -90, 0],
+			"translation": [0, 1.75, -2.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 0, 90],
-			"translation": [0, 2.75, 1.5]
+			"rotation": [-43.25, 90, 0],
+			"translation": [0, 1.75, -2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-15.43, -77.58, 29.37],
+			"translation": [5.25, 0.5, -4.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [167.53, 71.53, 152.17],
+			"translation": [3.25, 0.75, -3.75]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
 		},
 		"head": {
-			"rotation": [0, 0, -30],
-			"translation": [0, -19, 4.25]
+			"translation": [0, -14, 7.75],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0.5, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
 		}
 	}
 }
