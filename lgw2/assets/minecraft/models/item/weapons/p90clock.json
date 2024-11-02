@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/p90clock"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [-0.5, 0, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [-0.5, 0, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [180, -75, -130],
+			"translation": [3.5, 2, 1],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-18.76, 79.05, -27.9],
+			"translation": [3.5, 2, 0.5],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"rotation": [-90, 0, 45],
+			"translation": [0, -1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-135, -90, 0],
+			"translation": [-6.75, -25, -2],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"scale": [1.2, 1.2, 1.1]
+		}
+	}
+}
