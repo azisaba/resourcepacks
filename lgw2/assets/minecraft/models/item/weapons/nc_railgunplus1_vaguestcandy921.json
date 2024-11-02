@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/nc_railgunplus1_vaguestcandy921"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [21, 90, 27],
+			"translation": [0.25, 12, 2.5],
+			"scale": [1.69, 1.67, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [66, 180, 90],
+			"translation": [-4, -8.5, 9.25],
+			"scale": [1.76, 1.72, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-82, -4, 106],
+			"translation": [-9.75, 2.25, 2.25],
+			"scale": [1.78, 1.78, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 1]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -5.5, 0],
+			"scale": [4, 4, 4]
+		},
+		"gui": {
+			"scale": [1.38, 1.38, 1]
+		},
+		"head": {
+			"translation": [0, -15, 11.5],
+			"scale": [2.99, 2.99, 1.25]
+		}
+	}
+}
