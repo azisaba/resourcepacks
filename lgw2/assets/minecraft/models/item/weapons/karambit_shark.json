@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/karambit_shark"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, 90, 0],
+			"translation": [0, -4.75, -0.5],
+			"scale": [0.7, 0.7, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, -90, 0],
+			"translation": [0, -4.75, -0.5],
+			"scale": [0.7, 0.7, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [91, -165, 105],
+			"translation": [1.5, 2.25, 0],
+			"scale": [0.7, 0.7, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-90, 165, 81],
+			"translation": [1, 2, 0],
+			"scale": [0.7, 0.7, 0.6]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 2.5, 4.5],
+			"scale": [0.7, 0.7, 0.75]
+		},
+		"gui": {
+			"rotation": [0, 0, 22]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"fixed": {
+			"rotation": [180, 0, -135],
+			"translation": [0, 0, 0.5]
+		}
+	}
+}
