@@ -1,0 +1,34 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/nc_sorcerers_rod_17touta"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [16, -89, -33],
+      "translation": [0, 3.25, 1.25],
+      "scale": [1.5, 1.5, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-100, 1, 134],
+      "translation": [-11.25, 0.75, 1],
+      "scale": [1.5, 1.5, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -99, 10],
+      "translation": [2, 2.75, 0.75],
+      "scale": [1.25, 1.25, 0.9]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 0, -34],
+      "translation": [-8.25, 2, 0],
+      "scale": [1.25, 1.25, 1]
+    },
+    "head": {
+      "rotation": [0, 0, -46],
+      "translation": [-19.75, -19.75, -8.25],
+      "scale": [1.5, 1.5, 1]
+    }
+  }
+}
