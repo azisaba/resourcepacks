@@ -1,0 +1,46 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/nc_ppsh41laser_y_yfuu_tok111u_u",
+    "particle": "item/nc_ppsh41laser_y_yfuu_tok111u_u"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, -43],
+      "translation": [0, 5.5, 2.75],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 42],
+      "translation": [0, 5.5, 2.75],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -89, -34],
+      "translation": [51, 0.5, -40.75],
+      "scale": [4, 4, 4]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 91, 34],
+      "translation": [51, 0.5, -40.75],
+      "scale": [4, 4, 4]
+    },
+    "ground": {
+      "rotation": [180, 0, 0],
+      "translation": [0, 7.5, 0],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "gui": {
+      "translation": [0.25, 0, 0]
+    },
+    "head": {
+      "rotation": [0, 0, -20],
+      "translation": [6, 3.75, 8.25],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "fixed": {
+      "scale": [2.4, 2.4, 2.4]
+    }
+  }
+}
