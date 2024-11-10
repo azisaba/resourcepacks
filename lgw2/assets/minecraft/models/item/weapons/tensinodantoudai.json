@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "ダウンロード rw"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [-0.75, 6.25, 1.5],
+			"scale": [2, 2, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [-0.75, 6.25, 1.5],
+			"scale": [2, 2, 1.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [143.87, -78.27, -144.17],
+			"translation": [3.75, 7, 0],
+			"scale": [1.6, 1.6, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [143.87, 98.27, 144.17],
+			"translation": [3.75, 7, 0],
+			"scale": [1.6, 1.6, 0.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 45],
+			"translation": [0, -3.75, 0],
+			"scale": [2, 2, 0.7]
+		},
+		"head": {
+			"rotation": [0, 0, 135],
+			"translation": [-1.75, -21.25, 3.5],
+			"scale": [3, 3, 1]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 0.25, 0.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}
