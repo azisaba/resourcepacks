@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/moroha",
+		"layer0": "item/moroha"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 7, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 7, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [12.5, 90, 0],
+			"translation": [3.25, 7, -3.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [12.5, -90, 0],
+			"translation": [3.25, 7, -3.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		}
+	}
+}

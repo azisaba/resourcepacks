@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/sitotu",
+		"layer0": "item/sitotu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 1, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 1, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [2, 15, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [2, 15, 0]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		}
+	}
+}
