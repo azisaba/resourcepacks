@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/bluerose"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-32.25, -90, 0],
+			"translation": [-0.5, 0.75, -0.5],
+			"scale": [0.55, 0.55, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-32.25, 90, 0],
+			"translation": [-0.5, 0.75, -0.5],
+			"scale": [0.55, 0.55, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-175, -75, -140],
+			"translation": [3.5, 2, -2.5],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-40, 80, 5],
+			"translation": [3.5, 2, -2.5],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"rotation": [-90, 0, 45],
+			"translation": [0, -1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-39, -90, 0],
+			"translation": [0, 7.25, -6.5],
+			"scale": [0.9, 0.9, 1.27695]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"scale": [1.2, 1.2, 1.1]
+		}
+	}
+}
