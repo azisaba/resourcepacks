@@ -1,0 +1,31 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "0": "item/nc_hukuoka1monji_yukiog",
+    "particle": "item/nc_hukuoka1monji_yukiog"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-1, -90, 35],
+      "translation": [0, 5.5, 1.75]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [157, 95, 180],
+      "translation": [0.25, 5, 3]
+    },
+    "firstperson_righthand": {
+      "rotation": [62, 78, -32],
+      "translation": [2.25, 6.5, 1.5]
+    },
+    "firstperson_lefthand": {
+      "translation": [-8.5, 8.5, 0]
+    },
+    "ground": {
+      "translation": [0, 3.5, -5.5]
+    },
+    "head": {
+      "translation": [-0.5, -17.25, 3.75]
+    }
+  }
+}
