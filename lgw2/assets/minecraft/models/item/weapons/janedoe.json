@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/janedoe"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [23, 90, 0],
+			"translation": [-0.75, -3.5, -0.25],
+			"scale": [0.6, 0.6, 0.58]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [23, -90, 0],
+			"translation": [-0.75, -3.5, -0.25],
+			"scale": [0.6, 0.6, 0.58]
+		},
+		"firstperson_righthand": {
+			"rotation": [96.89, -66.51, 107.39],
+			"translation": [3.5, 1, 0],
+			"scale": [0.65, 0.8, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-96.59, 70.69, 84.7],
+			"translation": [3, 1.75, 0],
+			"scale": [0.65, 0.8, 0.55]
+		},
+		"ground": {
+			"rotation": [-90, 0, -101],
+			"translation": [0, -2.5, 0],
+			"scale": [0.7, 0.7, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 1.25, 0.75]
+		},
+		"head": {
+			"rotation": [90, 0, 76.75],
+			"translation": [1.25, -4, -8.5],
+			"scale": [0.8, 0.8, 0.4]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, 0, 1.25],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}
