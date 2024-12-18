@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/mosinnagantxmas",
+		"particle": "item/mosinnagantxmas"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 1.25, -3.75],
+			"scale": [1.1, 1.1, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 1.25, -3.75],
+			"scale": [1.1, 1.1, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -105, 45],
+			"translation": [16.75, -2.25, -14.75],
+			"scale": [2.2, 2.2, 2.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 80, -45],
+			"translation": [16.75, -2.25, -14.75],
+			"scale": [2.2, 2.2, 2.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2.5, 0],
+			"scale": [1.1, 1.1, 1.2]
+		},
+		"gui": {
+			"translation": [0.25, 0.25, 0]
+		},
+		"head": {
+			"rotation": [90, 0, 45],
+			"translation": [0, 7.75, 1.75],
+			"scale": [1.6, 1.6, 1.4]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.5, 0, -1.25],
+			"scale": [2.2, 2.2, 2.4]
+		}
+	}
+}

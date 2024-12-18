@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/ak74xmas",
+		"particle": "item/ak74xmas"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 1, -1],
+			"scale": [0.9, 0.9, 1.1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 1, -1],
+			"scale": [0.9, 0.9, 1.1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -100, 45],
+			"translation": [15, -2.75, -10],
+			"scale": [1.8, 1.8, 2.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 80, -45],
+			"translation": [15, -2.75, -10],
+			"scale": [1.8, 1.8, 2.2]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1.5, 0],
+			"scale": [0.9, 0.9, 1.1]
+		},
+		"gui": {
+			"translation": [0.5, 0, 0]
+		},
+		"head": {
+			"rotation": [90, 0, 45],
+			"translation": [0, 8, 1.75],
+			"scale": [1.4, 1.4, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.25, 0, -1.25],
+			"scale": [1.8, 1.8, 2.2]
+		}
+	}
+}
