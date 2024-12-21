@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"1": "items/mini_event_202412"
+		"layer0": "items/mini_event_202412",
+		"particle": "items/mini_event_202412"
 	},
 	"display": {
 		"thirdperson_righthand": {
@@ -43,5 +44,14 @@
 			"translation": [-0.5, 0, 0],
 			"scale": [2.8, 2.8, 2.8]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "mini_event_202412",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+
 }
