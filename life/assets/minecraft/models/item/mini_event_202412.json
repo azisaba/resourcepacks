@@ -2,13 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "items/mini_event_202412",
-		"particle": "items/mini_event_202412"
+		"1": "mini_event_202412"
 	},
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, -90, 52],
-			"translation": [0, 2, -1],
+			"translation": [0, 13.25, -1],
 			"scale": [1.4, 1.4, 1.4]
 		},
 		"thirdperson_lefthand": {
