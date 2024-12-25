@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/ump_oldones"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-46, -90, 0],
+			"translation": [0, 2.25, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-46, 90, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, -92, 42],
+			"translation": [-0.75, 3.75, 2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-16, 97, -41],
+			"translation": [0.75, 4.5, 2.5]
+		},
+		"gui": {
+			"rotation": [-10, 5, 4],
+			"translation": [0.5, 0, 0],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}
