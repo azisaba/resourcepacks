@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/nc_seven7777_tasergun"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1, -5.25],
+			"scale": [1.16, 0.4, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 1, -5.25],
+			"scale": [1.16, 0.4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0.75, 4, 0],
+			"scale": [1.16, 0.4, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.75, 4, 0],
+			"scale": [1.16, 0.4, 1]
+		},
+		"ground": {
+			"rotation": [-90, 0, 0],
+			"scale": [1.16, 0.4, 1]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"scale": [1.16, 0.4, 1]
+		},
+		"head": {
+			"rotation": [0, 0, 50],
+			"translation": [1.25, -19.25, 4],
+			"scale": [1.99, 0.63, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, -45],
+			"scale": [1.16, 0.4, 1]
+		}
+	}
+}
