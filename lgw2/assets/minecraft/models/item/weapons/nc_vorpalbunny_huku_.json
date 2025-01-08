@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/nc_vorpalbunny_huku_",
+		"layer0": "items/nc_vorpalbunny_huku_"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [83.7, -88.65, 112.95],
+			"translation": [0, 0, -3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-101.04, 88.92, 77.67],
+			"translation": [0, -0.25, -3.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [83.61, -86.92, 116.36],
+			"translation": [1.25, 1.5, -2.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [32.73, 86.85, -63.17],
+			"translation": [2.25, 1.5, -2.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0]
+		},
+		"head": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 0, -5]
+		}
+	}
+}
