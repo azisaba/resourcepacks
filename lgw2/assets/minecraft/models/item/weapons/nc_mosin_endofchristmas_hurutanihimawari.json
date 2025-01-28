@@ -1,0 +1,32 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "1": "item/nc_mosin_endofchristmas_hurutanihimawari",
+    "layer0": "item/nc_mosin_endofchristmas_hurutanihimawari",
+    "particle": "item/nc_mosin_endofchristmas_hurutanihimawari"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -89, 25],
+      "translation": [0, 1.25, -2.25],
+      "scale": [0.73, 0.73, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 91, -28],
+      "translation": [0, 1, -2],
+      "scale": [0.73, 0.73, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [-31, -94, 0],
+      "translation": [0, 1.25, -0.25]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 88, -31],
+      "translation": [0, 1.25, 1.25]
+    },
+    "fixed": {
+      "rotation": [0, 180, 0]
+    }
+  }
+}
