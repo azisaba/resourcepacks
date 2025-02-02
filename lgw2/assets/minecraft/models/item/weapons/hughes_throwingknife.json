@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "hughes_throwingknife"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [-1, -1.5, -1.5],
+			"scale": [0.3, 0.3, 0.45]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [-1, -1.5, -1.5],
+			"scale": [0.3, 0.3, 0.45]
+		},
+		"firstperson_righthand": {
+			"rotation": [80.34, -79.56, 44.56],
+			"translation": [4, 2.75, 0],
+			"scale": [0.45, 0.45, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-107.51, 76.04, 152.35],
+			"translation": [4, 2.75, 0],
+			"scale": [0.45, 0.45, 0.4]
+		},
+		"ground": {
+			"rotation": [-90, 0, -101],
+			"translation": [0, -2.5, 0],
+			"scale": [0.7, 0.7, 0.5]
+		},
+		"gui": {
+			"translation": [0.25, -0.25, 0]
+		},
+		"head": {
+			"rotation": [90, 0, 135],
+			"translation": [0, -4, -9],
+			"scale": [0.8, 0.8, 0.4]
+		},
+		"fixed": {
+			"rotation": [-180, 0, -180],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}
