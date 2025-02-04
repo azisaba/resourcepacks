@@ -1,0 +1,32 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/nc_yokai_caphpica_",
+    "particle": "item/nc_yokai_caphpica_"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 0],
+      "translation": [0, 5.75, 0]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 5.75, 0]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 0],
+      "translation": [4.25, 3, -2.75]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, 0],
+      "translation": [4.25, 3, -2.75]
+    },
+    "ground": {
+      "translation": [0, 2.75, 0]
+    },
+    "head": {
+      "translation": [0, 8.75, 0.5]
+    }
+  }
+}
