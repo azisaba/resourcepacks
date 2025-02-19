@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/s0/tooboe",
+		"layer0": "items/s0/tooboe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, 60, -130],
+			"translation": [1.5, 15, 2.75],
+			"scale": [2.4, 2.4, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, -120, 130],
+			"translation": [1.5, 15, 2.75],
+			"scale": [2.4, 2.4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [178.75, 67.75, -180],
+			"translation": [2.75, 4.75, -4.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [1.34, -67.78, 0.11],
+			"translation": [2.75, 4.75, -4.25]
+		},
+		"ground": {
+			"translation": [0, 6.25, 0]
+		},
+		"head": {
+			"translation": [0, -11.75, 6.75],
+			"scale": [4, 4, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, -1],
+			"scale": [2, 2, 1]
+		}
+	}
+}
