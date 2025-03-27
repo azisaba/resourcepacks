@@ -4,6 +4,8 @@
         "layer0": "item/glass_bottle"
     },
     "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/superwater"}
+        { "predicate": {"custom_model_data": 1}, "model": "item/superwater"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/96neko_stand_nanika"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/zyokkinoosake"}
     ]
 }
