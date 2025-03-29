@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/stormslingerreticle07"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [8, -90, 36],
+			"translation": [0, 0.25, 4],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-12, -180, 46],
+			"translation": [0, 1.75, 2.25],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -98, 32],
+			"translation": [-2, 4, 4.75],
+			"scale": [0.7, 0.7, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-91, -180, 43],
+			"translation": [-2, 4, 4.75],
+			"scale": [0.7, 0.7, 0.6]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -3, 0]
+		},
+		"gui": {
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"translation": [0, 14, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.5, -0.75, 0],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}
