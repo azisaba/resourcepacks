@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "items/sakabanbasubisu"
+		"0": "items/sakabanbasubisu",
+		"particle": "items/sakabanbasubisu"
 	},
 	"elements": [
 		{
@@ -618,12 +619,12 @@
 			"scale": [3, 3, 3]
 		},
 		"head": {
-			"translation": [-1.75, 11, 19.75],
+			"translation": [0, 11, 19.75],
 			"scale": [3, 3, 3]
 		},
 		"fixed": {
 			"rotation": [-90, -61.75, 0],
-			"translation": [1.25, 4, -74.75]
+			"translation": [0, 4, -79.25]
 		}
 	}
 }
