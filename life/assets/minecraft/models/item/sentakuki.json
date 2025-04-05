@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/concrete_white",
-		"1": "block/concrete_powder_black",
-		"2": "block/concrete_powder_white",
-		"3": "block/concrete_light_gray",
-		"4": "block/concrete_powder_gray",
-		"particle": "block/concrete_white"
+		"0": "uptodate:blocks/concrete_white",
+		"1": "uptodate:blocks/concrete_powder_black",
+		"2": "uptodate:blocks/concrete_powder_white",
+		"3": "uptodate:blocks/concrete_light_gray",
+		"4": "uptodate:blocks/concrete_powder_gray",
+		"particle": "uptodate:blocks/concrete_white"
 	},
 	"elements": [
 		{
@@ -430,12 +430,12 @@
 			"to": [15, 14, 17],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 5]},
 			"faces": {
-				"north": {"uv": [0, 0, 21, 20.5], "texture": "#0"},
-				"east": {"uv": [0, 0, 21, 20.5], "texture": "#0"},
-				"south": {"uv": [0, 0, 21, 20.5], "texture": "#0"},
-				"west": {"uv": [0, 0, 21, 20.5], "texture": "#0"},
-				"up": {"uv": [0, 0, 21, 20.5], "texture": "#0"},
-				"down": {"uv": [0, 0, 21, 20.5], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 15.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 15.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 15.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 15.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 15.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 15.5], "texture": "#0"}
 			}
 		},
 		{
@@ -443,12 +443,12 @@
 			"to": [15, 17, 16.2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 5.2]},
 			"faces": {
-				"north": {"uv": [0, 0, 21, 19], "texture": "#0"},
-				"east": {"uv": [0, 0, 21, 19], "texture": "#0"},
-				"south": {"uv": [0, 0, 21, 19], "texture": "#0"},
-				"west": {"uv": [0, 0, 21, 19], "texture": "#0"},
-				"up": {"uv": [0, 0, 21, 19], "texture": "#0"},
-				"down": {"uv": [0, 0, 21, 19], "texture": "#0"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		},
 		{
@@ -1181,8 +1181,8 @@
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
-			"translation": [-16.5, -6, -26.1],
-			"scale": [3.5, 3.5, 3.5]
+			"translation": [-16.5, -6, -22.1],
+			"scale": [3, 3, 3]
 		}
 	},
 	"groups": [
