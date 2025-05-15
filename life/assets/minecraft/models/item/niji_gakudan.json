@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"1": "items/niji_gakudan",
+		"particle": "items/niji_gakudan"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [23, 90, 0],
+			"translation": [0, 4.75, -1.5],
+			"scale": [1, 1, 0.62]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 141],
+			"translation": [0, 7, 2.5],
+			"scale": [1, 1, 0.62]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 85, -30],
+			"translation": [3.75, 1.5, -1.75],
+			"scale": [1, 1, 0.62]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -95, 30],
+			"translation": [3.75, 1.5, -1.75],
+			"scale": [1, 1, 0.62]
+		},
+		"ground": {
+			"rotation": [0, 0, 168],
+			"translation": [0, 6.5, 0],
+			"scale": [1.1, 1.1, 0.62]
+		},
+		"head": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 16.5, 0],
+			"scale": [1, 1, 0.62]
+		},
+		"fixed": {
+			"rotation": [-90, -90, 0],
+			"translation": [0, 0, -21],
+			"scale": [3, 3, 1]
+		}
+	}
+}
