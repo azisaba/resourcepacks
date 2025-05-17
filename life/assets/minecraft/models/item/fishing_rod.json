@@ -1,5 +1,5 @@
 {
-	"parent": "item/handheld",
+	"parent": "item/handheld_rod",
 	"textures": {
 		"layer0": "item/fishing_rod"
 	},
@@ -7,7 +7,7 @@
 		{"predicate": {"cast": 1}, "model": "item/fishing_rod_cast"},
 		{"predicate": {"custom_model_data":0}, "model": "item/flf_anemone"},
 		{"predicate": {"custom_model_data":1}, "model": "item/flf_nemophira"},
-		{"predicate": {"custom_model_data":0,"cast": 1}, "item": "item/flf_azami"},
-		{"predicate": {"custom_model_data":1,"cast": 1}, "item": "item/flf_sunflower"}
+		{"predicate": {"custom_model_data":0,"cast": 1}, "model": "item/flf_azami"},
+		{"predicate": {"custom_model_data":1,"cast": 1}, "model": "item/flf_sunflower"}
 	]
 }
