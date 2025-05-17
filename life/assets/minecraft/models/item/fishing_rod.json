@@ -4,10 +4,10 @@
 		"layer0": "item/fishing_rod"
 	},
 	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/flf_anemone"},
+		{"predicate": {"custom_model_data":2}, "model": "item/flf_nemophira"},
 		{"predicate": {"cast": 1}, "model": "item/fishing_rod_cast"},
-		{"predicate": {"custom_model_data":0}, "model": "item/flf_anemone"},
-		{"predicate": {"custom_model_data":1}, "model": "item/flf_nemophira"},
-		{"predicate": {"custom_model_data":0,"cast": 1}, "model": "item/flf_azami"},
-		{"predicate": {"custom_model_data":1,"cast": 1}, "model": "item/flf_sunflower"}
+		{"predicate": {"custom_model_data":1,"cast": 1}, "model": "item/flf_azami"},
+		{"predicate": {"custom_model_data":2,"cast": 1}, "model": "item/flf_sunflower"}
 	]
 }
