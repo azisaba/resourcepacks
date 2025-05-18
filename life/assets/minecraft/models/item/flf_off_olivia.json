@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/flf_off_olivia",
+		"particle": "items/flf_off_olivia"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 52],
+			"translation": [0, 2, -1],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -52],
+			"translation": [0, 2, -1],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -100, 52],
+			"translation": [9, 2.25, -4.75],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 80, -52],
+			"translation": [9, 2.25, -4.75],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"ground": {
+			"rotation": [0, 0, 180],
+			"translation": [0, 5.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"gui": {
+			"translation": [0, 0.25, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 17.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.5, 0, 0],
+			"scale": [2.8, 2.8, 2.8]
+		}
+	}
+}
