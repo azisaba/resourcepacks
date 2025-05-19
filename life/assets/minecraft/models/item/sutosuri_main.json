@@ -1,61 +1,39 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
 	"textures": {
-		"0": "items/sutosuri_main",
-		"1": "items/af5a140d0a2dfeed",
-		"2": "items/stormslingerreticle00",
-		"particle": "items/sutosuri_main"
+		"layer0": "items/sutosuri_main"
 	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [16, 16, 0, 0], "texture": "#1"},
-				"west": {"uv": [16, 16, 0, 0], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"down": {"uv": [0, 16, 16, 0], "texture": "#2"}
-			}
-		}
-	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 2, -2.25],
-			"scale": [0, 1, 1]
+			"rotation": [0, 90, 0],
+			"translation": [0, 2.75, -1.25]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 90, 0],
-			"translation": [0, 1.5, 0],
-			"scale": [0.6, 0.6, 0]
+			"rotation": [66, 0, 0],
+			"translation": [-7.25, -5.75, 8.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [90, 0, 0],
-			"translation": [-9, 18.5, -18],
-			"scale": [0.6, 0, 0.6]
+			"rotation": [-33, 91, 0],
+			"translation": [3.75, 0, -1.75],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, -52, 21],
-			"translation": [3.75, 1.25, 0],
-			"scale": [0.5, 0.5, 0]
+			"translation": [0, 0, 80]
 		},
 		"ground": {
-			"rotation": [0, 0, 90],
-			"scale": [0, 1, 1]
-		},
-		"gui": {
-			"rotation": [0, -90, 0],
-			"translation": [0, 0, 80],
-			"scale": [0, 1, 1]
+			"rotation": [0, 0, 116],
+			"translation": [-6.5, 2.75, 1.25]
 		},
 		"head": {
-			"translation": [0, 9, 0],
-			"scale": [0, 1, 1]
+			"rotation": [-45, 90, 0],
+			"translation": [0, 5.25, -8],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"fixed": {
-			"rotation": [0, 90, 0],
-			"scale": [0, 1, 1]
+			"rotation": [0, 180, 0],
+			"translation": [-0.5, -0.75, 0],
+			"scale": [1.25, 1.25, 1.25]
 		}
 	}
 }
