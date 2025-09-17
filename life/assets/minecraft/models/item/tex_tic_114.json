@@ -1,11 +1,11 @@
 {
-	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"0": "items/tex_tic_114",
+		"layer0": "items/tex_tic_114",
 		"particle": "items/tex_tic_114"
 	},
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-17, -90, 41],
