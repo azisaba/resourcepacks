@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ender_eye"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/soul_of_utukusii"}
+    ]
+}
