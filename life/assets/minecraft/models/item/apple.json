@@ -4,6 +4,7 @@
         "layer0": "item/apple"
     },
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "item/ringoame"}
+		{ "predicate": {"custom_model_data": 1}, "model": "item/ringoame"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/horolo_apple1"}
     ]
 }
