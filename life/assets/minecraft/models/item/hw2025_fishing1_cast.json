@@ -1709,16 +1709,23 @@
 			"rotation": [59.75, 0, 0]
 		},
 		"firstperson_righthand": {
-			"rotation": [1, 1, 0],
+			"rotation": [40, 1, 0],
 			"translation": [5.25, 0, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 1, 0],
 			"translation": [4.25, 0, 0]
 		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [-4, -5, 0]
+		},
 		"head": {
 			"translation": [0, 8.25, -12],
 			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"scale": [3, 3, 3]
 		}
 	},
 	"groups": [
