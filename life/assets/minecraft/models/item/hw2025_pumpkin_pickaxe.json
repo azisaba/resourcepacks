@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/hw2025_pumpkin_pickaxe",
+		"particle": "items/hw2025_pumpkin_pickaxe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 2.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 2.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 35],
+			"translation": [8.25, 5, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -35],
+			"translation": [8.25, 5, -3.25]
+		},
+		"ground": {
+			"rotation": [90, 0, 0]
+		},
+		"head": {
+			"rotation": [90, 0, -40],
+			"translation": [-0.75, 8.25, 1],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.75, 0.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}
