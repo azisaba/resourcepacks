@@ -713,6 +713,35 @@
             },
             "model": "item/ryokuryuuyumi_3"
         },
-        { "predicate": { "custom_model_data": 27 }, "model": "item/tex_tic_39" }
+        { "predicate": { "custom_model_data": 27 }, "model": "item/tex_tic_39" },
+        {
+            "predicate": {
+                 "custom_model_data": 28
+                 },
+                 "model": "item/seiryuu1"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 28,
+                "pulling": 1
+            },
+                 "model": "item/seiryuu2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28,
+                "pulling": 1,
+                "pull": 0.65
+            },
+                 "model": "item/seiryuu3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28,
+                "pulling": 1,
+                "pull": 0.9
+            },
+                 "model": "item/seiryuu4"
+        }
     ]
 }
