@@ -6,6 +6,8 @@ on:
 
 jobs:
   build_and_release:
+    permissions:
+      contents: write
     name: ビルド & リリース
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -25,5 +27,3 @@ jobs:
         with:
           tag_name: action-v${{ github.run_number }}
           files: '*.zip'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
