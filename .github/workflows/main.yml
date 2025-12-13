@@ -23,7 +23,9 @@ jobs:
       - name: 作成したリソースパックを表示する
         run: find . -maxdepth 1 -type f -name "*.zip"
 
-      - uses: softprops/action-gh-release@v2.5.0
+      - uses: softprops/action-gh-release@v0.1.15
         with:
           tag_name: action-v${{ github.run_number }}
           files: '*.zip'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
