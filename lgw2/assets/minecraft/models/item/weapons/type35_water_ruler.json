@@ -1,0 +1,30 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/type35_water_ruler",
+		"layer0": "item/type35_water_ruler"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [-0.5, 0.75, -2.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0.5, 0.75, -2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [3, 1.5, -2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [3, 1.5, -2.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		}
+	}
+}

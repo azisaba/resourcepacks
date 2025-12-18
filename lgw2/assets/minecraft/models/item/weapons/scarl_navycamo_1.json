@@ -1,0 +1,30 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "item/scarl_navycamo_1",
+		"layer0": "item/scarl_navycamo_1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 0, -1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 0, -1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 45],
+			"translation": [3.25, 3.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [3.25, 3.5, 0]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		}
+	}
+}
