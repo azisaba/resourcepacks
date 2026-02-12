@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/whitesword",
+		"particle": "items/whitesword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [0, 6.75, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 6.75, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 30],
+			"translation": [5.5, 6.5, -1.75],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [5.5, 6.5, -1.75],
+			"scale": [1.2, 1.2, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -119],
+			"translation": [0, 9.25, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"gui": {
+			"translation": [0, 0.5, 0]
+		},
+		"head": {
+			"rotation": [0, -180, 45],
+			"translation": [0, 11.5, 0],
+			"scale": [0.85, 0.85, 1.1]
+		},
+		"fixed": {
+			"rotation": [0, -180, 180],
+			"translation": [-0.5, 0, 0],
+			"scale": [2.4, 2.4, 2]
+		}
+	}
+}
