@@ -1,0 +1,35 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/ender_pearl_fuantei",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/ender_pearl_limitter",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/ender_pearl_antei",
+          "type": "model"
+        },
+        "threshold": 3
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/ender_pearl",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

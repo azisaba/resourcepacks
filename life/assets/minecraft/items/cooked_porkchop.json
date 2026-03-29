@@ -1,0 +1,21 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/turky",
+          "type": "model"
+        },
+        "threshold": 1
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/cooked_porkchop",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

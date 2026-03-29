@@ -1,0 +1,105 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/obsidian_pickaxe",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/netherstar_pickaxe",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/bloody_hammer",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/halo_pickaxe",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/choco_hammer",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/judgement",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/housekiaxe",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/urahammer",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/magica_pickaxe",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/hw2025_pumpkin_pickaxe",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/easter_pickaxe",
+          "type": "model"
+        },
+        "threshold": 200
+      },
+      {
+        "model": {
+          "model": "item/sp2023_pickaxe1",
+          "type": "model"
+        },
+        "threshold": 320
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_103",
+          "type": "model"
+        },
+        "threshold": 321
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/diamond_pickaxe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

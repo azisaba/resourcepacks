@@ -1,0 +1,56 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/tex_tic_56",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/majesthic_wand",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_68",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_82",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_94",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/sickle_gold",
+          "type": "model"
+        },
+        "threshold": 6
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/golden_hoe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

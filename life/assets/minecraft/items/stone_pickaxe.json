@@ -1,0 +1,28 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/flint_pickaxe",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/furnace_pickaxe",
+          "type": "model"
+        },
+        "threshold": 2
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/stone_pickaxe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

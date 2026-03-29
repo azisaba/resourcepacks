@@ -1,0 +1,35 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/superwater",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/96neko_stand_nanika",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/zyokkinoosake",
+          "type": "model"
+        },
+        "threshold": 3
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/glass_bottle",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

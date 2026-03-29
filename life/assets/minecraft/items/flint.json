@@ -1,0 +1,42 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/colorless_knife_link",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/colorless_knife_smh",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/colorless_knife_takumi",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_123",
+          "type": "model"
+        },
+        "threshold": 4
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/flint",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

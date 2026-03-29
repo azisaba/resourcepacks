@@ -1,0 +1,280 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/ami",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/owarinohazimari",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/saisu",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/kama2",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/sythe3",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/happybirthday",
+          "type": "model"
+        },
+        "threshold": 98
+      },
+      {
+        "model": {
+          "model": "item/phantomrich_dool",
+          "type": "model"
+        },
+        "threshold": 99
+      },
+      {
+        "model": {
+          "model": "item/gisikiken",
+          "type": "model"
+        },
+        "threshold": 100
+      },
+      {
+        "model": {
+          "model": "item/guroi_zyuuzika",
+          "type": "model"
+        },
+        "threshold": 101
+      },
+      {
+        "model": {
+          "model": "item/shinkou",
+          "type": "model"
+        },
+        "threshold": 102
+      },
+      {
+        "model": {
+          "model": "item/ri-saru",
+          "type": "model"
+        },
+        "threshold": 103
+      },
+      {
+        "model": {
+          "model": "item/hcycle",
+          "type": "model"
+        },
+        "threshold": 104
+      },
+      {
+        "model": {
+          "model": "item/pcycle",
+          "type": "model"
+        },
+        "threshold": 105
+      },
+      {
+        "model": {
+          "model": "item/garaxy_rod",
+          "type": "model"
+        },
+        "threshold": 106
+      },
+      {
+        "model": {
+          "model": "item/cl5_bs",
+          "type": "model"
+        },
+        "threshold": 107
+      },
+      {
+        "model": {
+          "model": "item/ura_1",
+          "type": "model"
+        },
+        "threshold": 108
+      },
+      {
+        "model": {
+          "model": "item/ura_2",
+          "type": "model"
+        },
+        "threshold": 109
+      },
+      {
+        "model": {
+          "model": "item/ura_3",
+          "type": "model"
+        },
+        "threshold": 110
+      },
+      {
+        "model": {
+          "model": "item/ice_lance",
+          "type": "model"
+        },
+        "threshold": 111
+      },
+      {
+        "model": {
+          "model": "item/imanotue",
+          "type": "model"
+        },
+        "threshold": 112
+      },
+      {
+        "model": {
+          "model": "item/tue1",
+          "type": "model"
+        },
+        "threshold": 113
+      },
+      {
+        "model": {
+          "model": "item/haru_tue",
+          "type": "model"
+        },
+        "threshold": 114
+      },
+      {
+        "model": {
+          "model": "item/haru_tue",
+          "type": "model"
+        },
+        "threshold": 115
+      },
+      {
+        "model": {
+          "model": "item/haru_tue",
+          "type": "model"
+        },
+        "threshold": 116
+      },
+      {
+        "model": {
+          "model": "item/rikoodaa",
+          "type": "model"
+        },
+        "threshold": 117
+      },
+      {
+        "model": {
+          "model": "item/kafun_fukuro",
+          "type": "model"
+        },
+        "threshold": 118
+      },
+      {
+        "model": {
+          "model": "item/kama_suggoi",
+          "type": "model"
+        },
+        "threshold": 119
+      },
+      {
+        "model": {
+          "model": "item/amesura",
+          "type": "model"
+        },
+        "threshold": 120
+      },
+      {
+        "model": {
+          "model": "item/light_green_sponge_stick",
+          "type": "model"
+        },
+        "threshold": 121
+      },
+      {
+        "model": {
+          "model": "item/blue_sponge_stick",
+          "type": "model"
+        },
+        "threshold": 122
+      },
+      {
+        "model": {
+          "model": "item/pink_sponge_stick",
+          "type": "model"
+        },
+        "threshold": 123
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/sickle_iron",
+          "type": "model"
+        },
+        "threshold": 124
+      },
+      {
+        "model": {
+          "model": "item/sutosuri_main",
+          "type": "model"
+        },
+        "threshold": 125
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_114",
+          "type": "model"
+        },
+        "threshold": 126
+      },
+      {
+        "model": {
+          "model": "item/hw2025_amesura",
+          "type": "model"
+        },
+        "threshold": 127
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_115",
+          "type": "model"
+        },
+        "threshold": 128
+      },
+      {
+        "model": {
+          "model": "item/eternity_warutu",
+          "type": "model"
+        },
+        "threshold": 129
+      },
+      {
+        "model": {
+          "model": "item/warutu",
+          "type": "model"
+        },
+        "threshold": 130
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/iron_hoe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

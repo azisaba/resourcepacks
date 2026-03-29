@@ -1,0 +1,28 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/turi_yakisawara",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/turi_kaisendon",
+          "type": "model"
+        },
+        "threshold": 2
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/cooked_cod",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "block/suisou_mini",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "block/suisou_midium",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "block/suisou_mega",
+          "type": "model"
+        },
+        "threshold": 3
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/blue_stained_glass",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}
