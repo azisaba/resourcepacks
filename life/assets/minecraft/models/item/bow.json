@@ -771,6 +771,35 @@
                 "pull": 0.9
             },
             "model": "item/cl7_fa1"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 30
+                 },
+                 "model": "item/cl_houseki_yumi_1"
+        },
+        {
+            "predicate": {
+                 "custom_model_data": 30,
+                "pulling": 1
+            },
+                 "model": "item/cl_houseki_yumi_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30,
+                "pulling": 1,
+                "pull": 0.65
+            },
+                 "model": "item/cl_houseki_yumi_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30,
+                "pulling": 1,
+                "pull": 0.9
+            },
+                 "model": "item/cl_houseki_yumi_4"
         }
     ]
 }
