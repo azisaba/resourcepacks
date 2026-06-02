@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/2026gw_golden_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 53],
+			"translation": [0, 7.75, 2.25],
+			"scale": [1.4, 1.4, 0.59]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-12, 90, 180],
+			"translation": [-1.5, -8.75, -1.25],
+			"scale": [1.4, 1.4, 0.59]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 94, 62],
+			"translation": [2.75, 4, -0.75],
+			"scale": [1.4, 1.4, 0.59]
+		},
+		"firstperson_lefthand": {
+			"rotation": [23, 87, 109],
+			"translation": [4.5, -7.25, -2],
+			"scale": [1.4, 1.4, 0.59]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [1.75, -2.5, 1.75],
+			"scale": [1.4, 1.4, 0.59]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.75, 0.5, 0]
+		},
+		"head": {
+			"rotation": [119, -96, 13],
+			"translation": [-8, -29.25, 1.25],
+			"scale": [1.8, 1.8, 0.79]
+		},
+		"fixed": {
+			"rotation": [0, 0, -2],
+			"translation": [2.25, 0.25, 0],
+			"scale": [1.4, 1.4, 0.59]
+		}
+	}
+}

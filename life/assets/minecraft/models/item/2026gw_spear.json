@@ -1,0 +1,48 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/2026gw_spear",
+		"layer0": "items/2026gw_spear"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-25, -90, 11],
+			"translation": [0, 10.75, 4],
+			"scale": [3, 3, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-38, 90, 11],
+			"translation": [0, 10.25, 5.5],
+			"scale": [3, 3, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-90, -85, 15],
+			"translation": [3.25, 0.75, 1],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-86, 98, -24],
+			"translation": [5.5, 2.5, -0.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 45],
+			"translation": [0, 16, 0],
+			"scale": [3, 3, 1]
+		},
+		"gui": {
+			"translation": [-0.25, -0.75, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"head": {
+			"rotation": [-130, -90, 94],
+			"translation": [0, -3.75, -0.25],
+			"scale": [4, 4, 3]
+		},
+		"fixed": {
+			"scale": [3, 3, 1]
+		}
+	}
+}
