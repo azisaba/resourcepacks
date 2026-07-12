@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/green_scythe",
+		"particle": "items/green_scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 75],
+			"translation": [0, 4, -4.5],
+			"scale": [1.7, 1.7, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -60],
+			"translation": [0, 4, -4.5],
+			"scale": [1.7, 1.7, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 80],
+			"translation": [9.5, 8.5, -10.75],
+			"scale": [1.7, 1.7, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -80],
+			"translation": [9.5, 8.5, -10.75],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, 10],
+			"translation": [0, 5, 0],
+			"scale": [1.7, 1.7, 1.2]
+		},
+		"gui": {
+			"translation": [-0.25, 0.75, 0]
+		},
+		"head": {
+			"rotation": [0, -180, -99],
+			"translation": [-3.5, -21.75, 6.25],
+			"scale": [2.45, 2.45, 1.95]
+		},
+		"fixed": {
+			"rotation": [0, -180, 40],
+			"translation": [6.5, 4.75, 0],
+			"scale": [2.45, 2.45, 1.95]
+		}
+	}
+}
