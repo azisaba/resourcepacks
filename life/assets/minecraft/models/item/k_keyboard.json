@@ -1337,7 +1337,7 @@
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
-			"rotation": [-90, 180, 0],
+			"rotation": [-90, -180, 0],
 			"translation": [1.75, 10.75, -12]
 		},
 		"fixed": {
@@ -1347,78 +1347,67 @@
 	},
 	"groups": [
 		{
-			"name": "KeySurface",
+			"name": "group",
 			"origin": [8, 8, 8],
-			"scope": 0,
 			"color": 0,
 			"children": [
 				{
-					"name": "Fkey",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 				},
 				{
-					"name": "Other",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [14, 15, 16, 17, 18, 19, 20, 21, 22]
 				},
 				{
-					"name": "10Key",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 				},
 				{
-					"name": "Direction",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [40, 41, 42, 43]
 				},
 				{
-					"name": "Enter",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [44, 45]
 				},
 				{
-					"name": "5th",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
 				},
 				{
-					"name": "4th",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]
 				},
 				{
-					"name": "3rd",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
 				},
 				{
-					"name": "2nd",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
 				},
 				{
-					"name": "1st",
+					"name": "group",
 					"origin": [8, 8, 8],
-					"scope": 0,
 					"color": 0,
 					"children": [95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
 				}
@@ -1430,9 +1419,8 @@
 		113,
 		114,
 		{
-			"name": "Mouse",
+			"name": "group",
 			"origin": [8, 8, 8],
-			"scope": 0,
 			"color": 0,
 			"children": [115, 116, 117]
 		}
