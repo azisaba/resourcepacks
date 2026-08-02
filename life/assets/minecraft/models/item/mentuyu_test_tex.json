@@ -1,0 +1,43 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/mentuyu_test_tex",
+		"layer0": "items/mentuyu_test_tex"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 12, 2],
+			"scale": [3, 3, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 12, 2],
+			"scale": [3, 3, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -60, 0],
+			"translation": [0, 5.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 120, 0],
+			"translation": [0, 5.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [4, 4, 1]
+		},
+		"gui": {
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"translation": [-5, -16.25, 7.5],
+			"scale": [4, 4, 1]
+		},
+		"fixed": {
+			"scale": [4, 4, 1]
+		}
+	}
+}
