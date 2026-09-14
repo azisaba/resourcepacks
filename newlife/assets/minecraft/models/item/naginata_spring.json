@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/naginata_spring"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [171.75, 90, -129],
+			"translation": [-0.25, 5, 2],
+			"scale": [1.81, 1.57, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [94, -95, 42],
+			"translation": [0, 5.25, 2.75],
+			"scale": [1.81, 1.57, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, 116, 71],
+			"translation": [2.75, 2.25, -4.75],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-11, -91, -85],
+			"translation": [6.25, 0.5, -9],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, -135],
+			"translation": [0, 11.25, 0],
+			"scale": [1.5, 1.5, 1]
+		},
+		"gui": {
+			"translation": [0, -0.25, 0]
+		},
+		"head": {
+			"rotation": [0, -3, -180],
+			"translation": [-0.5, -15, 10],
+			"scale": [2.59, 2.59, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0.5, -1.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/trident",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/inuskin",
+          "type": "model"
+        },
+        "threshold": 2
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/trident",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

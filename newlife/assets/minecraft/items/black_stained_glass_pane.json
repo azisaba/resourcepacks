@@ -1,0 +1,35 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/gui/blank",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/gui/blank_shape_down_left",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/gui/blank_shape_down_right",
+          "type": "model"
+        },
+        "threshold": 3
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/black_stained_glass_pane",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

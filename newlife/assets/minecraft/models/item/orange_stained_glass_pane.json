@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "block/orange_stained_glass"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "item/icons/orange_right_arrow" }
+  ]
+}

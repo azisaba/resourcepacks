@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/galaxy_rod"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 5.75, 1],
+			"scale": [1.3, 1.3, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [69, 0, -45],
+			"translation": [-5.75, -2.5, 20.5],
+			"scale": [1.3, 1.3, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 85, 72],
+			"translation": [-3.5, 4, 3.75],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -99, -52],
+			"translation": [-2.25, 6.75, 8],
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"rotation": [85, -90, 133],
+			"translation": [-0.25, 10.25, -0.5],
+			"scale": [1.3, 1.3, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 180, 45.5],
+			"translation": [0.25, 1.75, 0],
+			"scale": [1.2, 1.2, 0.85]
+		},
+		"head": {
+			"rotation": [0, 0, -180],
+			"translation": [-1.5, -18.25, 4.25],
+			"scale": [1.5, 1.5, 0.8]
+		},
+		"fixed": {
+			"rotation": [0, 0, 45],
+			"translation": [-0.25, 1.5, -0.75],
+			"scale": [1.7, 1.7, 0.9]
+		}
+	}
+}

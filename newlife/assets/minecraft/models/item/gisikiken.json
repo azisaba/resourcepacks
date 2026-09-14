@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/gisikiken",
+		"layer0": "items/gisikiken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [46, 90, 0],
+			"translation": [0, 9, 2.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [46, -90, 0],
+			"translation": [0, 9, 2.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 63.75, -180],
+			"translation": [13.25, -2, -11.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [121.4, 76.36, 144.44],
+			"translation": [13.25, -2, -11.25]
+		},
+		"ground": {
+			"rotation": [0, 0, -135.75],
+			"translation": [0, 20.75, 0.25],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"rotation": [0, 0, -135.75],
+			"translation": [0, -16.25, 7.25],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [-90, 0, -135.75],
+			"translation": [0, -1, -17.75],
+			"scale": [3, 3, 2]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/tex_tic_6",
+          "type": "model"
+        },
+        "threshold": 100
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/chainmail_helmet",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

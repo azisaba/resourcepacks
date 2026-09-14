@@ -1,0 +1,49 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/s",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/ehoumaki",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/wolfsteak",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/nikuyasai",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/rice_cooker",
+          "type": "model"
+        },
+        "threshold": 41
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/cooked_beef",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

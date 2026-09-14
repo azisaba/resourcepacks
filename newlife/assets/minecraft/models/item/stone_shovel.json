@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_shovel"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/flint_shovel"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/furnace_shovel"}
+        ]
+}

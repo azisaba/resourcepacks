@@ -1,0 +1,67 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "scale": 1,
+    "entries": [
+      {
+        "threshold": 2,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/ice_shield_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/ice_shield"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/cap_life_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/cap_life"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/chocolateshield_new_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/chocolateshield_new"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "using_item",
+      "on_true": {
+        "type": "model",
+        "model": "minecraft:item/shield_blocking"
+      },
+      "on_false": {
+        "type": "model",
+        "model": "minecraft:item/shield"
+      }
+    }
+  }
+}

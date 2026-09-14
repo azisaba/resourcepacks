@@ -1,0 +1,56 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/emerald_axe",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/lapis_axe",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/redstone_axe",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/vt_ono",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/spring_axe",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/narenaihibi_ono",
+          "type": "model"
+        },
+        "threshold": 7
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/iron_axe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

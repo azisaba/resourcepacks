@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/dacapoweapon",
+		"layer0": "items/dacapoweapon"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62.57, -73.61, 101.16],
+			"translation": [0, 1.25, -0.25],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [57.94, -85.53, -178.77],
+			"translation": [0, -4, -1],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-23.5, -76, 0],
+			"translation": [2, 1.75, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, -83.25, 0],
+			"translation": [0, 0.75, 4.25]
+		},
+		"gui": {
+			"scale": [1.2, 1.2, 1]
+		},
+		"head": {
+			"rotation": [0, 0, 179],
+			"translation": [0, -14.75, 5.5],
+			"scale": [2, 2, 1]
+		}
+	}
+}

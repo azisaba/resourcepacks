@@ -1,0 +1,790 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "scale": 1,
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "item/drain_bow"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/starfragmentbow1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/starfragmentbow2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/starfragmentbow0"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/starfragmentbow"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/meteorlongbow1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/meteorlongbow2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/meteorlongbow0"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/meteorlongbow"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/galaxygodbow1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/galaxygodbow2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/galaxygodbow0"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/galaxygodbow"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "item/necrotue"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "item/datonation"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bakuhaiyumi_hiki2"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bakuhaiyumi_hiki3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bakuhaiyumi_hiki1"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/bakuhaiyumi"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "item/comet_bow"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/explosionbow2"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/explosionbow3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/explosionbow1"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/explosionbow0"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/luckybow_hiki2"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/luckybow_hiki3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/luckybow_hiki1"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/luckybow"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/bazirisuku3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/bazirisuku4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/bazirisuku2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/bazirisuku1"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/waiban3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/waiban4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/waiban2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/waiban1"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/rivaiasan3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/rivaiasan4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/rivaiasan2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/rivaiasan1"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/maraku3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/maraku4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/maraku2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/maraku1"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/souryuu23"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/souryuu24"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/souryuu22"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/souryuu21"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/souryuu13"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/souryuu14"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/souryuu12"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/souryuu11"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu13"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu14"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/siryuu12"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/siryuu11"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu23"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu24"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/siryuu22"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/siryuu21"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu33"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/siryuu34"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/siryuu32"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/siryuu31"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/makaizouyumi3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/makaizouyumi4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/makaizouyumi2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/makaizouyumi1"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/rinrowbow_hiki2"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/rinrowbow_hiki3"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/rinrowbow_hiki1"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/rinrowbow"
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/hyougokuyumi3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/hyougokuyumi4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/hyougokuyumi2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/hyougokuyumi1"
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "model",
+          "model": "item/ryokuryuuyumi"
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "model",
+          "model": "item/ryokuryuuyumi_1"
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "model",
+          "model": "item/ryokuryuuyumi_2"
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "model",
+          "model": "item/ryokuryuuyumi_3"
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "model",
+          "model": "item/tex_tic_39"
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "range_dispatch",
+            "property": "use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "model",
+                  "model": "item/seiryuu3"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "model",
+                  "model": "item/seiryuu4"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item/seiryuu2"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/seiryuu1"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "using_item",
+      "on_true": {
+        "type": "range_dispatch",
+        "property": "use_duration",
+        "scale": 0.05,
+        "entries": [
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "model",
+              "model": "minecraft:item/bow_pulling_1"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "model",
+              "model": "minecraft:item/bow_pulling_2"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "model",
+          "model": "minecraft:item/bow_pulling_0"
+        }
+      },
+      "on_false": {
+        "type": "model",
+        "model": "minecraft:item/bow"
+      }
+    }
+  }
+}

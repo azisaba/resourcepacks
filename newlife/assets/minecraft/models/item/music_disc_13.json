@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_13"
+    },
+  "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/offhand_luck"}
+    ]
+}

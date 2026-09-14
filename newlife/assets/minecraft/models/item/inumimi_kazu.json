@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "items/inumimi_kazu",
+		"texture": "items/inumimi_kazu"
+	},
+	"elements": [
+		{
+			"name": "Box1",
+			"from": [11.875, 0.125, 0],
+			"to": [27.775, 16.025, 1],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#texture"},
+				"east": {"uv": [1, 0, 3.5, 4.5], "texture": "#texture"},
+				"south": {"uv": [0, 0.5, 16, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 3, 5], "texture": "#texture"},
+				"up": {"uv": [11.875, 0, 16, 1], "texture": "#texture"},
+				"down": {"uv": [11.875, 15, 16, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Box1",
+			"from": [-7.875, 0.125, 0],
+			"to": [8.025, 16.025, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"east": {"uv": [1, 0, 3.5, 4.5], "texture": "#texture"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#texture"},
+				"west": {"uv": [0, 0, 3, 5], "texture": "#texture"},
+				"up": {"uv": [11.875, 0, 16, 1], "texture": "#texture"},
+				"down": {"uv": [11.875, 15, 16, 16], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.25, 0.75],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1, 1],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -98, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -113, 0]
+		},
+		"ground": {
+			"translation": [0, 0, 6],
+			"scale": [0.4, 0.42, 1]
+		},
+		"gui": {
+			"translation": [-1, 0, 0],
+			"scale": [0.47, 0.47, 1]
+		},
+		"head": {
+			"rotation": [-11, 0, 0],
+			"translation": [-0.75, 10.5, 1.5],
+			"scale": [0.38, 0.37, 1]
+		},
+		"fixed": {
+			"translation": [-1.5, 0, 5.25],
+			"scale": [0.66, 0.65, 0.77]
+		}
+	}
+}

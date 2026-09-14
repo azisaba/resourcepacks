@@ -1,0 +1,245 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/iseebi",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/aoriika",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/saba",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/madai",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/madara",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/madako",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/hw2023_sakabanbasubisu",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/maguro",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/suzuki",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/katuo",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/sirogisu",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/kawahagi",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/kasago",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/iwasi",
+          "type": "model"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "model": "item/yariika",
+          "type": "model"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "model": "item/karei",
+          "type": "model"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "model": "item/kurodai",
+          "type": "model"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "model": "item/buri",
+          "type": "model"
+        },
+        "threshold": 18
+      },
+      {
+        "model": {
+          "model": "item/tachiuo",
+          "type": "model"
+        },
+        "threshold": 19
+      },
+      {
+        "model": {
+          "model": "item/hirame",
+          "type": "model"
+        },
+        "threshold": 20
+      },
+      {
+        "model": {
+          "model": "item/kanpachi",
+          "type": "model"
+        },
+        "threshold": 21
+      },
+      {
+        "model": {
+          "model": "item/akamutu",
+          "type": "model"
+        },
+        "threshold": 22
+      },
+      {
+        "model": {
+          "model": "item/kinmedai",
+          "type": "model"
+        },
+        "threshold": 23
+      },
+      {
+        "model": {
+          "model": "item/hiramasa",
+          "type": "model"
+        },
+        "threshold": 24
+      },
+      {
+        "model": {
+          "model": "item/azi",
+          "type": "model"
+        },
+        "threshold": 25
+      },
+      {
+        "model": {
+          "model": "item/sakabanbasubisu_gold",
+          "type": "model"
+        },
+        "threshold": 26
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_akabaginnnannsou",
+          "type": "model"
+        },
+        "threshold": 27
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_ayamekasago",
+          "type": "model"
+        },
+        "threshold": 28
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_hanadai",
+          "type": "model"
+        },
+        "threshold": 29
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_milk",
+          "type": "model"
+        },
+        "threshold": 30
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_sakuramasu",
+          "type": "model"
+        },
+        "threshold": 31
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_sugar",
+          "type": "model"
+        },
+        "threshold": 32
+      },
+      {
+        "model": {
+          "model": "item/flf_sozai_wheat",
+          "type": "model"
+        },
+        "threshold": 33
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/cod",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/angelsword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, 4.25, 0.75],
+			"scale": [1.1, 1.1, 0.9]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 45],
+			"translation": [0, 4.25, 0.75],
+			"scale": [1.1, 1.1, 0.9]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 85, -30],
+			"translation": [3.75, 1.5, -1.75],
+			"scale": [1.1, 1.1, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -95, 30],
+			"translation": [3.75, 1.5, -1.75],
+			"scale": [1.1, 1.1, 0.9]
+		},
+		"ground": {
+			"rotation": [0, 0, 168],
+			"translation": [0, 6.5, 0],
+			"scale": [1.1, 1.1, 0.9]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0.5, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 104],
+			"translation": [-2.25, -23.5, 4.5],
+			"scale": [2.1, 2.1, 1.9]
+		},
+		"fixed": {
+			"rotation": [0, 180, -45],
+			"translation": [-0.75, 1, -1.25],
+			"scale": [2.2, 2.2, 1.8]
+		}
+	}
+}

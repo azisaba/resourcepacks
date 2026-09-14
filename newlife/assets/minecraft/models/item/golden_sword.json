@@ -1,0 +1,46 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_sword"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/ryuuzin"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/sion"},
+    		{ "predicate": {"custom_model_data": 3}, "model": "item/enpire"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/hebunria"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/ryuunokiba"},
+		{ "predicate": {"custom_model_data": 6}, "model": "item/akuaria"},
+    		{ "predicate": {"custom_model_data": 7}, "model": "item/sothis"},
+		{ "predicate": {"custom_model_data": 8}, "model": "item/blutgang"},
+		{ "predicate": {"custom_model_data": 9}, "model": "item/areadbhar"},
+    		{ "predicate": {"custom_model_data": 10}, "model": "item/king_blade"},
+    		{ "predicate": {"custom_model_data": 11}, "model": "item/tikai"},
+		{ "predicate": {"custom_model_data": 12}, "model": "item/narikin_sword"},
+		{ "predicate": {"custom_model_data": 13}, "model": "item/dexyurahan_sword"},
+		{ "predicate": {"custom_model_data": 14}, "model": "item/kouka_sword"},
+		{ "predicate": {"custom_model_data": 15}, "model": "item/koban_sword"},
+		{ "predicate": {"custom_model_data": 16}, "model": "item/hazyamaru"},
+		{ "predicate": {"custom_model_data": 17}, "model": "item/anrimiteddo"},
+		{ "predicate": {"custom_model_data": 18}, "model": "item/singon"},
+		{ "predicate": {"custom_model_data": 19}, "model": "item/areadbhar"},
+		{ "predicate": {"custom_model_data": 20}, "model": "item/astaroth"},
+		{ "predicate": {"custom_model_data": 21}, "model": "item/aymur"},
+		{ "predicate": {"custom_model_data": 22}, "model": "item/blutgang"},
+		{ "predicate": {"custom_model_data": 23}, "model": "item/freikugel"},
+		{ "predicate": {"custom_model_data": 24}, "model": "item/ouroboros"},
+		{ "predicate": {"custom_model_data": 25}, "model": "item/sothis"},
+		{ "predicate": {"custom_model_data": 26}, "model": "item/dragon_sureiya"},
+		{ "predicate": {"custom_model_data": 27}, "model": "item/amatanoyogen"},
+		{ "predicate": {"custom_model_data": 28}, "model": "item/magica_sword"},
+		{ "predicate": {"custom_model_data": 29}, "model": "item/tex_tic_113"},
+		{ "predicate": {"custom_model_data": 30}, "model": "item/2026gw_hammer"},
+		{ "predicate": {"custom_model_data": 31}, "model": "item/2026gw_spear"},
+		{ "predicate": {"custom_model_data": 32}, "model": "item/2026gw_wand"},
+		{ "predicate": {"custom_model_data": 33}, "model": "item/2026gw_golden_sword"},
+		{ "predicate": {"custom_model_data": 34}, "model": "item/2026gw_emperor_rod"},
+		{ "predicate": {"custom_model_data": 35}, "model": "item/excalibur_1"},
+		{ "predicate": {"custom_model_data": 36}, "model": "item/excalibur_2"},
+		{ "predicate": {"custom_model_data": 37}, "model": "item/katakonbe_orbit_tex"}
+    ]
+}
+

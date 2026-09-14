@@ -1,0 +1,43 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/hw_hasami",
+		"layer0": "items/hw_hasami"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [37, 90, 0],
+			"translation": [0, 11, 0],
+			"scale": [2.6, 2.6, 1.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [37, -90, 0],
+			"translation": [0, 11, 0],
+			"scale": [2.6, 2.6, 1.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-24.33, -72.1, 81.03],
+			"translation": [-1, 5.75, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-179.91, 72.16, 78.74],
+			"translation": [-1, 5.75, -3.25]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [180, 180, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 180],
+			"translation": [4, -11, 7.5],
+			"scale": [4, 4, 2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 180],
+			"translation": [0, 0, -0.5],
+			"scale": [4, 4, 2]
+		}
+	}
+}

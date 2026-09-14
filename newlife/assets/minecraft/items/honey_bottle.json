@@ -1,0 +1,224 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/beer2",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/nihonnsyua",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/nihonnsyub",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/nihonnsyuc",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/lalabee",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/wolftea",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/la_juice",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/ramune",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/kaihuku_l",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/kaihuku_s",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/kaihuku_xl",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/kaikatu_l",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/kaikatu_s",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/kaikatu_xl",
+          "type": "model"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "model": "item/xmaspresent2",
+          "type": "model"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "model": "item/azigold",
+          "type": "model"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "model": "item/strzero",
+          "type": "model"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "model": "item/sinyu",
+          "type": "model"
+        },
+        "threshold": 18
+      },
+      {
+        "model": {
+          "model": "item/katana",
+          "type": "model"
+        },
+        "threshold": 19
+      },
+      {
+        "model": {
+          "model": "item/dk",
+          "type": "model"
+        },
+        "threshold": 20
+      },
+      {
+        "model": {
+          "model": "item/redbull_1",
+          "type": "model"
+        },
+        "threshold": 21
+      },
+      {
+        "model": {
+          "model": "item/redbull_2",
+          "type": "model"
+        },
+        "threshold": 22
+      },
+      {
+        "model": {
+          "model": "item/redbull_3",
+          "type": "model"
+        },
+        "threshold": 23
+      },
+      {
+        "model": {
+          "model": "item/azicola",
+          "type": "model"
+        },
+        "threshold": 24
+      },
+      {
+        "model": {
+          "model": "item/redbull_1_x",
+          "type": "model"
+        },
+        "threshold": 25
+      },
+      {
+        "model": {
+          "model": "item/redbull_2_x",
+          "type": "model"
+        },
+        "threshold": 26
+      },
+      {
+        "model": {
+          "model": "item/redbull_3_x",
+          "type": "model"
+        },
+        "threshold": 27
+      },
+      {
+        "model": {
+          "model": "item/monster",
+          "type": "model"
+        },
+        "threshold": 28
+      },
+      {
+        "model": {
+          "model": "item/defaultcan",
+          "type": "model"
+        },
+        "threshold": 29
+      },
+      {
+        "model": {
+          "model": "item/coffe",
+          "type": "model"
+        },
+        "threshold": 30
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/honey_bottle",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

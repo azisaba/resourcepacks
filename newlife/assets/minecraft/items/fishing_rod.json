@@ -1,0 +1,337 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "scale": 1,
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_anemone_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_anemone"
+          }
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_arusutoromeria_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_arusutoromeria"
+          }
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_ezogiku_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_ezogiku"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_ginyouakasia_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_ginyouakasia"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_gure-pu_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_gure-pu"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_hisuikazura_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_hisuikazura"
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_kasumisou_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_kasumisou"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_kikunohaaoi_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_kikunohaaoi"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_kikyou_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_kikyou"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_kuretimasu_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_kuretimasu"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_kurisumasu_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_kurisumasu"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_matukasaazami_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_matukasaazami"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_mokkoubara_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_mokkoubara"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_nemofira_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_nemofira"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_re-suhurawa-_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_re-suhurawa-"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_seiyoukannboku_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_seiyoukannboku"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_syunnrann_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_syunnrann"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_tyouzisou_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_tyouzisou"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_wasurenagusa_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_wasurenagusa"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/flf_rod_yousyuibuki_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/flf_rod_yousyuibuki"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_true": {
+            "type": "model",
+            "model": "item/hw2025_fishing1_cast"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/hw2025_fishing1"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "minecraft:fishing_rod/cast",
+      "on_true": {
+        "type": "model",
+        "model": "minecraft:item/fishing_rod_cast"
+      },
+      "on_false": {
+        "type": "model",
+        "model": "minecraft:item/fishing_rod"
+      }
+    }
+  }
+}

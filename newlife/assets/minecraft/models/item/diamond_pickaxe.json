@@ -1,0 +1,22 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_pickaxe"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/obsidian_pickaxe"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/netherstar_pickaxe"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/bloody_hammer"},
+		{ "predicate": {"custom_model_data": 6}, "model": "item/halo_pickaxe"},
+		{ "predicate": {"custom_model_data": 7}, "model": "item/choco_hammer"},
+		{ "predicate": {"custom_model_data": 8}, "model": "item/judgement"},
+		{ "predicate": {"custom_model_data": 9}, "model": "item/housekiaxe"},
+		{ "predicate": {"custom_model_data": 10}, "model": "item/urahammer"},
+		{ "predicate": {"custom_model_data": 11}, "model": "item/magica_pickaxe"},
+		{ "predicate": {"custom_model_data": 12}, "model": "item/hw2025_pumpkin_pickaxe"},
+		{ "predicate": {"custom_model_data": 200}, "model": "item/easter_pickaxe"},
+		{ "predicate": {"custom_model_data": 320}, "model": "item/sp2023_pickaxe1"},
+		{ "predicate": {"custom_model_data": 321}, "model": "item/tex_tic_103"}
+        ]
+}
+

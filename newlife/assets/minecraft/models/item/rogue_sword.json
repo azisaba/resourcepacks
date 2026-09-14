@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/rogue_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-45, -90, 0],
+			"translation": [0, 6.5, 1],
+			"scale": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-45, 90, 0],
+			"translation": [0, 6.5, 1],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 6.5, 0],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [1, 1, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -135],
+			"translation": [0, 13, 0],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"head": {
+			"rotation": [115, 115, 95],
+			"translation": [-2.5, -27, 1],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"rotation": [90, 0, 35],
+			"translation": [-5, 0, -28],
+			"scale": [3, 3, 1.5]
+		}
+	}
+}

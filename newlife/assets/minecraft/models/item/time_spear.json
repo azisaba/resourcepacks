@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/time_spear",
+		"layer0": "items/time_spear"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-44, -90, 0],
+			"translation": [0, 5.25, -0.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [48.25, -90, 0],
+			"translation": [0, 5, -0.25],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [72.95, -78.91, -10.68],
+			"translation": [5.25, -0.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-126.69, 77.85, -167.92],
+			"translation": [7.75, 0.25, 0],
+			"scale": [1.45, 1.43, 1.49]
+		},
+		"ground": {
+			"rotation": [-1.51, 3.54, -137.96],
+			"translation": [0, 8.5, 0]
+		},
+		"gui": {
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"head": {
+			"translation": [0.25, 0, 6.75]
+		},
+		"fixed": {
+			"rotation": [-59.66, 88.44, 56.17],
+			"translation": [0, 10.75, -15.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}

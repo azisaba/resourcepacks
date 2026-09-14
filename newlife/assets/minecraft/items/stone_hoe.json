@@ -1,0 +1,35 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/nature_guardian",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_73",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/sickle_stone",
+          "type": "model"
+        },
+        "threshold": 3
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/stone_hoe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

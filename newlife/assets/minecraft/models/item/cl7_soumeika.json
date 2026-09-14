@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/cl7_soumeika",
+		"particle": "items/cl7_soumeika"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 79],
+			"translation": [0, 1, 0.5],
+			"scale": [1.5, 1.5, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -79],
+			"translation": [0, 1, 0.5],
+			"scale": [1.5, 1.5, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 56],
+			"translation": [10.75, 6, -5.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -56],
+			"translation": [10.75, 6, -5.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, 7, 0],
+			"scale": [1.5, 1.5, 1.2]
+		},
+		"gui": {
+			"translation": [0, -0.25, 0]
+		},
+		"head": {
+			"rotation": [0, -180, -99],
+			"translation": [-1, -21.75, 6.25],
+			"scale": [2.25, 2.25, 1.95]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [-0.5, 0.5, 0],
+			"scale": [2.25, 2.25, 1.95]
+		}
+	}
+}

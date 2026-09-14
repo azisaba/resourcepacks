@@ -1,0 +1,189 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/syanpen",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/cracker",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/asythe",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/deathsythe",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/3rd",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/deathsythe2",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/sosaramosasu",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/hw_hoe2021",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/hw_2021_saisu1",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/hw_2021_saisu2",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/jackyscythe",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_7",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/glass_hammer",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/easter_hoe",
+          "type": "model"
+        },
+        "threshold": 200
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_70",
+          "type": "model"
+        },
+        "threshold": 201
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_76",
+          "type": "model"
+        },
+        "threshold": 202
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_77",
+          "type": "model"
+        },
+        "threshold": 203
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_80",
+          "type": "model"
+        },
+        "threshold": 204
+      },
+      {
+        "model": {
+          "model": "item/yomi",
+          "type": "model"
+        },
+        "threshold": 205
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_95",
+          "type": "model"
+        },
+        "threshold": 206
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/sickle_diamond",
+          "type": "model"
+        },
+        "threshold": 207
+      },
+      {
+        "model": {
+          "model": "item/acrylic-style/sickle_emerald",
+          "type": "model"
+        },
+        "threshold": 208
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_101",
+          "type": "model"
+        },
+        "threshold": 209
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_106",
+          "type": "model"
+        },
+        "threshold": 210
+      },
+      {
+        "model": {
+          "model": "item/reverse_scythe",
+          "type": "model"
+        },
+        "threshold": 211
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/diamond_hoe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

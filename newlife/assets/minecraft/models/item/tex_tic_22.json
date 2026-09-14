@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/tex_tic_22",
+		"layer0": "items/tex_tic_22"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65.75, 0, 0],
+			"translation": [-9.5, -8.5, 7.75],
+			"scale": [2, 2, 0.31]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65.75, 0, 0],
+			"translation": [-2.75, -8.5, 7.75],
+			"scale": [2, 2, 0.3]
+		},
+		"firstperson_righthand": {
+			"translation": [-10.75, 9, 8.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 2.5, 0.75],
+			"scale": [0.2, 0.2, 0]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"translation": [-4, 2.75, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [-4.25, 0.75, -6.75],
+			"scale": [2, 2, 0.2]
+		},
+		"fixed": {
+			"translation": [-9.25, 6.25, -0.5],
+			"scale": [4, 4, 0]
+		}
+	}
+}

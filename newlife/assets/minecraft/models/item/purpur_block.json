@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "block/purpur_block"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 1 }, "model": "block/original_purpur" }
+    ]
+  }

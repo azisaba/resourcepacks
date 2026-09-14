@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "items",
+      "prefix": "items/"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/skeleton/skeleton",
+      "sprite": "entity/skeleton/skeleton"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:entity/enchanting_table_book",
+      "sprite": "entity/enchanting_table_book"
+    }
+  ]
+}
