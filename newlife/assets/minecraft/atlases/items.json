@@ -1,19 +1,9 @@
 {
   "sources": [
     {
-      "type": "directory",
-      "source": "items",
-      "prefix": "items/"
-    },
-    {
-      "type": "directory",
-      "source": "block",
-      "prefix": "block/"
-    },
-    {
-      "type": "single",
-      "resource": "minecraft:entity/enchanting_table_book",
-      "sprite": "entity/enchanting_table_book"
+      "type": "minecraft:directory",
+      "prefix": "items/",
+      "source": "items"
     }
   ]
 }

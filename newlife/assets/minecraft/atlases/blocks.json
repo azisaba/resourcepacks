@@ -1,19 +1,22 @@
 {
   "sources": [
     {
-      "type": "directory",
-      "source": "items",
-      "prefix": "items/"
+      "type": "minecraft:directory",
+      "prefix": "block/",
+      "source": "block"
     },
     {
-      "type": "single",
-      "resource": "minecraft:entity/skeleton/skeleton",
-      "sprite": "entity/skeleton/skeleton"
+      "type": "minecraft:directory",
+      "prefix": "entity/conduit/",
+      "source": "entity/conduit"
     },
     {
-      "type": "single",
-      "resource": "minecraft:entity/enchanting_table_book",
-      "sprite": "entity/enchanting_table_book"
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bell/bell_body"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/enchanting_table_book"
     }
   ]
 }
