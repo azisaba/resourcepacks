@@ -52,15 +52,21 @@
       }
     ],
     "fallback": {
-      "type": "condition",
-      "property": "using_item",
-      "on_true": {
-        "type": "model",
-        "model": "minecraft:item/shield_blocking"
-      },
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
       "on_false": {
-        "type": "model",
-        "model": "minecraft:item/shield"
+        "type": "minecraft:special",
+        "base": "minecraft:item/shield",
+        "model": {
+          "type": "minecraft:shield"
+        }
+      },
+      "on_true": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/shield_blocking",
+        "model": {
+          "type": "minecraft:shield"
+        }
       }
     }
   }
