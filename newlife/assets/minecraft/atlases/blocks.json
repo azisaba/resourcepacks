@@ -17,6 +17,18 @@
     {
       "type": "minecraft:single",
       "resource": "minecraft:entity/enchanting_table_book"
+    },
+    {
+      "source": "entity",
+      "prefix": "entity/",
+      "type": "directory"
+    },
+    {
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "entity/fishing_hook"
+      },
+      "type": "filter"
     }
   ]
 }

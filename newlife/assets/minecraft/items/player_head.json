@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/head",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/right_arm",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/left_arm",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/torso",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/right_leg",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/left_leg",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/slim_right",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:special",
+          "base": "minecraft:custom/entities/player/slim_left",
+          "model": {
+            "type": "minecraft:head",
+            "kind": "player"
+          }
+        },
+        "threshold": 8
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "player"
+      }
+    },
+    "property": "minecraft:custom_model_data"
+  }
+}

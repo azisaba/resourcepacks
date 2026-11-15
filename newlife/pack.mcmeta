@@ -4,5 +4,42 @@
 		"min_format": 75,
 		"max_format": 75,
 		"description": "Azisaba Network: newlife v1.0.0\nMinecraft 1.21.11"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"min_format": 36,
+				"max_format": 32767,
+				"formats": {
+					"min_inclusive": 36,
+					"max_inclusive": 32767
+				},
+				"directory": "1_21_2"
+			},
+			{
+				"min_format": 55,
+				"max_format": 32767,
+				"formats": {
+					"min_inclusive": 55,
+					"max_inclusive": 32767
+				},
+				"directory": "1_21_5"
+			},
+			{
+				"min_format": 63,
+				"max_format": 32767,
+				"formats": {
+					"min_inclusive": 63,
+					"max_inclusive": 32767
+				},
+				"directory": "1_21_6"
+			}
+		]
+	},
+	"sodium": {
+		"ignored_shaders": [
+			"rendertype_entity_translucent.fsh",
+			"rendertype_entity_translucent.vsh"
+		]
 	}
 }
