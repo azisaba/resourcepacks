@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/oukasou1",
+		"layer0": "items/oukasou1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [52.75, 90, 0],
+			"translation": [0, 9, 4],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [52.75, -90, 0],
+			"translation": [0, 9, 4],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [153.05, 72.9, -171.25],
+			"translation": [5.75, 4, -9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [67.05, 72.9, -171.25],
+			"translation": [8.5, 4, -8]
+		},
+		"ground": {
+			"translation": [0, 7.75, 0]
+		},
+		"head": {
+			"translation": [1.25, -12, 7.5],
+			"scale": [4, 4, 2]
+		},
+		"fixed": {
+			"rotation": [90, 0, 45],
+			"translation": [0, 0, -32.75],
+			"scale": [4, 4, 2]
+		}
+	}
+}

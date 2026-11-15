@@ -1,0 +1,42 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/tenretu",
+		"layer0": "items/tenretu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-36, -90, 0],
+			"translation": [0, 11.75, 3],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [158, -90, 0],
+			"translation": [-0.75, -9.5, 13.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-25.14, -62.26, 49.3],
+			"translation": [15.75, -0.5, -12.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [127.16, 80.35, 151.59],
+			"translation": [15.75, -0.5, -12.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 180],
+			"translation": [0, -13.5, 7.75],
+			"scale": [2, 2, 1.5]
+		},
+		"fixed": {
+			"rotation": [0, 90, 45],
+			"translation": [0, -6, 56.75],
+			"scale": [3, 3, 2]
+		}
+	}
+}

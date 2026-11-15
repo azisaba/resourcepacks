@@ -1,0 +1,31 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/black_dye"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/soul_flare"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/dragon_bone"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/meteor"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/adamantite"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/blood_chain"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/ruciru_platinum"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/suisei"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/tyougoukin_maple"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/auroraspinel"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/netherdruby"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/wolfsyuriken"},
+        { "predicate": {"custom_model_data": 12}, "model": "item/naihufdoku"},
+        { "predicate": {"custom_model_data": 13}, "model": "item/turi_kaigara"},
+        { "predicate": {"custom_model_data": 14}, "model": "item/sutosuri_reticle_non"},
+        { "predicate": {"custom_model_data": 15}, "model": "item/sutosuri_reticle00"},
+        { "predicate": {"custom_model_data": 16}, "model": "item/sutosuri_reticle01"},
+        { "predicate": {"custom_model_data": 17}, "model": "item/sutosuri_reticle02"},
+        { "predicate": {"custom_model_data": 18}, "model": "item/sutosuri_reticle03"},
+        { "predicate": {"custom_model_data": 19}, "model": "item/sutosuri_reticle04"},
+        { "predicate": {"custom_model_data": 20}, "model": "item/sutosuri_reticle05"},
+        { "predicate": {"custom_model_data": 21}, "model": "item/sutosuri_reticle06"},
+        { "predicate": {"custom_model_data": 22}, "model": "item/sutosuri_reticle07"},
+        { "predicate": {"custom_model_data": 23}, "model": "item/sutosuri_reticle08"}
+ ]
+}

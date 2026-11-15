@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+      "layer0": "item/oak_sign"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 1}, "model": "item/very_big_oak_sign" }
+  ]
+}

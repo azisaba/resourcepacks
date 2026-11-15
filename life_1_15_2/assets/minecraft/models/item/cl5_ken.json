@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/cl5_ken",
+		"layer0": "items/cl5_ken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [44, 90, 0],
+			"translation": [0, 7, 0.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [46, -90, 0],
+			"translation": [0, 6.25, 1.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-110, -89, -6],
+			"translation": [2.25, 2.75, -1.75],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [70, -84, 73],
+			"translation": [2, 3.75, -1.75]
+		},
+		"ground": {
+			"rotation": [0, 0, -135.5],
+			"translation": [0, 9.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"gui": {
+			"translation": [-0.25, -0.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [1, -16.25, 7.5],
+			"scale": [3, 3, 2]
+		},
+		"fixed": {
+			"rotation": [90, 0, 45],
+			"translation": [0.5, 0, -45],
+			"scale": [4, 4, 2]
+		}
+	}
+}

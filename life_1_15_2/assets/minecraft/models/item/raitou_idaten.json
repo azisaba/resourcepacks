@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/raitou_idaten_tuka",
+		"layer0": "items/raitou_idaten_tuka"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.2]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.2]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.4, 0.4, 0.2]
+		},
+		"gui": {
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, 0.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, -2.5],
+			"scale": [3, 3, 3]
+		}
+	}
+}

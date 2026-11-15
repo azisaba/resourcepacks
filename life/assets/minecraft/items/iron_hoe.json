@@ -36,7 +36,13 @@
         },
         "threshold": 5
       },
-      { "predicate": {"custom_model_data": 6}, "model": "item/uratyuukyuu_syokubai"},
+      {
+        "model": {
+          "model": "item/uratyuukyuu_syokubai",
+          "type": "model"
+        },
+        "threshold": 6
+      },
       {
         "model": {
           "model": "item/happybirthday",

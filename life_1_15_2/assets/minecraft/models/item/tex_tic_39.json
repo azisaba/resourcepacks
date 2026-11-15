@@ -1,0 +1,38 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/tex_tic_39"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 0, -90, -24 ],
+			"translation": [ 0, 5.5, -0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 69.5, 0, 0 ],
+			"translation": [ -5.25, -7, 6.25 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, -91, 0 ],
+			"translation": [ 5.5, 5.25, -3 ]
+		},
+		"firstperson_lefthand": {
+			"translation": [ 0, 0, 80 ]
+		},
+		"ground": {
+			"translation": [ 0, 4, 0 ]
+		},
+		"gui": {
+			"scale": [ 1.2, 1.2, 1 ]
+		},
+		"head": {
+			"rotation": [ 0, -180, 0 ],
+			"translation": [ 0, 10.75, 1.5 ]
+		},
+		"fixed": {
+			"rotation": [ 0, -180, 0 ],
+			"translation": [ 0, 0, 0.5 ],
+			"scale": [ 1.35, 1.35, 1.2 ]
+		}
+	}
+}

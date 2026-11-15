@@ -1,0 +1,21 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/setubun_mame",
+          "type": "model"
+        },
+        "threshold": 1
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/glowstone_dust",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/originswordcrystal",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/originaxecrystal",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/mj_so1",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/mj_so2",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/mj_so3",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/mj_so4",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/mj_so5",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/mj_so6",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/mj_so7",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/mj_so8",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/mj_so9",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/black_cape",
+          "type": "model"
+        },
+        "threshold": 12
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/emerald",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

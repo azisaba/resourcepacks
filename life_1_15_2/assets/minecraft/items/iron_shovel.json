@@ -1,0 +1,70 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/emerald_shovel",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/lapis_shovel",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/water_shovel",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/redstone_shovel",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/vt_syaberu",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/kurassya",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/spring_shovel",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/yari_buki",
+          "type": "model"
+        },
+        "threshold": 8
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/iron_shovel",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

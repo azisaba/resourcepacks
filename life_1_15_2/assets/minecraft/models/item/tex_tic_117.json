@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/tex_tic_117",
+		"particle": "items/tex_tic_117"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7],
+			"to": [16, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 2, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 2, 16, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_lefthand": {
+			"rotation": [63, 0, 0],
+			"translation": [-6, -9, 10]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, 2, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.25, -1, 1.75]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 8, 0]
+		}
+	}
+}

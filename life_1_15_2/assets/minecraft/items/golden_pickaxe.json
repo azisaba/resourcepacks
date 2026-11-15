@@ -1,0 +1,70 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/doriru",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/crystalsword",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/hayate",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/ice_falchion_anime",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/phoenixfalchion_anime",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/kaiyou_ken",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/ankoku_ken",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/blueframe_axe",
+          "type": "model"
+        },
+        "threshold": 8
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/golden_pickaxe",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

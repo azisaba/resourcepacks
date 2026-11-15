@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/taruto_azi",
+		"layer0": "items/taruto_azi"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-6.5, -7.5, 6],
+			"scale": [1.5, 1.5, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [66, 0, 0],
+			"translation": [-6.5, -7.5, 6],
+			"scale": [1.5, 1.5, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [5.75, 0, 0],
+			"scale": [1, 1, 0.65]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [-1, 0, 0]
+		},
+		"gui": {
+			"scale": [1.5, 1.5, 1]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [1.5, 1.5, 1]
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/af3_powerup_animation",
+		"particle": "items/af3_powerup_animation"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 98],
+			"translation": [0, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -98],
+			"translation": [0, 4, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 125],
+			"translation": [6.5, 2.25, -2.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -125],
+			"translation": [6.5, 2.25, -2.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"rotation": [0, -180, -85],
+			"translation": [0.75, 0.25, 7.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0.25, -0.25, 0],
+			"scale": [2.4, 2.4, 2.7]
+		}
+	}
+}

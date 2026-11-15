@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "block/white_stained_glass"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "item/icons/right_arrow" },
+    { "predicate": { "custom_model_data": 2 }, "model": "item/icons/left_arrow" },
+    { "predicate": { "custom_model_data": 3 }, "model": "item/icons/up_arrow" },
+    { "predicate": { "custom_model_data": 4 }, "model": "item/icons/down_arrow" },
+    { "predicate": { "custom_model_data": 5 }, "model": "item/icons/right_triangle" },
+    { "predicate": { "custom_model_data": 6 }, "model": "item/icons/left_triangle" },
+    { "predicate": { "custom_model_data": 7 }, "model": "item/icons/up_triangle" },
+    { "predicate": { "custom_model_data": 8 }, "model": "item/icons/down_triangle" },
+    { "predicate": { "custom_model_data": 9 }, "model": "item/icons/green_check_mark" },
+    { "predicate": { "custom_model_data": 10 }, "model": "item/icons/red_cross_mark" },
+    { "predicate": { "custom_model_data": 11 }, "model": "item/icons/yellow_neutral_mark" },
+    { "predicate": { "custom_model_data": 12 }, "model": "item/icons/plus" },
+    { "predicate": { "custom_model_data": 13 }, "model": "item/icons/minus" },
+    { "predicate": { "custom_model_data": 14 }, "model": "item/icons/shop/sis_normal" },
+    { "predicate": { "custom_model_data": 15 }, "model": "item/icons/shop/sis_success" },
+    { "predicate": { "custom_model_data": 16 }, "model": "item/icons/shop/sis_fail" },
+    { "predicate": { "custom_model_data": 17 }, "model": "item/icons/shop/sis_caution" },
+    { "predicate": { "custom_model_data": 18 }, "model": "item/icons/shop/sis_limit" }
+  ]
+}

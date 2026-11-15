@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"0": "items/af5a140d0a2dfeed",
+		"1": "items/stormslingerreticle03",
+		"2": "items/sutosuri_main",
+		"particle": "items/af5a140d0a2dfeed"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 2, 2.25],
+			"scale": [0.5, 0.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.5, 0],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-33, -70, 0],
+			"translation": [6.25, 0, -2.5],
+			"scale": [0.75, 0.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-9, 8.25, -23],
+			"scale": [1, 0, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -43],
+			"translation": [-2.25, 0, 0.75],
+			"scale": [0.5, 0.5, 0]
+		},
+		"gui": {
+			"scale": [1, 1, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 33],
+			"translation": [4.5, -10, -7],
+			"scale": [1, 1, 0]
+		},
+		"fixed": {
+			"scale": [1, 1, 0]
+		}
+	}
+}

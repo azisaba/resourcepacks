@@ -1,0 +1,32 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/uratyuukyuu_syokubai",
+		"layer0": "items/uratyuukyuu_syokubai"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [40.75, 90, 0],
+			"translation": [0, 2.5, -1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40.75, 90, 0],
+			"translation": [0, 2.5, -1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [14.17, -71.95, 57.16],
+			"translation": [15, 0, -13.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-50.61, -87.21, -87.64],
+			"translation": [15, 0, -13.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		}
+	}
+}

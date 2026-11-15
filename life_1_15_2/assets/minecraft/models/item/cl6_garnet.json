@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/cl6_garnet",
+		"layer0": "items/cl6_garnet"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [50.75, 90, 0],
+			"translation": [0, 7.5, 1.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-35.75, 90, 0],
+			"translation": [0, 6.5, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 86.25, -180],
+			"translation": [7, 0, -4.5],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -60.75, 0],
+			"translation": [10, 0, -9.5],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 3.75, 0]
+		},
+		"head": {
+			"translation": [0, -16.25, 7.75],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [1.25, -0.25, -1.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}

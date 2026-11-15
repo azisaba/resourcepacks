@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "items/black_cape",
+		"particle": "items/black_cape"
+	},
+	"elements": [
+		{
+			"name": "black_cape_0",
+			"from": [2.5, 0, 0],
+			"to": [13.5, 0.5, 16],
+			"faces": {
+				"north": {"uv": [13.5, 0, 2.5, 0.5], "texture": "#0"},
+				"east": {"uv": [13, 0, 13.5, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.5, 15.5, 13.5, 16], "texture": "#0"},
+				"west": {"uv": [2.5, 0, 3, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2.5, 0, 13.5, 16], "texture": "#0"},
+				"down": {"uv": [2.5, 16, 13.5, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [140, 0, 0],
+			"translation": [-5.75, -15, 9]
+		}
+	},
+	"groups": [
+		{
+			"name": "black_cape",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

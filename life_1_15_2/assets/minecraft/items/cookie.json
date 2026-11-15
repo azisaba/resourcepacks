@@ -1,0 +1,119 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/choco_bitter",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/choco_white",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/choco_strawberry",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/konoyoni_umarerubekideha_nakatta",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/openunknownbox",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/mysterybox",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/choco_housou",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/cupcakekitsune",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/chicake",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/makaronkitsune",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/shortcakehoukai",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/rollcake",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/makarontakumi",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/cupcaketakumi",
+          "type": "model"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "model": "item/cakehoukai",
+          "type": "model"
+        },
+        "threshold": 15
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/cookie",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

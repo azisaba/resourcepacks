@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/gokuken"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [157, 90, -100],
+			"translation": [-0.25, 10.25, 2.25],
+			"scale": [1.6, 1.21, 0.84]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [115, -95, 64],
+			"translation": [1.25, 11, 1],
+			"scale": [1.69, 1.21, 0.86]
+		},
+		"firstperson_righthand": {
+			"rotation": [64, 100, 9],
+			"translation": [4.5, 2.25, -4.75],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-112, -89, -180],
+			"translation": [9.25, 0.5, -9],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, -135],
+			"translation": [0, 11, 0],
+			"scale": [1.4, 1.4, 1]
+		},
+		"head": {
+			"rotation": [0, -3, -82],
+			"translation": [0, -13, 7.5],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, -41],
+			"translation": [0, 0.5, -3.5],
+			"scale": [3.43, 3.52, 1.99]
+		}
+	}
+}

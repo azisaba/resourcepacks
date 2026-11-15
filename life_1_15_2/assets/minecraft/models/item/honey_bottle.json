@@ -1,0 +1,38 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/honey_bottle"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/beer2"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/nihonnsyua"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/nihonnsyub"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/nihonnsyuc"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/lalabee"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/wolftea"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/la_juice"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/ramune"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/kaihuku_l"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/kaihuku_s"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/kaihuku_xl"},
+        { "predicate": {"custom_model_data": 12}, "model": "item/kaikatu_l"},
+        { "predicate": {"custom_model_data": 13}, "model": "item/kaikatu_s"},
+        { "predicate": {"custom_model_data": 14}, "model": "item/kaikatu_xl"},
+        { "predicate": {"custom_model_data": 15}, "model": "item/xmaspresent2"},
+        { "predicate": {"custom_model_data": 16}, "model": "item/azigold"},
+        { "predicate": {"custom_model_data": 17}, "model": "item/strzero"},
+        { "predicate": {"custom_model_data": 18}, "model": "item/sinyu"},
+        { "predicate": {"custom_model_data": 19}, "model": "item/katana"},
+        { "predicate": {"custom_model_data": 20}, "model": "item/dk"},
+        { "predicate": {"custom_model_data": 21}, "model": "item/redbull_1"},
+        { "predicate": {"custom_model_data": 22}, "model": "item/redbull_2"},
+        { "predicate": {"custom_model_data": 23}, "model": "item/redbull_3"},
+        { "predicate": {"custom_model_data": 24}, "model": "item/azicola"},
+        { "predicate": {"custom_model_data": 25}, "model": "item/redbull_1_x"},
+        { "predicate": {"custom_model_data": 26}, "model": "item/redbull_2_x"},
+        { "predicate": {"custom_model_data": 27}, "model": "item/redbull_3_x"},
+        { "predicate": {"custom_model_data": 28}, "model": "item/monster"},
+        { "predicate": {"custom_model_data": 29}, "model": "item/defaultcan"},
+        { "predicate": {"custom_model_data": 30}, "model": "item/coffe"}
+    ]
+}

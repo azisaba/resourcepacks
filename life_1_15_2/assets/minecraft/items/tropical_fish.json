@@ -1,0 +1,126 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/sinrinarowana",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/tunamaguro",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/kingsamon",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/turi_sawara",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/turi_maguro",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/turi_namazu",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/turi_denki",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/turi_kaminari",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/turi_walleye",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/turi_buri-mu",
+          "type": "model"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "model": "item/turi_manbou",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/turi_kurodai",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/turi_tai",
+          "type": "model"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "model": "item/turi_sushi",
+          "type": "model"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "model": "item/turi_mekazakana",
+          "type": "model"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "model": "item/turi_ebi2",
+          "type": "model"
+        },
+        "threshold": 17
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/tropical_fish",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/stoned_rice_cooker",
+          "type": "model"
+        },
+        "threshold": 42
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/popped_chorus_fruit",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

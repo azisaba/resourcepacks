@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/keturoku",
+		"layer0": "items/keturoku"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, -145],
+			"translation": [0, 6, 1],
+			"scale": [1.75, 1.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 180, -75],
+			"translation": [-6.5, -6.5, 9.5],
+			"scale": [1.75, 1.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [180, -90, 70],
+			"translation": [4.5, 1.75, -1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [45, 90, 70],
+			"translation": [80, -80, 80],
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"scale": [1, 1, 0.75]
+		},
+		"gui": {
+			"rotation": [0, 0, 166],
+			"translation": [0, 0.25, 0],
+			"scale": [1.75, 1.75, 1]
+		},
+		"head": {
+			"rotation": [39, 0, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 166],
+			"translation": [0.5, -0.25, 0],
+			"scale": [1.75, 1.75, 1]
+		}
+	}
+}

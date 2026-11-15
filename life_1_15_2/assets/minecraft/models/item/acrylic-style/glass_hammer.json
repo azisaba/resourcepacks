@@ -1,0 +1,25 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "items/acrylic-style/glass_hammer"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [180, -90, -141],
+      "translation": [0, 6.25, 1.75],
+      "scale": [0.75, 0.75, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [99, 90, -141],
+      "translation": [0, 6.25, 1.75],
+      "scale": [0.75, 0.75, 1]
+    },
+    "ground": {
+      "translation": [0, 6.75, 0],
+      "scale": [0.65, 0.65, 1]
+    },
+    "fixed": {
+      "translation": [0, 0, -0.5]
+    }
+  }
+}

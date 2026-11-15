@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/boukyaku",
+		"layer0": "items/boukyaku"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-37.25, -90, 0],
+			"translation": [0, 20.25, 3.25],
+			"scale": [3, 3, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-37.25, 90, 0],
+			"translation": [0, 20.25, 3.25],
+			"scale": [3, 3, 1.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-89.67, -0.71, -26.68],
+			"translation": [-1, 3, 1.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90.96, -1.15, -154.49],
+			"translation": [-1, 3, 1.75]
+		},
+		"ground": {
+			"rotation": [0, 0, -135],
+			"translation": [0, 24.75, 0],
+			"scale": [4, 4, 1]
+		},
+		"head": {
+			"translation": [0, -12, 7.5],
+			"scale": [4, 4, 2]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.25],
+			"scale": [4, 4, 2]
+		}
+	}
+}

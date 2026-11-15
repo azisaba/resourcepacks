@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/eriminaihu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [51, 89, -180],
+			"translation": [0.75, -5, 0.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-89, -90, 47],
+			"translation": [0, -4.5, 0.75],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-67, 21, -48],
+			"translation": [3.25, -1, -7],
+			"scale": [1.25, 1.25, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [76, -83, -106],
+			"translation": [9.5, 2.75, -7.25],
+			"scale": [1.7, 1.7, 1]
+		},
+		"ground": {
+			"rotation": [-180, 0, -135],
+			"translation": [0, 3.25, 0],
+			"scale": [0.7, 0.7, 1]
+		},
+		"head": {
+			"rotation": [0, -3, -82],
+			"translation": [0, -13, 7.5],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0.5, -1.5],
+			"scale": [1.2, 1.2, 1]
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/bone_boroboro",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/bone_kizu",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/bone_kyouko",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/wolffang",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/mahouwolffang",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/bottleship",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/wolffang",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/hw2023tuno1",
+          "type": "model"
+        },
+        "threshold": 11
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/bone",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

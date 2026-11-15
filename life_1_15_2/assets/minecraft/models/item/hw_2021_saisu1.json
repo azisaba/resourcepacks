@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/hw_2021_saisu1",
+		"layer0": "items/hw_2021_saisu1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-40.5, -90, 0],
+			"translation": [-0.25, 14.25, 1.5],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-40.5, -90, 0],
+			"translation": [-0.25, 14.25, 1.5],
+			"scale": [-2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-57.15, -83.22, 25.21],
+			"translation": [2, 6.5, -2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-57.15, -83.22, 25.21],
+			"translation": [2, 6.5, -2.25],
+			"scale": [-1, 1, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -180],
+			"translation": [0, 15, -1],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, 11.75, 3.75],
+			"translation": [1, 0, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 76.5],
+			"translation": [0, -15.5, 7.25],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"rotation": [119, -90, 0],
+			"translation": [0.25, 3, -30.5],
+			"scale": [4, 4, 4]
+		}
+	}
+}

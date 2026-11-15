@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/bloodknife"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [24, -90, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [0.7, 0.7, 0.69]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [24, 90, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [0.7, 0.7, 0.69]
+		},
+		"firstperson_righthand": {
+			"rotation": [-53, -89, 0],
+			"translation": [-1, 3.5, -0.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-53, 89, 0],
+			"translation": [-1, 3.5, -0.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"translation": [0, -0.25, 0],
+			"scale": [1, 1.03, 1]
+		}
+	}
+}

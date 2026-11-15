@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/data_zyuu",
+		"layer0": "items/data_zyuu"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-46.25, -90, 0],
+			"translation": [0, 1.5, -10.5],
+			"scale": [2, 2, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-46.25, 90, 0],
+			"translation": [0, 1.5, -10.5],
+			"scale": [2, 2, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-94.62, -74.35, -49.75],
+			"translation": [4.25, 2, -6],
+			"scale": [1, 1, 0.1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-94.62, 74.35, 49.75],
+			"translation": [4.25, 2, -6],
+			"scale": [1, 1, 0.1]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0],
+			"scale": [1, 1, 0.2]
+		},
+		"head": {
+			"rotation": [0, 0, 137.75],
+			"translation": [6, -16.5, 0],
+			"scale": [3, 3, 1]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.25],
+			"scale": [2, 2, 0.2]
+		}
+	}
+}

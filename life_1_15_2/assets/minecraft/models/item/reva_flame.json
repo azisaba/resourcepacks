@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/reva_flame"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [98, 90, -136],
+			"translation": [0, 7.75, 3],
+			"scale": [1.2, 1.2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-154, 89, 35],
+			"translation": [-0.5, -11.75, -0.25],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-27, 85, 4],
+			"translation": [8.25, 2.25, -7],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [129, -90, 35],
+			"translation": [8.25, -9.75, -6.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 135],
+			"translation": [0, 12, 0],
+			"scale": [1.4, 1.4, 1]
+		},
+		"head": {
+			"rotation": [0, -3, 101],
+			"translation": [0.75, -16.5, 11],
+			"scale": [2, 2, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -2.25],
+			"scale": [1.4, 1.4, 1]
+		}
+	}
+}

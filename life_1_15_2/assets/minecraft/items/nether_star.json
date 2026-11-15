@@ -1,0 +1,70 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/cl1_kaku",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/cl2_kaku",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/cl3_kaku",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/cl4_kaku",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/cl5_kaku",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/fairy-soul",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/tokei_sozai",
+          "type": "model"
+        },
+        "threshold": 100
+      },
+      {
+        "model": {
+          "model": "item/cl4_isi",
+          "type": "model"
+        },
+        "threshold": 101
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/nether_star",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

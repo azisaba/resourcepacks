@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/darksword",
+		"particle": "items/darksword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [0, 6.5, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 6.5, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 40],
+			"translation": [7, 8.75, -2.5],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -40],
+			"translation": [7, 8.75, -2.5],
+			"scale": [1.2, 1.2, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -119],
+			"translation": [0, 9.25, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"gui": {
+			"rotation": [0, 0, 98],
+			"translation": [-1.25, -0.5, 0]
+		},
+		"head": {
+			"rotation": [0, -180, 45],
+			"translation": [0, 11.5, 0],
+			"scale": [0.85, 0.85, 1.1]
+		},
+		"fixed": {
+			"rotation": [0, 0, 96],
+			"translation": [-3, 0, -0.25],
+			"scale": [2.4, 2.4, 2]
+		}
+	}
+}

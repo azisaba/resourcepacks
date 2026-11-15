@@ -1,11 +1,14 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "block/sunflower_front"
-    },
-    "overrides": [
-        { "predicate": {"custom_model_data": 1}, "model": "item/sword-soul"}
-    ]
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "items/imported/sunflower_front"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/sword-soul"
+    }
+  ]
 }
-
-

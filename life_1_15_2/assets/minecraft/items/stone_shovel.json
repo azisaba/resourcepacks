@@ -1,0 +1,28 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/flint_shovel",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/furnace_shovel",
+          "type": "model"
+        },
+        "threshold": 2
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/stone_shovel",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

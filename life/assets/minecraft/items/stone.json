@@ -7,10 +7,24 @@
           "type": "model"
         },
         "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/al_knight_right",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/al_knight_left",
+          "type": "model"
+        },
+        "threshold": 3
       }
     ],
     "fallback": {
-      "model": "minecraft:block/stone",
+      "model": "item/imported_fb_stone",
       "type": "model"
     },
     "index": 0,

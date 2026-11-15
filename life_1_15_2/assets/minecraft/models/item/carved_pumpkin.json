@@ -1,0 +1,83 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "block/carved_pumpkin"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/texhead"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/h"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/o"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/n"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/k"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/nekomimi_kuro"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/inumimi_kazu"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/nekomimi_mike"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/obon_2bu"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/obon_2bu_2"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/obon_2bu_6"},
+        { "predicate": {"custom_model_data": 12}, "model": "item/obon_2bu_3"},
+        { "predicate": {"custom_model_data": 13}, "model": "item/obon_2bu_4"},
+        { "predicate": {"custom_model_data": 14}, "model": "item/obon_2bu_5"},
+        { "predicate": {"custom_model_data": 15}, "model": "item/obon_2bu_7"},
+        { "predicate": {"custom_model_data": 16}, "model": "item/inumimi_kuro"},
+        { "predicate": {"custom_model_data": 17}, "model": "item/paruvatosu_head"},
+        { "predicate": {"custom_model_data": 18}, "model": "item/paruvatosuex_head"},
+        { "predicate": {"custom_model_data": 19}, "model": "item/siruku_hat"},
+        { "predicate": {"custom_model_data": 20}, "model": "item/ittyou"},
+        { "predicate": {"custom_model_data": 21}, "model": "item/zyaousingan"},
+        { "predicate": {"custom_model_data": 22}, "model": "item/mugiwaraboushi"},
+        { "predicate": {"custom_model_data": 23}, "model": "item/sangurasu"},
+        { "predicate": {"custom_model_data": 24}, "model": "item/toriseinohane"},
+        { "predicate": {"custom_model_data": 25}, "model": "item/zari_gani_kigurumi"},
+        { "predicate": {"custom_model_data": 26}, "model": "item/takenoko"},
+        { "predicate": {"custom_model_data": 27}, "model": "item/bondorudo"},
+        { "predicate": {"custom_model_data": 28}, "model": "item/tex_tic_6"},
+        { "predicate": {"custom_model_data": 29}, "model": "item/tex_tic_8"},
+        { "predicate": {"custom_model_data": 30}, "model": "item/tex_tic_11"},
+        { "predicate": {"custom_model_data": 31}, "model": "item/tex_tic_18"},
+        { "predicate": {"custom_model_data": 32}, "model": "item/haru_makura"},
+        { "predicate": {"custom_model_data": 33}, "model": "item/sukautaa"},
+        { "predicate": {"custom_model_data": 34}, "model": "item/syougakusei_bousi"},
+        { "predicate": {"custom_model_data": 35}, "model": "item/tex_tic_31"},
+        { "predicate": {"custom_model_data": 36}, "model": "item/omen_96neko"},
+        { "predicate": {"custom_model_data": 37}, "model": "item/omen_azi"},
+        { "predicate": {"custom_model_data": 38}, "model": "item/omen_kazeha"},
+        { "predicate": {"custom_model_data": 39}, "model": "item/omen_kurosio"},
+        { "predicate": {"custom_model_data": 40}, "model": "item/omen_kyouki"},
+        { "predicate": {"custom_model_data": 41}, "model": "item/omen_mori"},
+        { "predicate": {"custom_model_data": 42}, "model": "item/omen_siqlet"},
+        { "predicate": {"custom_model_data": 43}, "model": "item/tex_tic_42"},
+        { "predicate": {"custom_model_data": 44}, "model": "item/fukumamizushi"},
+        { "predicate": {"custom_model_data": 45}, "model": "item/2023hwmask"},
+        { "predicate": {"custom_model_data": 46}, "model": "item/2023hwboss2"},
+        { "predicate": {"custom_model_data": 47}, "model": "item/2023hwgacha"},
+        { "predicate": {"custom_model_data": 48}, "model": "item/dollheadbase"},
+        { "predicate": {"custom_model_data": 49}, "model": "item/tex_tic_97"},
+        { "predicate": {"custom_model_data": 50}, "model": "item/kinokogurumi"},
+        { "predicate": {"custom_model_data": 51}, "model": "item/kyuuden_p_dancingblade"},
+        { "predicate": {"custom_model_data": 52}, "model": "item/paruvatosu_kai_head"},
+        { "predicate": {"custom_model_data": 53}, "model": "item/ozyamazyo"},
+        { "predicate": {"custom_model_data": 54}, "model": "item/hw2025_mask"},
+        { "predicate": {"custom_model_data": 55}, "model": "item/hwh_2025"},
+        { "predicate": {"custom_model_data": 56}, "model": "item/full_armored_ex_head"},
+        { "predicate": {"custom_model_data": 57}, "model": "item/paru_oruta_h"},
+        { "predicate": {"custom_model_data": 58}, "model": "item/hw_2025_ryouiki"},
+        { "predicate": {"custom_model_data": 59}, "model": "item/tex_tic_118"},
+        { "predicate": {"custom_model_data": 60}, "model": "item/tex_tic_119"},
+        { "predicate": {"custom_model_data": 61}, "model": "item/tex_tic_125"},
+        { "predicate": {"custom_model_data": 62}, "model": "item/gensyo_kanmuri"},
+        { "predicate": {"custom_model_data": 63}, "model": "item/kotowarisikitenkaisi"},
+        { "predicate": {"custom_model_data": 64}, "model": "item/huusa_gamma"},
+        { "predicate": {"custom_model_data": 65}, "model": "item/tex_tic_126"}
+    ] 
+}
+
+
+
+
+
+
+
+
+
+

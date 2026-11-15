@@ -1,0 +1,56 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/buns",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/mcdonalds",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/mcdonalds_big",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/mcdonalds_cheese",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/mcdonalds_doublecheese",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/mcdonalds_tamago",
+          "type": "model"
+        },
+        "threshold": 6
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/bread",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

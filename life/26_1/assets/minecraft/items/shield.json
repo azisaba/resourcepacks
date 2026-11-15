@@ -1,0 +1,97 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "scale": 1,
+    "entries": [
+      {
+        "threshold": 2,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/ice_shield_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/ice_shield"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/cap_life_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/cap_life"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_true": {
+            "type": "model",
+            "model": "item/chocolateshield_new_blocking"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item/chocolateshield_new"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "transformation": {
+        "left_rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "right_rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          -1.0,
+          -1.0
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/shield",
+        "model": {
+          "type": "minecraft:shield"
+        }
+      },
+      "on_true": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/shield_blocking",
+        "model": {
+          "type": "minecraft:shield"
+        }
+      }
+    }
+  }
+}

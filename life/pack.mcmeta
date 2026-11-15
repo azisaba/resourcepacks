@@ -1,6 +1,38 @@
 {
-    "pack": {
-        "pack_format": 5,
-        "description": "Azisaba Network: life v1.0.0\nMinecraft 1.15.2 - 1.20.1"
-    }
+	"pack": {
+		"pack_format": 75,
+		"min_format": 75,
+		"max_format": 84,
+		"description": "Azisaba Network: life v1.0.0\nMinecraft 1.21.11 - 26.1"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"min_format": 36,
+				"max_format": 54,
+				"directory": "1_21_2"
+			},
+			{
+				"min_format": 55,
+				"max_format": 62,
+				"directory": "1_21_5"
+			},
+			{
+				"min_format": 63,
+				"max_format": 83,
+				"directory": "1_21_6"
+			},
+			{
+				"min_format": 84,
+				"max_format": 32767,
+				"directory": "26_1"
+			}
+		]
+	},
+	"sodium": {
+		"ignored_shaders": [
+			"rendertype_entity_translucent.fsh",
+			"rendertype_entity_translucent.vsh"
+		]
+	}
 }

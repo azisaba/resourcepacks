@@ -1,0 +1,108 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/kyoukigb27",
+		"particle": "kyoukigb27"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 0],
+			"to": [12, 8, 0.5],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [4, 0, 4.5, 4], "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 4, 4.5, 8], "texture": "#0"},
+				"up": {"uv": [8.5, 0.5, 4.5, 0], "texture": "#0"},
+				"down": {"uv": [8.5, 0.5, 4.5, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.75, 5, 9],
+			"to": [12.25, 5.25, 9.25],
+			"faces": {
+				"north": {"uv": [5.5, 2, 10, 2.5], "texture": "#0"},
+				"east": {"uv": [6.5, 5, 7, 5.5], "texture": "#0"},
+				"south": {"uv": [5.5, 2.5, 10, 3], "texture": "#0"},
+				"west": {"uv": [6.5, 5.5, 7, 6], "texture": "#0"},
+				"up": {"uv": [10, 3.5, 5.5, 3], "texture": "#0"},
+				"down": {"uv": [10, 3.5, 5.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.75, 5, 0.25],
+			"to": [4, 5.25, 9],
+			"faces": {
+				"north": {"uv": [4.5, 6.5, 5, 7], "texture": "#0"},
+				"east": {"uv": [4.5, 1, 9, 1.5], "texture": "#0"},
+				"south": {"uv": [5, 6.5, 5.5, 7], "texture": "#0"},
+				"west": {"uv": [4.5, 1.5, 9, 2], "texture": "#0"},
+				"up": {"uv": [5, 6.5, 4.5, 2], "texture": "#0"},
+				"down": {"uv": [5.5, 2, 5, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 5, 0.25],
+			"to": [12.25, 5.25, 9],
+			"faces": {
+				"north": {"uv": [6.5, 6, 7, 6.5], "texture": "#0"},
+				"east": {"uv": [5.5, 4, 10, 4.5], "texture": "#0"},
+				"south": {"uv": [6.5, 6.5, 7, 7], "texture": "#0"},
+				"west": {"uv": [5.5, 4.5, 10, 5], "texture": "#0"},
+				"up": {"uv": [6, 9.5, 5.5, 5], "texture": "#0"},
+				"down": {"uv": [6.5, 5, 6, 9.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67, 180, 0],
+			"translation": [-5.8, 4.75, 18]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, -90, 0],
+			"translation": [-9.25, 2, 19.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0.75, -4, 1.75],
+			"scale": [0.5, 0.5, 0.1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-25.5, 28, 15],
+			"scale": [4, 4, 4]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 8.25, 0],
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"translation": [0, 6.75, 5.25],
+			"scale": [1.7, 1.7, 1.7]
+		},
+		"fixed": {
+			"translation": [0, 16, 7.75],
+			"scale": [4, 4, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "顔",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "紐のところ",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2, 3]
+		}
+	]
+}

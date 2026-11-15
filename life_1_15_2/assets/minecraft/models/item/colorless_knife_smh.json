@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/colorless_knife_smh",
+		"layer0": "items/colorless_knife_smh"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -91.25, 44],
+			"translation": [-0.25, 3.75, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [41.75, 267, 175.75],
+			"translation": [-0.5, -7.75, 0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-61.5, -74, -17.5],
+			"translation": [0, 5.75, 3.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-37, 97.25, 0],
+			"translation": [0, 4.25, 4]
+		},
+		"head": {
+			"rotation": [20, 90.5, -28.5],
+			"translation": [0.5, 3.25, -7.25]
+		}
+	}
+}

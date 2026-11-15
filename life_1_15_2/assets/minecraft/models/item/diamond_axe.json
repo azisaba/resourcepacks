@@ -1,0 +1,29 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_axe"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/obsidian_axe"},
+		{ "predicate": {"custom_model_data": 2}, "model": "item/netherstar_axe"},
+		{ "predicate": {"custom_model_data": 3}, "model": "item/candy"},
+		{ "predicate": {"custom_model_data": 4}, "model": "item/flame_axe"},
+		{ "predicate": {"custom_model_data": 5}, "model": "item/flame_axe_kai"},
+		{ "predicate": {"custom_model_data": 6}, "model": "item/halo_axe"},
+		{ "predicate": {"custom_model_data": 7}, "model": "item/gaming_axe"},
+		{ "predicate": {"custom_model_data": 8}, "model": "item/iryouaxe"},
+		{ "predicate": {"custom_model_data": 9}, "model": "item/ougonkabuto"},
+		{ "predicate": {"custom_model_data": 10}, "model": "item/blueframe_axe"},
+		{ "predicate": {"custom_model_data": 11}, "model": "item/rabanaxe"},
+		{ "predicate": {"custom_model_data": 12}, "model": "item/hwharuba-do3"},
+		{ "predicate": {"custom_model_data": 13}, "model": "item/hwharuba-do"},
+		{ "predicate": {"custom_model_data": 14}, "model": "item/doubleflame"},
+		{ "predicate": {"custom_model_data": 15}, "model": "item/hw2025_pumpkin_axe"},
+		{ "predicate": {"custom_model_data": 200}, "model": "item/easter_axe"},
+		{ "predicate": {"custom_model_data": 201}, "model": "item/nature_axe"},
+		{ "predicate": {"custom_model_data": 202}, "model": "item/azu_ono"},
+		{ "predicate": {"custom_model_data": 203}, "model": "item/2023hw_rabanaxe"},
+		{ "predicate": {"custom_model_data": 204}, "model": "item/magica_axe"}
+    ]
+}
+

@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/bakuhaiyumi_hiki3"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-92, -2, -44],
+			"translation": [-0.5, -1, 2],
+			"scale": [1.6, 1.6, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [92, 178, -135],
+			"translation": [0.5, -0.75, 1.75],
+			"scale": [1.6, 1.6, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-61, 0, -32],
+			"translation": [-0.5, 0, -1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-59, 0, 56],
+			"translation": [-0.75, 0, -1.5]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0],
+			"scale": [1.3, 1.3, 1]
+		},
+		"head": {
+			"rotation": [0, -3, -99],
+			"translation": [0, -16, 9],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -2],
+			"scale": [1.3, 1.3, 1]
+		}
+	}
+}

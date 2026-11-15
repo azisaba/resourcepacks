@@ -1,0 +1,84 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/trident",
+          "type": "model"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "model": "item/inuskin",
+          "type": "model"
+        },
+        "threshold": 2
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          },
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "on_shelf"
+          ]
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "transformation": {
+          "left_rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "right_rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            -1.0,
+            -1.0
+          ],
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_in_hand",
+          "model": {
+            "type": "minecraft:trident"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/trident_throwing",
+          "model": {
+            "type": "minecraft:trident"
+          }
+        },
+        "property": "minecraft:using_item"
+      },
+      "property": "minecraft:display_context"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

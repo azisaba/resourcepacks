@@ -1,0 +1,154 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/manarod_a",
+          "type": "model"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "model": "item/manarod_b",
+          "type": "model"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "model": "item/manarod_c",
+          "type": "model"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "model": "item/nageyari",
+          "type": "model"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "model": "item/dokurod",
+          "type": "model"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "model": "item/gaiarod",
+          "type": "model"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "model": "item/kougekirod",
+          "type": "model"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "model": "item/bougyorod",
+          "type": "model"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "model": "item/windrod",
+          "type": "model"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "model": "item/kaminarirod",
+          "type": "model"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_28",
+          "type": "model"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_47",
+          "type": "model"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "model": "item/buildtool_n",
+          "type": "model"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_62",
+          "type": "model"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_83",
+          "type": "model"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_105",
+          "type": "model"
+        },
+        "threshold": 18
+      },
+      {
+        "model": {
+          "model": "item/niji_gakudan",
+          "type": "model"
+        },
+        "threshold": 19
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_112",
+          "type": "model"
+        },
+        "threshold": 20
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_121",
+          "type": "model"
+        },
+        "threshold": 21
+      },
+      {
+        "model": {
+          "model": "item/tex_tic_124",
+          "type": "model"
+        },
+        "threshold": 22
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/blaze_rod",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": {
+    "entries": [
+      {
+        "model": {
+          "model": "item/cl_koori_danpen",
+          "type": "model"
+        },
+        "threshold": 1
+      }
+    ],
+    "fallback": {
+      "model": "minecraft:item/blue_dye",
+      "type": "model"
+    },
+    "index": 0,
+    "property": "custom_model_data",
+    "scale": 1,
+    "type": "range_dispatch"
+  }
+}

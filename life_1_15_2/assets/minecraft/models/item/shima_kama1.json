@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/shima_kama1",
+		"layer0": "items/shima_kama1"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [1, -90, 19],
+			"translation": [0, 14, 7.75],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-113, 0, 86],
+			"translation": [-7.5, -8.75, 5.25],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [21, -83, 82],
+			"translation": [4.25, 6, -2.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"rotation": [-180, 0, 48],
+			"translation": [0, 32.5, 0],
+			"scale": [4, 4, 1]
+		},
+		"gui": {
+			"scale": [1.5, 1.5, 1]
+		},
+		"head": {
+			"rotation": [0, -85, 102],
+			"translation": [0.25, 6.25, -3.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"scale": [4, 4, 1]
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cod"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 1}, "model": "item/iseebi"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/aoriika"},
+        { "predicate": {"custom_model_data": 3}, "model": "item/saba"},
+        { "predicate": {"custom_model_data": 4}, "model": "item/madai"},
+        { "predicate": {"custom_model_data": 5}, "model": "item/madara"},
+        { "predicate": {"custom_model_data": 6}, "model": "item/madako"},
+        { "predicate": {"custom_model_data": 7}, "model": "item/hw2023_sakabanbasubisu"},
+        { "predicate": {"custom_model_data": 8}, "model": "item/maguro"},
+        { "predicate": {"custom_model_data": 9}, "model": "item/suzuki"},
+        { "predicate": {"custom_model_data": 10}, "model": "item/katuo"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/sirogisu"},
+        { "predicate": {"custom_model_data": 12}, "model": "item/kawahagi"},
+        { "predicate": {"custom_model_data": 13}, "model": "item/kasago"},
+        { "predicate": {"custom_model_data": 14}, "model": "item/iwasi"},
+        { "predicate": {"custom_model_data": 15}, "model": "item/yariika"},
+        { "predicate": {"custom_model_data": 16}, "model": "item/karei"},
+        { "predicate": {"custom_model_data": 17}, "model": "item/kurodai"},
+        { "predicate": {"custom_model_data": 18}, "model": "item/buri"},
+        { "predicate": {"custom_model_data": 19}, "model": "item/tachiuo"},
+        { "predicate": {"custom_model_data": 20}, "model": "item/hirame"},
+        { "predicate": {"custom_model_data": 21}, "model": "item/kanpachi"},
+        { "predicate": {"custom_model_data": 22}, "model": "item/akamutu"},
+        { "predicate": {"custom_model_data": 23}, "model": "item/kinmedai"},
+        { "predicate": {"custom_model_data": 24}, "model": "item/hiramasa"},
+        { "predicate": {"custom_model_data": 25}, "model": "item/azi"},
+        { "predicate": {"custom_model_data": 26}, "model": "item/sakabanbasubisu_gold"},
+        { "predicate": {"custom_model_data": 27}, "model": "item/flf_sozai_akabaginnnannsou"},
+        { "predicate": {"custom_model_data": 28}, "model": "item/flf_sozai_ayamekasago"},
+        { "predicate": {"custom_model_data": 29}, "model": "item/flf_sozai_hanadai"},
+        { "predicate": {"custom_model_data": 30}, "model": "item/flf_sozai_milk"},
+        { "predicate": {"custom_model_data": 31}, "model": "item/flf_sozai_sakuramasu"},
+        { "predicate": {"custom_model_data": 32}, "model": "item/flf_sozai_sugar"},
+        { "predicate": {"custom_model_data": 33}, "model": "item/flf_sozai_wheat"}
+    ]
+}

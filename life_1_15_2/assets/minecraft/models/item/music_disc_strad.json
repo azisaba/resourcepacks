@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/music_disc_strad"
+    },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 2}, "model": "item/sinyu"}
+	]
+}
