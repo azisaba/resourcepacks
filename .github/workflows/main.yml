@@ -14,11 +14,27 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: FloatingImageの最新版を取得する
+        run: curl -fsSL -o "$RUNNER_TEMP/FloatingImage.jar" https://github.com/AzisabaNetwork/FloatingImage/releases/latest/download/FloatingImage.jar
+
+      - name: FloatingImageの画像をリソースパックに変換する
+        run: |
+          for dir in */floatingimage; do
+            [ -d "$dir" ] || continue
+            pack="${dir%/floatingimage}"
+            java -jar "$RUNNER_TEMP/FloatingImage.jar" generate --images "$dir" --out "$pack"
+          done
+
       - name: リソースパックとして機能するディレクトリを見つける
         run: find . -mindepth 2 -maxdepth 2 -type f -iname pack.mcmeta | parallel echo {//} > pack.txt
 
       - name: 見つけたディレクトリからリソースパックの作成
-        run: parallel -a pack.txt --wd {} zip -r "$PWD"/{/}.zip . -x ".idea/*" "*/.idea/*"
+        run: parallel -a pack.txt --wd {} zip -r "$PWD"/{/}.zip . -x ".idea/*" "*/.idea/*" "floatingimage/*"
 
       - name: 作成したリソースパックを表示する
         run: find . -maxdepth 1 -type f -name "*.zip"
