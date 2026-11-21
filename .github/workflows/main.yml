@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '21'
+          java-version: '25'
 
       - name: FloatingImageの最新版を取得する
         run: curl -fsSL -o "$RUNNER_TEMP/FloatingImage.jar" https://github.com/AzisabaNetwork/FloatingImage/releases/latest/download/FloatingImage.jar
