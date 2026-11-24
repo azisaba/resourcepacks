@@ -1,0 +1,137 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "items/cl8_mori",
+		"layer0": "items/cl8_mori"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				0,
+				-90,
+				45
+			],
+			"translation": [
+				0,
+				10,
+				-0.75
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1
+			]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [
+				0,
+				90,
+				-45
+			],
+			"translation": [
+				0,
+				10,
+				-0.75
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1
+			]
+		},
+		"firstperson_righthand": {
+			"rotation": [
+				0,
+				-90,
+				45
+			],
+			"translation": [
+				5,
+				8,
+				0.5
+			],
+			"scale": [
+				1.6,
+				1.6,
+				1
+			]
+		},
+		"firstperson_lefthand": {
+			"rotation": [
+				0,
+				90,
+				-45
+			],
+			"translation": [
+				5,
+				8,
+				0.5
+			],
+			"scale": [
+				1.6,
+				1.6,
+				1
+			]
+		},
+		"ground": {
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"translation": [
+				0,
+				1,
+				0
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1
+			]
+		},
+		"gui": {
+			"scale": [
+				1.05,
+				1.05,
+				1
+			]
+		},
+		"head": {
+			"rotation": [
+				0,
+				-180,
+				-180
+			],
+			"translation": [
+				1.75,
+				-18.25,
+				6.25
+			],
+			"scale": [
+				1.7,
+				1.7,
+				1.5
+			]
+		},
+		"fixed": {
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"translation": [
+				0,
+				0,
+				-0.75
+			],
+			"scale": [
+				2,
+				2,
+				2
+			]
+		}
+	}
+}
