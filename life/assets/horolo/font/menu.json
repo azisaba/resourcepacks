@@ -1,0 +1,850 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_1.png",
+   "ascent": 13,
+   "height": 132,
+   "chars": [
+    "\ue101"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_2.png",
+   "ascent": 13,
+   "height": 150,
+   "chars": [
+    "\ue102"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_3.png",
+   "ascent": 13,
+   "height": 168,
+   "chars": [
+    "\ue103"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_4.png",
+   "ascent": 13,
+   "height": 186,
+   "chars": [
+    "\ue104"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_5.png",
+   "ascent": 13,
+   "height": 204,
+   "chars": [
+    "\ue105"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bg_6.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue106"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -4,
+   "height": 18,
+   "chars": [
+    "\ue110"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -22,
+   "height": 18,
+   "chars": [
+    "\ue111"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -40,
+   "height": 18,
+   "chars": [
+    "\ue112"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -58,
+   "height": 18,
+   "chars": [
+    "\ue113"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -76,
+   "height": 18,
+   "chars": [
+    "\ue114"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/cover.png",
+   "ascent": -94,
+   "height": 18,
+   "chars": [
+    "\ue115"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_main.png",
+   "ascent": 13,
+   "height": 150,
+   "chars": [
+    "\ue120"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_teleport.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue121"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_boss.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue122"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_mob_guide.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue123"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_party_setup.png",
+   "ascent": 13,
+   "height": 168,
+   "chars": [
+    "\ue124"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_party_list.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue125"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_challenge.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue126"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_handicap.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue127"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_buff.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue128"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_ranking.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue129"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_history.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue12a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_participants.png",
+   "ascent": 13,
+   "height": 222,
+   "chars": [
+    "\ue12b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_storage.png",
+   "ascent": 13,
+   "height": 150,
+   "chars": [
+    "\ue12c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/style_orb.png",
+   "ascent": 13,
+   "height": 168,
+   "chars": [
+    "\ue12d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -2,
+   "height": 22,
+   "chars": [
+    "\ue130"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -20,
+   "height": 22,
+   "chars": [
+    "\ue131"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -38,
+   "height": 22,
+   "chars": [
+    "\ue132"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -56,
+   "height": 22,
+   "chars": [
+    "\ue133"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -74,
+   "height": 22,
+   "chars": [
+    "\ue134"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/highlight.png",
+   "ascent": -92,
+   "height": 22,
+   "chars": [
+    "\ue135"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_0.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue140"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_1.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue141"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_2.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue142"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_3.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue143"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_4.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue144"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_5.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue145"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_6.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue146"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_7.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue147"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_8.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue148"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_9.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue149"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_10.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue14a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_11.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue14b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_12.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue14c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_13.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue14d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_14.png",
+   "ascent": -36,
+   "height": 3,
+   "chars": [
+    "\ue14e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_0.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue150"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_1.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue151"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_2.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue152"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_3.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue153"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_4.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue154"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_5.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue155"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_6.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue156"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_7.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue157"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_8.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue158"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_9.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue159"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_10.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue15a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_11.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue15b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_12.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue15c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_13.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue15d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_14.png",
+   "ascent": -54,
+   "height": 3,
+   "chars": [
+    "\ue15e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_0.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue160"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_1.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue161"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_2.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue162"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_3.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue163"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_4.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue164"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_5.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue165"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_6.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue166"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_7.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue167"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_8.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue168"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_9.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue169"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_10.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue16a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_11.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue16b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_12.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue16c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_13.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue16d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_14.png",
+   "ascent": -72,
+   "height": 3,
+   "chars": [
+    "\ue16e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_0.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue170"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_1.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue171"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_2.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue172"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_3.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue173"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_4.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue174"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_5.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue175"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_6.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue176"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_7.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue177"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_8.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue178"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_9.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue179"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_10.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue17a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_11.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue17b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_12.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue17c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_13.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue17d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/bar_14.png",
+   "ascent": -90,
+   "height": 3,
+   "chars": [
+    "\ue17e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/dot_on.png",
+   "ascent": 6,
+   "height": 5,
+   "chars": [
+    "\ue1f0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "horolo:font/menu/dot_off.png",
+   "ascent": 6,
+   "height": 5,
+   "chars": [
+    "\ue1f1"
+   ]
+  }
+ ]
+}
